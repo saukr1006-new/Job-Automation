@@ -1,270 +1,292 @@
 # Latest Job Matches
 
-Generated: 2026-07-07 18:55:50 
+Generated: 2026-07-07 19:19:59 
 Mode: top current matches
 Discovered direct ATS sources: 21
 Matches: 25
 
-## 1. Software Development Engineer III Data
+## Source Warnings
 
-- Company: Meesho
-- Score: 140
-- Location: Bangalore, Karnataka
-- Source: lever
-- Apply: https://jobs.lever.co/meesho/7bb1de7e-8756-412b-8c71-0ba40863edc8
-- Reasons: java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, streaming_and_async:kafka, streaming, search_recommendations:elasticsearch, databases:sql, data pipeline, observability_cloud:docker, kubernetes, observability
-- Preview: When 5% of Indian households shop with us, it’s important to build data-backed, resilient systems to manage millions of orders every day. We’ve done this – with zero downtime! 😎 Sounds impossible? Well, that’s the kind of Engineering muscle that has helped Meesho become the...
+- 1 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
 
-## 2. Backend Engineer, Core Tech, Canada
+## 1. Sr. SW Engineer - Agentic Developer (Java/Python, 3-5 yrs of experience)
 
-- Company: Stripe
-- Score: 136
-- Location: Toronto, CAN-Remote
-- Source: greenhouse
-- Apply: https://stripe.com/jobs/search?gh_jid=6567253
-- Reasons: title:backend, java_spring_backend:java, distributed_systems:distributed systems, microservices, streaming_and_async:streaming, search_recommendations:search, elasticsearch, payments_fintech:payments
-- Preview: Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our...
+- Company: Visa
+- Score: 150
+- Location: IN - Bengaluru, India
+- Source: workday
+- Apply: https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer---Agentic-Developer--Java-Python--3-5-yrs-of-experience-_REF083019W
+- Reasons: experience-fit:3+ years, title:java, java_spring_backend:java, distributed_systems:scalable, ai_backend:llm, genai, model context protocol, search_recommendations:search, vector
+- Experience signal: 3-5 years
+- Preview: About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...
 
-## 3. Backend Engineer, Core Technology
+## 2. Sr. Software Engineer (3-6 years of experience in Agentic AI / GenAI / LLM / RAG, Python)
 
-- Company: Stripe
-- Score: 136
-- Location: US-Remote, Chicago, Seattle, San Francisco
-- Source: greenhouse
-- Apply: https://stripe.com/jobs/search?gh_jid=6042172
-- Reasons: title:backend, java_spring_backend:java, distributed_systems:distributed systems, microservices, streaming_and_async:streaming, search_recommendations:search, elasticsearch, payments_fintech:payments
-- Preview: Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our...
+- Company: Visa
+- Score: 146
+- Location: IN - Bengaluru, India
+- Source: workday
+- Apply: https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Software-Engineer--3-6-years-of-experience-in-Agentic-AI---GenAI---LLM---RAG--Python-_REF083442W
+- Reasons: experience-fit:3+ years, title:ai, java_spring_backend:java, distributed_systems:scalable, ai_backend:llm, genai, model context protocol, search_recommendations:search, vector
+- Experience signal: 3-6 years, 3-6 years
+- Preview: About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...
 
-## 4. Senior Backend Engineer - Podcast
+## 3. Senior Software Engineer
 
-- Company: Spotify
-- Score: 133
-- Location: United States of America (Home Mix)
-- Source: lever
-- Apply: https://jobs.lever.co/spotify/59b1f965-f478-4e95-ae21-1a1bd4c80ff2
-- Reasons: title:backend, java_spring_backend:java, distributed_systems:distributed systems, streaming_and_async:asynchronous, ai_backend:llm, search_recommendations:recommendation, personalization
-- Penalties: non_target_location
-- Preview: The Podcast Mission develops strategies and builds products that serve creators and listeners interested in podcast and video content. As the #1 podcast platform in the world, we look to continue improving and scaling the experience of podcasts on Spotify. We build and...
+- Company: Wells Fargo
+- Score: 144
+- Location: Hyderabad, India
+- Source: workday
+- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-534059
+- Reasons: experience-fit:4+ years, java_spring_backend:java, spring boot, spring, distributed_systems:microservices, streaming_and_async:kafka, streaming, ai_backend:embeddings, search_recommendations:search, vector
+- Experience signal: 4+ years
+- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
 
-## 5. Software Engineer, BizTech(Python, LLM, GenAI, MCP)
+## 4. Senior Software Engineer (Java full stack, mcp servers, AI engineering technologies)
 
-- Company: Airbnb
+- Company: Mastercard
 - Score: 132
-- Location: Bangalore, India
-- Source: greenhouse
-- Apply: https://careers.airbnb.com/positions/7902817?gh_jid=7902817
-- Reasons: java_spring_backend:java, distributed_systems:distributed systems, microservices, streaming_and_async:streaming, ai_backend:llm, genai, mcp, databases:sql, observability_cloud:docker, kubernetes
-- Preview: Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences...
+- Location: Pune, India
+- Source: workday
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Java-full-stack--mcp-servers--AI-engineering-technologies-_R-280156-1
+- Reasons: title:java, title:ai, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, streaming_and_async:kafka, event driven, ai_backend:genai, mcp
+- Penalties: title:full stack
+- Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
 
-## 6. Software Engineer, Cortex AI Infrastructure
+## 5. Software Engineer II
+
+- Company: Mastercard
+- Score: 126
+- Location: Navi Mumbai, India (Finicity)
+- Source: workday
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Navi-Mumbai-India-Finicity/Software-Engineer-II_R-275092
+- Reasons: experience-fit:3+ years, title:software engineer ii, java_spring_backend:java, spring boot, spring, streaming_and_async:kafka, databases:postgresql, mongodb, sql, observability_cloud:docker, kubernetes, jenkins
+- Experience signal: 3-6 years
+- Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
+
+## 6. Senior Software Engineer (Java Full stack)
+
+- Company: Mastercard
+- Score: 122
+- Location: Pune, India
+- Source: workday
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Java-Full-stack-_R-280176-1
+- Reasons: title:java, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, streaming_and_async:kafka, event driven, ai_backend:genai, payments_fintech:payments
+- Penalties: title:full stack
+- Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
+
+## 7. Senior Software Engineer - Python, React, Langraph/Langchain
+
+- Company: Visa
+- Score: 120
+- Location: IN - Bengaluru, India
+- Source: workday
+- Apply: https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Senior-Software-Engineer_REF083346W
+- Reasons: experience-fit:3+ years, java_spring_backend:java, distributed_systems:distributed systems, scalable, ai_backend:genai, observability_cloud:docker, kubernetes, payments_fintech:payment, payments, transaction
+- Experience signal: 3-7 years, 2+ years
+- Preview: About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...
+
+## 8. Software Engineer, Cortex AI Infrastructure
 
 - Company: Snowflake
-- Score: 107
+- Score: 115
 - Location: US-CA-Menlo Park
 - Source: ashby
 - Apply: https://jobs.ashbyhq.com/snowflake/2db865d9-1b32-4f20-8091-de76c5d2b7f4
-- Reasons: title:ai, java_spring_backend:java, distributed_systems:distributed systems, scalable, microservices, ai_backend:llm, search_recommendations:search, vector, databases:sql, database
+- Reasons: experience-fit:4+ years, title:ai, java_spring_backend:java, distributed_systems:distributed systems, scalable, microservices, ai_backend:llm, search_recommendations:search, vector
 - Penalties: non_target_location
+- Experience signal: 4+ years
 - Preview: At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as...
 
-## 7. Senior Software Engineer (Money)
+## 9. Senior Software Engineer - Java , Spring boot, Microservices
 
-- Company: Databricks
+- Company: Wells Fargo
+- Score: 108
+- Location: Bengaluru, India
+- Source: workday
+- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Java---Spring-boot--Microservices_R-537664
+- Reasons: experience-fit:4+ years, title:java, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, databases:sql, database, watchlist:Wells Fargo
+- Experience signal: 4+ years
+- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
+
+## 10. Data Engineer
+
+- Company: Visa
+- Score: 104
+- Location: IN - Bengaluru, India
+- Source: workday
+- Apply: https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Data-Engineer_REF083422W
+- Reasons: java_spring_backend:java, distributed_systems:distributed systems, scalable, streaming_and_async:kafka, streaming, ai_backend:llm, generative ai, embeddings, databases:sql, observability_cloud:kubernetes, observability
+- Penalties: junior_experience:1+ years, title:data engineer
+- Experience signal: 1+ years, 1+ years
+- Preview: About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...
+
+## 11. Senior Software Engineer – Distributed Test Platform
+
+- Company: NVIDIA
 - Score: 102
-- Location: Bengaluru, India
-- Source: greenhouse
-- Apply: https://databricks.com/company/careers/open-positions/job?gh_jid=7654347002
-- Reasons: java_spring_backend:java, distributed_systems:distributed systems, ai_backend:generative ai, observability_cloud:docker, kubernetes, watchlist:Databricks, location-match
-- Preview: P-1346 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data...
+- Location: India, Bengaluru
+- Source: workday
+- Apply: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---Distributed-Test-Platform_JR2016175
+- Reasons: experience-fit:4+ years, title:platform, title:distributed, distributed_systems:distributed systems, scalable, microservices, databases:mongodb, database, observability_cloud:kubernetes
+- Experience signal: 4+ years
+- Preview: NVIDIA has continuously reinvented itself over two decades. Our invention of the GPU in 1999 sparked the growth of the PC gaming market, redefined modern computer graphics, and revolutionized parallel computing. More recently, GPU deep learning ignited modern AI — the next era...
 
-## 8. Senior Software Engineer - Fullstack
-
-- Company: Databricks
-- Score: 99
-- Location: Amsterdam, Netherlands
-- Source: greenhouse
-- Apply: https://databricks.com/company/careers/open-positions/job?gh_jid=8029679002
-- Reasons: java_spring_backend:java, jvm, distributed_systems:distributed systems, streaming_and_async:asynchronous, ai_backend:mcp, databases:sql, observability_cloud:docker, kubernetes, observability
-- Penalties: non_target_location
-- Preview: P-1321 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data...
-
-## 9. Software Engineer - Fullstack
-
-- Company: Databricks
-- Score: 99
-- Location: Amsterdam, Netherlands
-- Source: greenhouse
-- Apply: https://databricks.com/company/careers/open-positions/job?gh_jid=8029677002
-- Reasons: java_spring_backend:java, jvm, distributed_systems:distributed systems, streaming_and_async:asynchronous, ai_backend:mcp, databases:sql, observability_cloud:docker, kubernetes, observability
-- Penalties: non_target_location
-- Preview: P-1320 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data...
-
-## 10. Senior Engineer, Messaging Platform
-
-- Company: Postman
-- Score: 98
-- Location: Bengaluru, Karnataka, India
-- Source: greenhouse
-- Apply: https://job-boards.greenhouse.io/postman/jobs/7774448003
-- Reasons: title:platform, java_spring_backend:java, distributed_systems:distributed systems, scalable, observability_cloud:observability, watchlist:Postman, location-match
-- Preview: Who Are We? Postman is the world’s leading API platform, used by more than 45 million+ developers and 500,000 organizations, including 98% of the Fortune 500. Postman is helping developers and professionals across the globe build the API-first world by simplifying each step of...
-
-## 11. Software Development Engineer - BackEnd (Staff) | Gurugram, IND
-
-- Company: Agoda
-- Score: 97
-- Location: Gurugram
-- Source: greenhouse
-- Apply: https://job-boards.greenhouse.io/agoda/jobs/8035213
-- Reasons: title:backend, java_spring_backend:java, distributed_systems:distributed systems, scalable, microservices, streaming_and_async:kafka, databases:mongodb, sql, observability_cloud:observability
-- Penalties: title:staff
-- Preview: About Agoda At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world.&nbsp;&nbsp; &nbsp; Today, we are part of...
-
-## 12. Sr Backline Engineer (Apache Spark™)
-
-- Company: Databricks
-- Score: 96
-- Location: Bengaluru, India
-- Source: greenhouse
-- Apply: https://databricks.com/company/careers/open-positions/job?gh_jid=7335143002
-- Reasons: java_spring_backend:java, jvm, streaming_and_async:kafka, streaming, search_recommendations:elasticsearch, databases:sql, database, watchlist:Databricks, location-match
-- Preview: Mission Databricks helps data teams solve the world’s toughest problems. As the leader in Unified Data Analytics, Databricks helps organizations make all their data ready for analytics, empower data-driven decisions across the organization, and rapidly adopt machine learning...
-
-## 13. Senior Engineer, Client Distribution
-
-- Company: Postman
-- Score: 94
-- Location: Bengaluru, Karnataka, India
-- Source: greenhouse
-- Apply: https://job-boards.greenhouse.io/postman/jobs/7793471003
-- Reasons: distributed_systems:distributed systems, scalable, ai_backend:model context protocol, mcp, databases:postgresql, mongodb, observability_cloud:observability, payments_fintech:gateway, watchlist:Postman
-- Preview: Who Are We? Postman is the world’s leading API platform, used by more than 45 million+ developers and 500,000 organizations, including 98% of the Fortune 500. Postman is helping developers and professionals across the globe build the API-first world by simplifying each step of...
-
-## 14. AI Specialist, Treasury Finance Operations
+## 12. AI Specialist, Treasury Finance Operations
 
 - Company: Stripe
-- Score: 94
+- Score: 102
 - Location: IN-Bengaluru
 - Source: greenhouse
 - Apply: https://stripe.com/jobs/search?gh_jid=7947074
-- Reasons: title:ai, distributed_systems:scalable, ai_backend:llm, generative ai, databases:sql, payments_fintech:payments, fintech, watchlist:Stripe
+- Reasons: experience-fit:3+ years, title:ai, distributed_systems:scalable, ai_backend:llm, generative ai, databases:sql, payments_fintech:payments, fintech
+- Experience signal: 3+ years
 - Preview: Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our...
 
-## 15. Senior ML & AI Technical Solutions Engineer
+## 13. Computer Scientist - I ( Backend Heavy - Full Stack )
 
-- Company: Databricks
-- Score: 93
-- Location: Bengaluru, India
-- Source: greenhouse
-- Apply: https://databricks.com/company/careers/open-positions/job?gh_jid=7845325002
-- Reasons: title:ai, java_spring_backend:java, distributed_systems:distributed systems, ai_backend:llm, genai, generative ai, search_recommendations:search, ranking, vector, observability_cloud:observability
-- Penalties: title:solutions engineer
-- Preview: P-1377 Mission As a Senior ML and AI Technical Solutions Engineer, you play a critical role by helping customers debug and maintain stable GenAI and ML Workloads with AI agent systems using the Databricks Platform.&nbsp; You will develop product expertise end-to-end by...
+- Company: Adobe
+- Score: 100
+- Location: Bangalore
+- Source: workday
+- Apply: https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Computer-Scientist---I_R169593-1
+- Reasons: experience-fit:4+ years, title:backend, java_spring_backend:java, distributed_systems:scalable, microservices, databases:postgresql, mongodb, sql, watchlist:Adobe
+- Penalties: title:full stack
+- Experience signal: 2-3 years, 4+ years
+- Preview: This position will be for a full stack engineer with more focus on microservices and backend technologies. The engineer should also be familiar with automation testing for web applications. Engineer with 4+years of hands-on experience in building and maintaining web...
 
-## 16. Senior Integration & Automation Engineer
-
-- Company: Rubrik
-- Score: 93
-- Location: Bangalore, India
-- Source: greenhouse
-- Apply: https://www.rubrik.com/company/careers/departments/job.7570678?gh_jid=7570678
-- Reasons: distributed_systems:scalable, streaming_and_async:kafka, streaming, pub/sub, ai_backend:llm, search_recommendations:vector, databases:postgres, sql, database, observability_cloud:observability
-- Penalties: too_senior:technical lead
-- Preview: About the role&nbsp; The Senior Integration, API &amp; Automation Engineer is a hands-on technical lead role responsible for shaping and executing Rubrik’s enterprise API, integration, and AI‑driven automation strategy . Broadly, the role will focus on designing, building, and...
-
-## 17. Senior Software Engineer - Snowflake Streaming
+## 14. Senior Software Engineer - Snowflake Streaming
 
 - Company: Snowflake
-- Score: 91
+- Score: 99
 - Location: US-WA-Bellevue
 - Source: ashby
 - Apply: https://jobs.ashbyhq.com/snowflake/217df43e-be95-4cde-952e-4bc04db5dff5
-- Reasons: java_spring_backend:java, distributed_systems:distributed systems, streaming_and_async:kafka, streaming, databases:database, observability_cloud:observability, payments_fintech:transaction
+- Reasons: experience-fit:3+ years, java_spring_backend:java, distributed_systems:distributed systems, streaming_and_async:kafka, streaming, databases:database, observability_cloud:observability
 - Penalties: non_target_location
+- Experience signal: 3-5 years
 - Preview: At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as...
 
-## 18. Software Engineer, Product Security Data Platforms
+## 15. Computer Scientist - 1 (Java)
 
-- Company: Stripe
-- Score: 91
-- Location: Seattle
-- Source: greenhouse
-- Apply: https://stripe.com/jobs/search?gh_jid=7761694
-- Reasons: java_spring_backend:java, distributed_systems:distributed systems, scalable, system design, streaming_and_async:kafka, streaming, databases:data pipeline, observability_cloud:kubernetes, observability, payments_fintech:payment, payments
-- Penalties: non_target_location
-- Preview: Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our...
+- Company: Adobe
+- Score: 96
+- Location: Bangalore
+- Source: workday
+- Apply: https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Computer-Scientist---1_R169965-1
+- Reasons: experience-fit:4+ years, title:java, java_spring_backend:java, spring, distributed_systems:distributed systems, microservices, watchlist:Adobe, location-match
+- Experience signal: 4-6 years
+- Preview: Our Company Changing the world through digital experiences is what Adobe's all about. We give everyone-from emerging artists to global brands-everything they need to design and deliver exceptional digital experiences. We're passionate about empowering people to craft beautiful...
 
-## 19. Software Engineer, Product Security Data Platforms
+## 16. Custom Software Engineer
 
-- Company: Stripe
-- Score: 91
-- Location: Seattle
-- Source: greenhouse
-- Apply: https://stripe.com/jobs/search?gh_jid=8039800
-- Reasons: java_spring_backend:java, distributed_systems:distributed systems, scalable, streaming_and_async:kafka, streaming, databases:data pipeline, observability_cloud:kubernetes, observability, payments_fintech:payment, payments
-- Penalties: non_target_location
-- Preview: Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our...
+- Company: Accenture
+- Score: 94
+- Location: Bengaluru
+- Source: workday
+- Apply: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5517344-S2015530-1
+- Reasons: experience-fit:3+ years, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, databases:database, watchlist:Accenture, location-match
+- Experience signal: 3+ years
+- Preview: Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...
 
-## 20. Senior Full Stack Engineer - WhoSampled
+## 17. Custom Software Engineer
 
-- Company: Spotify
-- Score: 87
-- Location: London
-- Source: lever
-- Apply: https://jobs.lever.co/spotify/6cd45243-8674-4313-8405-a5a0734122f6
-- Reasons: java_spring_backend:java, distributed_systems:scalable, ai_backend:llm, search_recommendations:elasticsearch, databases:postgresql, postgres, database, watchlist:Spotify
-- Penalties: non_target_location
-- Preview: Every great song has a story behind it: a sample flipped into something new, a melody borrowed and reborn, a classic reinterpreted for a new generation. WhoSampled is where those stories live. WhoSampled is the world's leading database of music samples, interpolations, cover...
+- Company: Accenture
+- Score: 94
+- Location: Bengaluru
+- Source: workday
+- Apply: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5517347-S2015533-1
+- Reasons: experience-fit:3+ years, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, databases:database, watchlist:Accenture, location-match
+- Experience signal: 3+ years
+- Preview: Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...
 
-## 21. Software Engineer, Secrets Infrastructure
+## 18. Senior Software Engineer-2
 
-- Company: Stripe
-- Score: 86
-- Location: na
-- Source: greenhouse
-- Apply: https://stripe.com/jobs/search?gh_jid=7396679
-- Reasons: java_spring_backend:java, distributed_systems:distributed systems, observability_cloud:kubernetes, payments_fintech:payments, watchlist:Stripe
-- Preview: Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our...
+- Company: Mastercard
+- Score: 94
+- Location: Pune, India
+- Source: workday
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-2_R-270947
+- Reasons: java_spring_backend:java, distributed_systems:distributed systems, scalable, observability_cloud:observability, payments_fintech:payments, watchlist:Mastercard, location-match
+- Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
 
-## 22. Platform as a Service Engineer
+## 19. Platform as a Service Engineer
 
 - Company: Tower Research Capital
-- Score: 86
+- Score: 94
 - Location: Gurgaon
 - Source: greenhouse
 - Apply: https://www.tower-research.com/open-positions/?gh_jid=8002322
-- Reasons: title:platform, distributed_systems:distributed systems, streaming_and_async:kafka, observability_cloud:kubernetes, observability, watchlist:Tower Research Capital, location-match
+- Reasons: experience-fit:3+ years, title:platform, distributed_systems:distributed systems, streaming_and_async:kafka, observability_cloud:kubernetes, observability, watchlist:Tower Research Capital
+- Experience signal: 3-7 years
 - Preview: Tower Research Capital is a leading quantitative trading firm founded in 1998. Tower has built its business on a high-performance platform and independent trading teams. We have a 25+ year track record of innovation and a reputation&nbsp; for discovering unique market...
 
-## 23. Senior Software Engineer, Global Markets (Backend)
+## 20. Data Engineer
 
-- Company: Airbnb
-- Score: 85
-- Location: China
-- Source: greenhouse
-- Apply: https://careers.airbnb.com/positions/7768472?gh_jid=7768472
-- Reasons: title:backend, java_spring_backend:java, distributed_systems:distributed systems, scalable, search_recommendations:search, observability_cloud:observability, watchlist:Airbnb
-- Penalties: non_target_location
-- Preview: Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences...
+- Company: Cisco
+- Score: 92
+- Location: Bangalore, India
+- Source: workday
+- Apply: https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/Data-Engineer_2015741-1
+- Reasons: experience-fit:4+ years, streaming_and_async:pub/sub, ai_backend:llm, generative ai, ai platform, search_recommendations:search, vector, databases:sql, data pipeline, observability_cloud:observability
+- Penalties: title:data engineer
+- Experience signal: 4+ years
+- Preview: Meet the Team The CIA with Data and Analytics organization at Cisco is at the forefront of the company’s AI transformation—building the analytical infrastructure, AI-augmented insight pipelines, and data products that drive customer experience strategy across Cisco’s global...
 
-## 24. Senior Software Engineer - Distributed Data Systems
-
-- Company: Databricks
-- Score: 85
-- Location: Bellevue, Washington
-- Source: greenhouse
-- Apply: https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002
-- Reasons: title:distributed, java_spring_backend:java, distributed_systems:distributed systems, scalable, streaming_and_async:streaming, databases:sql, watchlist:Databricks
-- Penalties: non_target_location
-- Preview: P-987 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data...
-
-## 25. Senior Software Engineer - Distributed Data Systems
+## 21. Senior Software Engineer - Backend
 
 - Company: Databricks
-- Score: 85
-- Location: Mountain View, California
+- Score: 89
+- Location: Amsterdam, Netherlands
 - Source: greenhouse
-- Apply: https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002
-- Reasons: title:distributed, java_spring_backend:java, distributed_systems:distributed systems, scalable, streaming_and_async:streaming, databases:sql, watchlist:Databricks
+- Apply: https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002
+- Reasons: experience-fit:3+ years, title:backend, java_spring_backend:java, distributed_systems:distributed systems, scalable, databases:sql, observability_cloud:kubernetes
 - Penalties: non_target_location
-- Preview: P-59 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and...
+- Experience signal: 3+ years
+- Preview: P-1318 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data...
+
+## 22. Sr Software Engineer
+
+- Company: Visa
+- Score: 88
+- Location: IN - Bengaluru, India
+- Source: workday
+- Apply: https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Software-Engineer_REF078405W
+- Reasons: java_spring_backend:java, spring boot, spring, distributed_systems:distributed systems, scalable, databases:sql, observability_cloud:docker, kubernetes, jenkins, payments_fintech:payment, payments, transaction, watchlist:Visa
+- Penalties: junior_experience:2+ years
+- Experience signal: 2+ years
+- Preview: About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...
+
+## 23. Data Engineer
+
+- Company: Accenture
+- Score: 86
+- Location: Pune
+- Source: workday
+- Apply: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Data-Engineer_ATCI-5624334-S2030224-1
+- Reasons: distributed_systems:scalable, microservices, streaming_and_async:asynchronous, ai_backend:llm, genai, generative ai, search_recommendations:vector, observability_cloud:observability, watchlist:Accenture
+- Penalties: title:data engineer
+- Preview: Project Role : Data Engineer Project Role Description : Design, develop and maintain data solutions for data generation, collection, and processing. Create data pipelines, ensure data quality, and implement ETL (extract, transform and load) processes to migrate and deploy data...
+
+## 24. Backend Engineer - Platform
+
+- Company: Spotify
+- Score: 83
+- Location: Toronto
+- Source: lever
+- Apply: https://jobs.lever.co/spotify/e8ef80ed-633f-45ec-a1fc-a55704241f64
+- Reasons: title:backend, title:platform, java_spring_backend:java, distributed_systems:scalable, observability_cloud:kubernetes, watchlist:Spotify
+- Penalties: non_target_location
+- Preview: The Platform team creates the technology that enables Spotify to learn quickly and scale easily, enabling rapid growth in our users and our business around the globe. Spanning many disciplines, we work to make the business work; creating the infrastructure, tooling,...
+
+## 25. Senior Backend Engineer - Advertising
+
+- Company: Spotify
+- Score: 83
+- Location: New York, NY
+- Source: lever
+- Apply: https://jobs.lever.co/spotify/5b977d60-af96-435a-acf6-28c83be57888
+- Reasons: experience-fit:4+ years, title:backend, java_spring_backend:java, distributed_systems:system design, search_recommendations:ranking, watchlist:Spotify
+- Penalties: non_target_location
+- Experience signal: 4+ years
+- Preview: Our mission on the Advertising Product & Technology team is to build a next generation advertising platform that aligns with our unique value proposition for audio and video. We work to scale the user experience for hundreds of millions of fans and hundreds of thousands of...
