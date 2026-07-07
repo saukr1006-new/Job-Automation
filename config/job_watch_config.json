@@ -27,6 +27,12 @@
       "Chennai",
       "Remote"
     ],
+    "experience": {
+      "candidate_years": 4,
+      "minimum_target_years": 3,
+      "max_required_min_years": 4,
+      "exclude_if_minimum_above_candidate": true
+    },
     "positive_keywords": {
       "java_spring_backend": {
         "weight": 30,
@@ -82,7 +88,10 @@
       "manager": 60,
       "lead": 30,
       "support": 35,
-      "solutions engineer": 35
+      "solutions engineer": 35,
+      "data engineer": 20,
+      "fullstack": 12,
+      "full stack": 12
     },
     "negative_keywords": {
       "frontend_only": {
@@ -112,6 +121,8 @@
     },
     "non_target_location_penalty": 25,
     "minimum_score_to_notify": 45,
+    "max_results_per_company": 5,
+    "max_results_per_company_title": 2,
     "max_results_per_run": 25
   },
   "sources": {
@@ -139,6 +150,80 @@
       "max_slug_candidates_per_company": 1,
       "request_timeout_seconds": 5,
       "concurrency": 20
+    },
+    "workday": {
+      "enabled": true,
+      "request_timeout_seconds": 6,
+      "limit_per_query": 10,
+      "max_detail_fetches_per_source": 25,
+      "search_concurrency": 16,
+      "detail_concurrency": 8,
+      "queries": [
+        "Software Engineer India",
+        "Software Development Engineer India",
+        "Backend Engineer India",
+        "Java Engineer India",
+        "Spring Boot India",
+        "Platform Engineer India",
+        "Kafka India",
+        "GenAI India"
+      ],
+      "manual_sources": [
+        {
+          "company": "Adobe",
+          "host": "adobe.wd5.myworkdayjobs.com",
+          "tenant": "adobe",
+          "site": "external_experienced"
+        },
+        {
+          "company": "NVIDIA",
+          "host": "nvidia.wd5.myworkdayjobs.com",
+          "tenant": "nvidia",
+          "site": "NVIDIAExternalCareerSite"
+        },
+        {
+          "company": "Intel",
+          "host": "intel.wd1.myworkdayjobs.com",
+          "tenant": "intel",
+          "site": "External"
+        },
+        {
+          "company": "Accenture",
+          "host": "accenture.wd103.myworkdayjobs.com",
+          "tenant": "accenture",
+          "site": "AccentureCareers"
+        },
+        {
+          "company": "Mastercard",
+          "host": "mastercard.wd1.myworkdayjobs.com",
+          "tenant": "mastercard",
+          "site": "CorporateCareers"
+        },
+        {
+          "company": "Visa",
+          "host": "visa.wd5.myworkdayjobs.com",
+          "tenant": "visa",
+          "site": "Visa"
+        },
+        {
+          "company": "PayPal",
+          "host": "paypal.wd1.myworkdayjobs.com",
+          "tenant": "paypal",
+          "site": "jobs"
+        },
+        {
+          "company": "Wells Fargo",
+          "host": "wf.wd1.myworkdayjobs.com",
+          "tenant": "wf",
+          "site": "WellsFargoJobs"
+        },
+        {
+          "company": "Cisco",
+          "host": "cisco.wd5.myworkdayjobs.com",
+          "tenant": "cisco",
+          "site": "Cisco_Careers"
+        }
+      ]
     }
   },
   "companies": [

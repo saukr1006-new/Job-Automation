@@ -88,6 +88,39 @@ def term_matches(term: str, text: str) -> bool:
     return term in text
 
 
+def extract_experience_requirements(text: str) -> list[dict[str, Any]]:
+    text = normalize_space(text).lower()
+    if not text:
+        return []
+
+    patterns = [
+        re.compile(r"(?P<min>\d{1,2})\s*(?:-|–|—|to)\s*(?P<max>\d{1,2})\+?\s*(?:years|yrs)\b"),
+        re.compile(r"(?:minimum|at least|more than)\s+(?:of\s+)?(?P<min>\d{1,2})\+?\s*(?:years|yrs)\b"),
+        re.compile(r"(?P<min>\d{1,2})\+\s*(?:years|yrs)\b"),
+        re.compile(r"(?P<min>\d{1,2})\s*(?:or more|plus)\s*(?:years|yrs)\b"),
+        re.compile(r"(?P<min>\d{1,2})\s*(?:years|yrs)\s*\+"),
+    ]
+    requirements: list[dict[str, Any]] = []
+    for pattern in patterns:
+        for match in pattern.finditer(text):
+            start, end = match.span()
+            context = text[max(0, start - 90) : min(len(text), end + 90)]
+            if not any(marker in context for marker in ["experience", "experienced", " exp", "software development", "engineering"]):
+                continue
+            min_years = int(match.group("min"))
+            max_years = int(match.groupdict().get("max") or 0) or None
+            if min_years > 30:
+                continue
+            requirements.append(
+                {
+                    "min": min_years,
+                    "max": max_years,
+                    "text": normalize_space(context),
+                }
+            )
+    return requirements
+
+
 def slugify(value: str, separator: str = "") -> str:
     value = value.lower().replace("&", " and ")
     value = re.sub(r"[^a-z0-9]+", separator, value)
@@ -447,6 +480,170 @@ def fetch_discovered_sources(config: dict[str, Any], sources: list[dict[str, Any
     return jobs
 
 
+def workday_search(source: dict[str, Any], query: str, limit: int, timeout: int) -> list[dict[str, Any]]:
+    host = source["host"].strip().rstrip("/")
+    tenant = source["tenant"].strip()
+    site = source["site"].strip()
+    url = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
+    payload = json.dumps(
+        {
+            "appliedFacets": {},
+            "limit": limit,
+            "offset": 0,
+            "searchText": query,
+        }
+    ).encode("utf-8")
+    request = urllib.request.Request(
+        url,
+        data=payload,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    context = None
+    if os.environ.get("JOB_ALERTS_INSECURE_SSL") == "1":
+        context = ssl._create_unverified_context()
+    try:
+        with urllib.request.urlopen(request, timeout=timeout, context=context) as response:
+            data = json.loads(response.read().decode("utf-8", errors="replace"))
+            return list(data.get("jobPostings") or [])
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as exc:
+        record_network_skip(url, exc)
+        return []
+
+
+def workday_detail(source: dict[str, Any], external_path: str, timeout: int) -> dict[str, Any] | None:
+    host = source["host"].strip().rstrip("/")
+    tenant = source["tenant"].strip()
+    site = source["site"].strip()
+    path = "/" + external_path.lstrip("/")
+    url = f"https://{host}/wday/cxs/{tenant}/{site}{path}"
+    data = http_json(url, timeout=timeout)
+    if not isinstance(data, dict):
+        return None
+    return data.get("jobPostingInfo") or data
+
+
+def is_relevant_workday_summary(item: dict[str, Any], config: dict[str, Any]) -> bool:
+    title = normalize_space(item.get("title")).lower()
+    location = normalize_space(item.get("locationsText") or item.get("location")).lower()
+    if not title:
+        return False
+
+    relevant_title_terms = [
+        "software",
+        "backend",
+        "back end",
+        "java",
+        "platform",
+        "distributed",
+        "data engineer",
+        "kafka",
+        "genai",
+        "ai ",
+        "machine learning",
+    ]
+    if not any(term in f"{title} " for term in relevant_title_terms):
+        return False
+
+    noisy_title_terms = [
+        "intern",
+        "internship",
+        "manager",
+        "principal",
+        "staff",
+        "architect",
+        "support",
+        "solutions engineer",
+        "sales",
+    ]
+    if any(term in title for term in noisy_title_terms):
+        return False
+
+    target_locations = [location.lower() for location in config["profile"].get("target_locations", [])]
+    if any(term_matches(target, location) for target in target_locations):
+        return True
+    if re.search(r"\b\d+\s+locations?\b", location):
+        return True
+    if not location:
+        return True
+    return False
+
+
+def fetch_workday(config: dict[str, Any]) -> list[Job]:
+    workday = config["sources"].get("workday", {})
+    if not workday.get("enabled", False):
+        return []
+
+    queries = workday.get("queries", [])
+    limit = int(workday.get("limit_per_query", 20))
+    timeout = int(workday.get("request_timeout_seconds", 12))
+    max_details = int(workday.get("max_detail_fetches_per_source", 80))
+    search_workers = int(workday.get("search_concurrency", 16))
+    detail_workers = int(workday.get("detail_concurrency", 8))
+    jobs: list[Job] = []
+    sources = list(workday.get("manual_sources", []))
+    source_results: dict[int, dict[str, dict[str, Any]]] = {index: {} for index, _ in enumerate(sources)}
+
+    search_tasks = [(index, source, query) for index, source in enumerate(sources) for query in queries]
+
+    def run_search(task: tuple[int, dict[str, Any], str]) -> tuple[int, list[dict[str, Any]]]:
+        index, source, query = task
+        return index, workday_search(source, query, limit, timeout)
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=search_workers) as executor:
+        for index, postings in executor.map(run_search, search_tasks):
+            for item in postings:
+                external_path = normalize_space(item.get("externalPath"))
+                if external_path and is_relevant_workday_summary(item, config):
+                    source_results[index].setdefault(external_path, item)
+
+    for index, source in enumerate(sources):
+        found = source_results[index]
+        candidates = list(found.items())[:max_details]
+
+        def fetch_detail(candidate: tuple[str, dict[str, Any]]) -> tuple[str, dict[str, Any], dict[str, Any] | None]:
+            external_path, item = candidate
+            return external_path, item, workday_detail(source, external_path, timeout)
+
+        with concurrent.futures.ThreadPoolExecutor(max_workers=detail_workers) as executor:
+            details = list(executor.map(fetch_detail, candidates))
+
+        for external_path, item, detail in details:
+            title = normalize_space((detail or {}).get("title") or item.get("title"))
+            location = normalize_space(
+                (detail or {}).get("location")
+                or item.get("locationsText")
+                or item.get("location")
+            )
+            description = text_from_html((detail or {}).get("jobDescription") or item.get("description"))
+            bullet_fields = item.get("bulletFields") or []
+            if isinstance(bullet_fields, list):
+                bullet_fields = " ".join(str(value) for value in bullet_fields)
+            job_req_id = normalize_space((detail or {}).get("jobReqId") or bullet_fields or external_path)
+            site = source["site"].strip()
+            url = normalize_space((detail or {}).get("externalUrl"))
+            if not url:
+                url = f"https://{source['host'].strip().rstrip('/')}/en-US/{site}{external_path}"
+            jobs.append(
+                Job(
+                    title=title,
+                    company=source["company"],
+                    location=location,
+                    url=url,
+                    description=description,
+                    source="workday",
+                    source_company=source["company"],
+                    posted_at=normalize_space((detail or {}).get("postedOn") or item.get("postedOn")),
+                    external_id=job_req_id,
+                )
+            )
+    return valid_jobs(dedupe_jobs(jobs))
+
+
 def fetch_remoteok(config: dict[str, Any]) -> list[Job]:
     remoteok = config["sources"].get("remoteok", {})
     if not remoteok.get("enabled", False):
@@ -573,11 +770,57 @@ def dedupe_jobs(jobs: Iterable[Job]) -> list[Job]:
 
 def score_job(job: Job, config: dict[str, Any]) -> dict[str, Any]:
     profile = config["profile"]
+    experience_profile = profile.get("experience", {})
     title = job.title.lower()
     body = " ".join([job.title, job.company, job.location, job.description]).lower()
     score = 0
     reasons: list[str] = []
     penalties: list[str] = []
+    excluded = False
+    exclude_reason = ""
+
+    requirements = extract_experience_requirements(" ".join([job.title, job.description]))
+    title_requirements = extract_experience_requirements(job.title)
+    max_required_min_years = int(
+        experience_profile.get(
+            "max_required_min_years",
+            experience_profile.get("candidate_years", 4),
+        )
+    )
+    minimum_target_years = int(experience_profile.get("minimum_target_years", 3))
+    junior_title_requirements = [
+        requirement
+        for requirement in title_requirements
+        if int(requirement["min"]) < minimum_target_years
+        and requirement.get("max")
+        and int(requirement["max"]) < minimum_target_years
+    ]
+    if junior_title_requirements:
+        requirement = junior_title_requirements[0]
+        penalties.append(f"title_experience:{requirement['min']}-{requirement['max']} years")
+        excluded = True
+        exclude_reason = f"title targets {requirement['min']}-{requirement['max']} years"
+    too_senior_requirements = [
+        requirement for requirement in requirements if int(requirement["min"]) > max_required_min_years
+    ]
+    matching_requirements = [
+        requirement for requirement in requirements if int(requirement["min"]) <= max_required_min_years
+    ]
+    if too_senior_requirements:
+        requirement = min(too_senior_requirements, key=lambda item: int(item["min"]))
+        penalties.append(f"experience:{requirement['min']}+ years required")
+        score -= 80
+        if experience_profile.get("exclude_if_minimum_above_candidate", True):
+            excluded = True
+            exclude_reason = f"requires {requirement['min']}+ years"
+    elif matching_requirements:
+        requirement = max(matching_requirements, key=lambda item: int(item["min"]))
+        if int(requirement["min"]) < minimum_target_years:
+            score -= 18
+            penalties.append(f"junior_experience:{requirement['min']}+ years")
+        else:
+            score += 8
+            reasons.append(f"experience-fit:{requirement['min']}+ years")
 
     for term, weight in profile["title_boosts"].items():
         if term_matches(term, title):
@@ -623,6 +866,9 @@ def score_job(job: Job, config: dict[str, Any]) -> dict[str, Any]:
         "reasons": reasons[:6],
         "penalties": penalties[:4],
         "watched_company": watched_company,
+        "excluded": excluded,
+        "exclude_reason": exclude_reason,
+        "experience_requirements": requirements[:3],
     }
 
 
@@ -650,6 +896,8 @@ def build_matches(jobs: list[Job], config: dict[str, Any]) -> list[dict[str, Any
     matches: list[dict[str, Any]] = []
     for job in dedupe_jobs(jobs):
         scored = score_job(job, config)
+        if scored.get("excluded"):
+            continue
         watched_company = scored["watched_company"]
         if not watched_company and job.source not in {"greenhouse", "lever", "ashby", "workable", "recruitee", "personio"}:
             continue
@@ -668,11 +916,30 @@ def build_matches(jobs: list[Job], config: dict[str, Any]) -> list[dict[str, Any
                 "posted_at": job.posted_at,
                 "reasons": scored["reasons"],
                 "penalties": scored["penalties"],
+                "experience_requirements": scored.get("experience_requirements", []),
                 "description_preview": textwrap.shorten(job.description, width=280, placeholder="..."),
             }
         )
     matches.sort(key=lambda item: (-item["score"], item["company"], item["title"]))
-    return matches[: int(config["profile"].get("max_results_per_run", 25))]
+    max_per_company = int(config["profile"].get("max_results_per_company", 5))
+    max_per_company_title = int(config["profile"].get("max_results_per_company_title", 2))
+    diversified: list[dict[str, Any]] = []
+    company_counts: dict[str, int] = {}
+    company_title_counts: dict[tuple[str, str], int] = {}
+    for item in matches:
+        company = item["company"]
+        normalized_title = re.sub(r"\s+", " ", item["title"].lower()).strip()
+        company_title_key = (company, normalized_title)
+        if company_counts.get(company, 0) >= max_per_company:
+            continue
+        if company_title_counts.get(company_title_key, 0) >= max_per_company_title:
+            continue
+        diversified.append(item)
+        company_counts[company] = company_counts.get(company, 0) + 1
+        company_title_counts[company_title_key] = company_title_counts.get(company_title_key, 0) + 1
+        if len(diversified) >= int(config["profile"].get("max_results_per_run", 25)):
+            break
+    return diversified
 
 
 def render_markdown(
@@ -722,6 +989,14 @@ def render_markdown(
         )
         if item["penalties"]:
             lines.append(f"- Penalties: {', '.join(item['penalties'])}")
+        if item.get("experience_requirements"):
+            requirements = []
+            for requirement in item["experience_requirements"][:2]:
+                if requirement.get("max"):
+                    requirements.append(f"{requirement['min']}-{requirement['max']} years")
+                else:
+                    requirements.append(f"{requirement['min']}+ years")
+            lines.append(f"- Experience signal: {', '.join(requirements)}")
         if item["description_preview"]:
             lines.append(f"- Preview: {item['description_preview']}")
         lines.append("")
@@ -825,6 +1100,7 @@ def run(config: dict[str, Any], *, only_new: bool, force_discovery: bool, notify
 
     jobs: list[Job] = []
     jobs.extend(fetch_discovered_sources(config, discovered))
+    jobs.extend(fetch_workday(config))
     jobs.extend(fetch_remoteok(config))
     jobs.extend(fetch_adzuna(config))
     jobs.extend(fetch_rss(config))
