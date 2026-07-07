@@ -1,0 +1,404 @@
+{
+  "seen": {
+    "07d3d690bbcbaaf260186b38": {
+      "company": "Agoda",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 148,
+      "title": "Lead Software Engineer | BackEnd (Gurugram based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8036127"
+    },
+    "0c8a4d4cc651383dd5f5dcc7": {
+      "company": "Snowflake",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 107,
+      "title": "Software Engineer, Cortex AI Infrastructure",
+      "url": "https://jobs.ashbyhq.com/snowflake/2db865d9-1b32-4f20-8091-de76c5d2b7f4"
+    },
+    "2263a38d75576ab9d3ecfbc4": {
+      "company": "Agoda",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 105,
+      "title": "Backend Lead Software Engineer (L5) \u2014 Bangkok Relocation Provided",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/6603735"
+    },
+    "289c2a725322a2bcb13dd726": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 99,
+      "title": "Software Engineer - Fullstack",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029677002"
+    },
+    "2c0739b9ca02397d8a5e15a2": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 138,
+      "title": "Staff Software Engineer - Distributed Data Systems",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002"
+    },
+    "2d401d2ceb9a7272b953407b": {
+      "company": "Agoda",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 97,
+      "title": "Software Development Engineer - BackEnd (Staff) | Gurugram, IND",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8035213"
+    },
+    "31a3ba657916cccc0487de72": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 99,
+      "title": "Senior Software Engineer - Fullstack",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029679002"
+    },
+    "33a2317005bae20c2c7f96a9": {
+      "company": "Agoda",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 109,
+      "title": "Principal Software Engineer, Back End (AI-powered Data Querying) (Bangkok based, Relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7777498"
+    },
+    "3c3ca59a1e43cfe763c4d857": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 138,
+      "title": "Staff Software Engineer - Distributed Data Systems",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002"
+    },
+    "3d45f1cad5c26bb551c1b98e": {
+      "company": "Stripe",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 91,
+      "title": "Software Engineer, Product Security Data Platforms",
+      "url": "https://stripe.com/jobs/search?gh_jid=7761694"
+    },
+    "4062aaa16f3051e60a27796e": {
+      "company": "Spotify",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 133,
+      "title": "Senior Backend Engineer - Podcast",
+      "url": "https://jobs.lever.co/spotify/59b1f965-f478-4e95-ae21-1a1bd4c80ff2"
+    },
+    "471718b8b6561d14c0737e0a": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 85,
+      "title": "Senior Software Engineer - Distributed Data Systems",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002"
+    },
+    "4eaf22877d0807e145b39663": {
+      "company": "Meesho",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 118,
+      "title": "Software Architect - Supply",
+      "url": "https://jobs.lever.co/meesho/be6609b0-539b-41c4-aa79-d2cc0916d3d8"
+    },
+    "5d307a6276b8095f3c99bea0": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 142,
+      "title": "Staff Software Engineer - Backend",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002"
+    },
+    "5ff458e1979ece5da31f3dad": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 142,
+      "title": "Staff Software Engineer - Backend",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002"
+    },
+    "634dab53f57f45d3e978feff": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 107,
+      "title": "Sr. Manager \u2013 Data & AI Support Engineering",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7914730002"
+    },
+    "65b35af80a3eb8f25ecfab28": {
+      "company": "Snowflake",
+      "first_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "last_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "score": 85,
+      "title": "Senior Software Developer - Full Stack",
+      "url": "https://jobs.ashbyhq.com/snowflake/8d54cbf2-ca42-4297-b498-2f1620be66c5"
+    },
+    "7b037de516ddd88166190d2c": {
+      "company": "Postman",
+      "first_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 94,
+      "title": "Senior Engineer, Client Distribution",
+      "url": "https://job-boards.greenhouse.io/postman/jobs/7793471003"
+    },
+    "7e336fede1c2dc8b16691530": {
+      "company": "Airbnb",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 132,
+      "title": "Software Engineer, BizTech(Python, LLM, GenAI, MCP)",
+      "url": "https://careers.airbnb.com/positions/7902817?gh_jid=7902817"
+    },
+    "7f39f13a48bfa0e279590a4d": {
+      "company": "Postman",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 98,
+      "title": "Senior Engineer, Messaging Platform",
+      "url": "https://job-boards.greenhouse.io/postman/jobs/7774448003"
+    },
+    "7faba05ab03d22fb1ac9030c": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 100,
+      "title": "Sr. Specialist Solutions Architect - Builder Team",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8493787002"
+    },
+    "8006ab91bb02e1429aea742d": {
+      "company": "Stripe",
+      "first_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 94,
+      "title": "AI Specialist, Treasury Finance Operations",
+      "url": "https://stripe.com/jobs/search?gh_jid=7947074"
+    },
+    "8067dd8df2bff5cb98f38760": {
+      "company": "Snowflake",
+      "first_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 91,
+      "title": "Senior Software Engineer - Snowflake Streaming",
+      "url": "https://jobs.ashbyhq.com/snowflake/217df43e-be95-4cde-952e-4bc04db5dff5"
+    },
+    "8b91dee2ffe5b13705a91ba5": {
+      "company": "Agoda",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 107,
+      "title": "Staff Software Engineer - BackEnd | Gurugram, IND",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/6822823"
+    },
+    "8f90d0d3e7ef94989c0483e7": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 85,
+      "title": "Senior Software Engineer - Distributed Data Systems",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002"
+    },
+    "9263c4b71c5d370430e3f310": {
+      "company": "Rubrik",
+      "first_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 93,
+      "title": "Senior Integration & Automation Engineer",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7570678?gh_jid=7570678"
+    },
+    "9eabbd1680c413ed26fc26ce": {
+      "company": "Meesho",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 140,
+      "title": "Software Development Engineer III Data",
+      "url": "https://jobs.lever.co/meesho/7bb1de7e-8756-412b-8c71-0ba40863edc8"
+    },
+    "a9688dfd7dcb74c0fefb0855": {
+      "company": "Agoda",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 99,
+      "title": "Principal Software Engineer, Back End (Bangkok based, Relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7915377"
+    },
+    "b517c649255c091a264b1434": {
+      "company": "Agoda",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 142,
+      "title": "Staff Software Engineer (L4) - Back End (Bangkok based, Relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7923655"
+    },
+    "b6e6d7dcfbe60c6cabc753a4": {
+      "company": "Stripe",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 91,
+      "title": "Software Engineer, Product Security Data Platforms",
+      "url": "https://stripe.com/jobs/search?gh_jid=8039800"
+    },
+    "bac406df0090414b1ba31e0a": {
+      "company": "Paytm",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 105,
+      "title": "DevOps (Data DevOps) - Lead DevOps Engineer",
+      "url": "https://jobs.lever.co/paytm/0df048a1-73c8-451b-b6fa-903657924228"
+    },
+    "be22397ed5d9abb010643781": {
+      "company": "Paytm",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 142,
+      "title": "Data Engineering - Technical Lead",
+      "url": "https://jobs.lever.co/paytm/77e1e11f-744f-4f62-8c91-e59393db2208"
+    },
+    "c161d010bd598ea9d4570831": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 107,
+      "title": "Staff Backend Software Engineer- (AI Platform)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367019002"
+    },
+    "c483d28b37ba792ba3c1089f": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 102,
+      "title": "Senior Software Engineer (Money)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7654347002"
+    },
+    "c536d83bd1d1a003e0158742": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 138,
+      "title": "Staff Software Engineer - Distributed Data Systems",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002"
+    },
+    "c855fc6e47d960aa8ba8f5fc": {
+      "company": "Amazon",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "score": 100,
+      "title": "Senior Backend Software Developer",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-software-developer-bitpay-1133985"
+    },
+    "c9709d2960372db3a264497c": {
+      "company": "Paytm",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 140,
+      "title": "Engineering Lead/Principle Engineer - DevOps",
+      "url": "https://jobs.lever.co/paytm/96aab63c-bfd8-498e-a3fd-658d0dbf5d4e"
+    },
+    "cbf938f6f3690d4181968685": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 96,
+      "title": "Sr Backline Engineer (Apache Spark\u2122)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7335143002"
+    },
+    "dd40b5a9ef7e535df5f49911": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "score": 85,
+      "title": "Senior Software Engineer - Distributed Data Systems",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002"
+    },
+    "e0fdac41096050e815e5695e": {
+      "company": "Stripe",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 136,
+      "title": "Backend Engineer, Core Tech, Canada",
+      "url": "https://stripe.com/jobs/search?gh_jid=6567253"
+    },
+    "e3612bf931283df80fd4820a": {
+      "company": "Spotify",
+      "first_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 87,
+      "title": "Senior Full Stack Engineer - WhoSampled",
+      "url": "https://jobs.lever.co/spotify/6cd45243-8674-4313-8405-a5a0734122f6"
+    },
+    "e3c5d7312733b869237616b0": {
+      "company": "Stripe",
+      "first_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 86,
+      "title": "Software Engineer, Secrets Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7396679"
+    },
+    "edebe415ab1f635e1c3b2cea": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 93,
+      "title": "Senior ML & AI Technical Solutions Engineer",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7845325002"
+    },
+    "f12512eb9582b8e1eb81a5ea": {
+      "company": "Airbnb",
+      "first_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 85,
+      "title": "Senior Software Engineer, Global Markets (Backend)",
+      "url": "https://careers.airbnb.com/positions/7768472?gh_jid=7768472"
+    },
+    "f96cddd18f61a7dfaeff19f6": {
+      "company": "Agoda",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 142,
+      "title": "Staff Software Engineer (FinTech) - Back End (Bangkok based, Relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7044214"
+    },
+    "fbf85bab0fb858eaeba15864": {
+      "company": "Stripe",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 136,
+      "title": "Backend Engineer, Core Technology",
+      "url": "https://stripe.com/jobs/search?gh_jid=6042172"
+    },
+    "fc963a716f3400939a6115a7": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 142,
+      "title": "Staff Software Engineer - Backend",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002"
+    },
+    "fd09efad877ebe4f2ad8fccd": {
+      "company": "Databricks",
+      "first_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "last_seen_at": "2026-07-07T18:11:56.081965+00:00",
+      "score": 142,
+      "title": "Staff Software Engineer - Backend",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002"
+    },
+    "fdd431f098facf71fa5c9076": {
+      "company": "Tower Research Capital",
+      "first_seen_at": "2026-07-07T18:15:24.500763+00:00",
+      "last_seen_at": "2026-07-07T18:16:35.165594+00:00",
+      "score": 86,
+      "title": "Platform as a Service Engineer",
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=8002322"
+    },
+    "ff5d72877817e072a4729d0b": {
+      "company": "Rubrik",
+      "first_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "last_seen_at": "2026-07-07T18:13:37.327101+00:00",
+      "score": 124,
+      "title": "Architect, AI Data Platform & Engineering",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7510636?gh_jid=7510636"
+    }
+  }
+}

@@ -1,0 +1,880 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse
+import concurrent.futures
+import dataclasses
+import datetime as dt
+import email.message
+import hashlib
+import html
+import json
+import os
+import re
+import smtplib
+import ssl
+import sys
+import textwrap
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+import xml.etree.ElementTree as ET
+from pathlib import Path
+from typing import Any, Iterable
+
+
+ROOT = Path(__file__).resolve().parent
+CONFIG_PATH = ROOT / "config" / "job_watch_config.json"
+DATA_DIR = ROOT / "data"
+OUTPUT_DIR = ROOT / "outputs"
+DISCOVERED_SOURCES_PATH = DATA_DIR / "discovered_sources.json"
+SEEN_JOBS_PATH = DATA_DIR / "seen_jobs.json"
+HISTORY_PATH = DATA_DIR / "job_history.jsonl"
+LATEST_MD_PATH = OUTPUT_DIR / "latest_job_matches.md"
+LATEST_JSON_PATH = OUTPUT_DIR / "latest_job_matches.json"
+
+USER_AGENT = (
+    "Mozilla/5.0 (compatible; SaurabhJobAlerts/1.0; "
+    "+https://github.com/saukr1006/job-alerts)"
+)
+NETWORK_SKIPS: dict[str, int] = {}
+
+
+@dataclasses.dataclass(frozen=True)
+class Job:
+    title: str
+    company: str
+    location: str
+    url: str
+    description: str
+    source: str
+    source_company: str = ""
+    posted_at: str = ""
+    external_id: str = ""
+
+    @property
+    def fingerprint(self) -> str:
+        raw = "|".join(
+            [
+                normalize_space(self.company).lower(),
+                normalize_space(self.title).lower(),
+                normalize_space(self.location).lower(),
+                normalize_space(self.url).lower(),
+                normalize_space(self.external_id).lower(),
+            ]
+        )
+        return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:24]
+
+
+def normalize_space(value: Any) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def text_from_html(value: Any) -> str:
+    value = html.unescape(str(value or ""))
+    value = re.sub(r"(?is)<(script|style).*?>.*?</\1>", " ", value)
+    value = re.sub(r"(?s)<[^>]+>", " ", value)
+    return normalize_space(value)
+
+
+def term_matches(term: str, text: str) -> bool:
+    term = term.lower().strip()
+    if not term:
+        return False
+    escaped = re.escape(term)
+    if term[0].isalnum() and term[-1].isalnum():
+        return re.search(rf"(?<![a-z0-9]){escaped}(?![a-z0-9])", text, re.I) is not None
+    return term in text
+
+
+def slugify(value: str, separator: str = "") -> str:
+    value = value.lower().replace("&", " and ")
+    value = re.sub(r"[^a-z0-9]+", separator, value)
+    value = re.sub(rf"{re.escape(separator)}+", separator, value) if separator else value
+    return value.strip(separator)
+
+
+def load_json(path: Path, default: Any) -> Any:
+    if not path.exists():
+        return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise SystemExit(f"Invalid JSON in {path}: {exc}") from exc
+
+
+def write_json(path: Path, payload: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def http_request(
+    url: str,
+    *,
+    timeout: int,
+    accept: str = "application/json,text/xml,application/rss+xml,text/html;q=0.8",
+) -> tuple[int, bytes]:
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": accept,
+        },
+    )
+    context = None
+    if os.environ.get("JOB_ALERTS_INSECURE_SSL") == "1":
+        context = ssl._create_unverified_context()
+    with urllib.request.urlopen(request, timeout=timeout, context=context) as response:
+        return response.status, response.read()
+
+
+def record_network_skip(url: str, exc: BaseException) -> None:
+    parsed = urllib.parse.urlparse(url)
+    host = parsed.netloc or "unknown-host"
+    reason = f"{host}: {type(exc).__name__}: {str(exc).splitlines()[0][:120]}"
+    NETWORK_SKIPS[reason] = NETWORK_SKIPS.get(reason, 0) + 1
+
+
+def http_json(url: str, timeout: int) -> Any | None:
+    try:
+        status, body = http_request(url, timeout=timeout, accept="application/json")
+        if status >= 400:
+            return None
+        return json.loads(body.decode("utf-8", errors="replace"))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as exc:
+        record_network_skip(url, exc)
+        return None
+
+
+def http_xml(url: str, timeout: int) -> ET.Element | None:
+    try:
+        status, body = http_request(url, timeout=timeout)
+        if status >= 400:
+            return None
+        return ET.fromstring(body)
+    except (urllib.error.URLError, TimeoutError, ET.ParseError, OSError) as exc:
+        record_network_skip(url, exc)
+        return None
+
+
+def company_slug_candidates(company: dict[str, Any], limit: int) -> list[str]:
+    values: list[str] = []
+    for value in [company["name"], *company.get("aliases", [])]:
+        values.extend(
+            [
+                slugify(value, ""),
+                slugify(value, "-"),
+                slugify(value.replace("+", " plus "), ""),
+                slugify(value.replace("+", " plus "), "-"),
+            ]
+        )
+    seen: set[str] = set()
+    result: list[str] = []
+    for value in values:
+        if value and value not in seen:
+            result.append(value)
+            seen.add(value)
+        if len(result) >= limit:
+            break
+    return result
+
+
+def watched_company_matcher(companies: list[dict[str, Any]]) -> tuple[dict[str, str], re.Pattern[str]]:
+    aliases: dict[str, str] = {}
+    terms: list[str] = []
+    for company in companies:
+        names = [company["name"], *company.get("aliases", [])]
+        for name in names:
+            cleaned = normalize_space(name).lower()
+            aliases[cleaned] = company["name"]
+            terms.append(re.escape(cleaned))
+    terms.sort(key=len, reverse=True)
+    pattern = re.compile(r"(?<![a-z0-9])(" + "|".join(terms) + r")(?![a-z0-9])", re.I)
+    return aliases, pattern
+
+
+def infer_company_from_text(text: str, config: dict[str, Any]) -> str:
+    _, pattern = watched_company_matcher(config["companies"])
+    match = pattern.search(text.lower())
+    if match:
+        matched = match.group(1).lower()
+        for company in config["companies"]:
+            names = [company["name"], *company.get("aliases", [])]
+            if matched in [normalize_space(name).lower() for name in names]:
+                return company["name"]
+    return ""
+
+
+def infer_watched_company(job: Job, config: dict[str, Any]) -> str:
+    if job.source_company:
+        return job.source_company
+    company_match = infer_company_from_text(job.company, config)
+    if company_match:
+        return company_match
+    if job.source == "rss":
+        return infer_company_from_text(" ".join([job.title, job.description]), config)
+    return ""
+
+
+def fetch_greenhouse(company_name: str, slug: str, timeout: int) -> list[Job]:
+    url = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true"
+    data = http_json(url, timeout)
+    jobs = []
+    for item in (data or {}).get("jobs", []):
+        location = normalize_space((item.get("location") or {}).get("name"))
+        jobs.append(
+            Job(
+                title=normalize_space(item.get("title")),
+                company=company_name,
+                location=location,
+                url=normalize_space(item.get("absolute_url")),
+                description=text_from_html(item.get("content")),
+                source="greenhouse",
+                source_company=company_name,
+                external_id=str(item.get("id") or ""),
+            )
+        )
+    return valid_jobs(jobs)
+
+
+def fetch_lever(company_name: str, slug: str, timeout: int) -> list[Job]:
+    url = f"https://api.lever.co/v0/postings/{slug}?mode=json&limit=100"
+    data = http_json(url, timeout)
+    jobs = []
+    for item in data or []:
+        categories = item.get("categories") or {}
+        description = " ".join(
+            [
+                text_from_html(item.get("descriptionPlain") or item.get("description")),
+                text_from_html(item.get("additionalPlain") or item.get("additional")),
+                text_from_html(item.get("lists")),
+            ]
+        )
+        jobs.append(
+            Job(
+                title=normalize_space(item.get("text")),
+                company=company_name,
+                location=normalize_space(categories.get("location")),
+                url=normalize_space(item.get("hostedUrl") or item.get("applyUrl")),
+                description=normalize_space(description),
+                source="lever",
+                source_company=company_name,
+                external_id=str(item.get("id") or ""),
+            )
+        )
+    return valid_jobs(jobs)
+
+
+def fetch_ashby(company_name: str, slug: str, timeout: int) -> list[Job]:
+    url = f"https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true"
+    data = http_json(url, timeout)
+    jobs = []
+    for item in (data or {}).get("jobs", []):
+        location = item.get("location")
+        if isinstance(location, dict):
+            location = location.get("name")
+        jobs.append(
+            Job(
+                title=normalize_space(item.get("title")),
+                company=company_name,
+                location=normalize_space(location),
+                url=normalize_space(item.get("jobUrl") or item.get("url")),
+                description=text_from_html(item.get("descriptionPlain") or item.get("descriptionHtml")),
+                source="ashby",
+                source_company=company_name,
+                external_id=str(item.get("id") or ""),
+            )
+        )
+    return valid_jobs(jobs)
+
+
+def fetch_workable(company_name: str, slug: str, timeout: int) -> list[Job]:
+    url = f"https://apply.workable.com/api/v1/widget/accounts/{slug}"
+    data = http_json(url, timeout)
+    jobs = []
+    for item in (data or {}).get("jobs", []):
+        location = item.get("location") or {}
+        if isinstance(location, dict):
+            location = ", ".join(str(v) for v in location.values() if v)
+        jobs.append(
+            Job(
+                title=normalize_space(item.get("title")),
+                company=company_name,
+                location=normalize_space(location),
+                url=normalize_space(item.get("url") or item.get("shortlink")),
+                description=text_from_html(item.get("description")),
+                source="workable",
+                source_company=company_name,
+                external_id=str(item.get("shortcode") or item.get("id") or ""),
+            )
+        )
+    return valid_jobs(jobs)
+
+
+def fetch_recruitee(company_name: str, slug: str, timeout: int) -> list[Job]:
+    url = f"https://{slug}.recruitee.com/api/offers"
+    data = http_json(url, timeout)
+    jobs = []
+    for item in (data or {}).get("offers", []):
+        location = ", ".join(
+            normalize_space(item.get(key))
+            for key in ["city", "country", "location"]
+            if normalize_space(item.get(key))
+        )
+        jobs.append(
+            Job(
+                title=normalize_space(item.get("title")),
+                company=company_name,
+                location=location,
+                url=normalize_space(item.get("careers_url") or item.get("url")),
+                description=text_from_html(item.get("description")),
+                source="recruitee",
+                source_company=company_name,
+                external_id=str(item.get("id") or ""),
+            )
+        )
+    return valid_jobs(jobs)
+
+
+def fetch_personio(company_name: str, slug: str, timeout: int) -> list[Job]:
+    jobs = []
+    for host in [f"{slug}.jobs.personio.de", f"{slug}.jobs.personio.com"]:
+        root = http_xml(f"https://{host}/xml?language=en", timeout)
+        if root is None:
+            continue
+        for item in root.findall(".//position"):
+            title = normalize_space(item.findtext("name"))
+            location = normalize_space(item.findtext("office"))
+            url = normalize_space(item.findtext("recruitingCategory") or f"https://{host}")
+            description = " ".join(
+                text_from_html(node.text)
+                for node in item.findall(".//jobDescription")
+                if normalize_space(node.text)
+            )
+            jobs.append(
+                Job(
+                    title=title,
+                    company=company_name,
+                    location=location,
+                    url=url,
+                    description=normalize_space(description),
+                    source="personio",
+                    source_company=company_name,
+                    external_id=normalize_space(item.findtext("id")),
+                )
+            )
+    return valid_jobs(jobs)
+
+
+ATS_FETCHERS = {
+    "greenhouse": fetch_greenhouse,
+    "lever": fetch_lever,
+    "ashby": fetch_ashby,
+    "workable": fetch_workable,
+    "recruitee": fetch_recruitee,
+    "personio": fetch_personio,
+}
+
+
+def valid_jobs(jobs: Iterable[Job]) -> list[Job]:
+    return [job for job in jobs if job.title and job.url]
+
+
+def discover_direct_sources(config: dict[str, Any], *, force: bool = False) -> list[dict[str, Any]]:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    existing = load_json(DISCOVERED_SOURCES_PATH, [])
+    if existing and not force:
+        return existing
+
+    direct = config["sources"]["direct_ats"]
+    timeout = int(direct.get("request_timeout_seconds", 8))
+    slug_limit = int(direct.get("max_slug_candidates_per_company", 4))
+    tasks: list[tuple[str, str, str]] = []
+    for company in config["companies"]:
+        for slug in company_slug_candidates(company, slug_limit):
+            for source_type in ATS_FETCHERS:
+                tasks.append((company["name"], source_type, slug))
+
+    discovered: list[dict[str, Any]] = []
+    seen_sources: set[tuple[str, str, str]] = set()
+
+    def probe(task: tuple[str, str, str]) -> dict[str, Any] | None:
+        company_name, source_type, slug = task
+        fetcher = ATS_FETCHERS[source_type]
+        jobs = fetcher(company_name, slug, timeout)
+        if not jobs:
+            return None
+        return {
+            "company": company_name,
+            "source": source_type,
+            "slug": slug,
+            "jobs_found": len(jobs),
+            "discovered_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        }
+
+    workers = int(direct.get("concurrency", 12))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        for result in executor.map(probe, tasks):
+            if not result:
+                continue
+            key = (result["company"], result["source"], result["slug"])
+            if key not in seen_sources:
+                discovered.append(result)
+                seen_sources.add(key)
+
+    discovered.sort(key=lambda item: (item["company"], item["source"], item["slug"]))
+    write_json(DISCOVERED_SOURCES_PATH, discovered)
+    return discovered
+
+
+def fetch_discovered_sources(config: dict[str, Any], sources: list[dict[str, Any]]) -> list[Job]:
+    if not config["sources"]["direct_ats"].get("enabled", True):
+        return []
+    timeout = int(config["sources"]["direct_ats"].get("request_timeout_seconds", 8))
+
+    def fetch(source: dict[str, Any]) -> list[Job]:
+        fetcher = ATS_FETCHERS.get(source["source"])
+        if not fetcher:
+            return []
+        return fetcher(source["company"], source["slug"], timeout)
+
+    jobs: list[Job] = []
+    workers = int(config["sources"]["direct_ats"].get("concurrency", 12))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        for result in executor.map(fetch, sources):
+            jobs.extend(result)
+    return jobs
+
+
+def fetch_remoteok(config: dict[str, Any]) -> list[Job]:
+    remoteok = config["sources"].get("remoteok", {})
+    if not remoteok.get("enabled", False):
+        return []
+    jobs: list[Job] = []
+    for tag in remoteok.get("tags", []):
+        encoded = urllib.parse.quote(tag)
+        url = f"https://remoteok.com/api?tag={encoded}"
+        data = http_json(url, timeout=20)
+        if not isinstance(data, list):
+            continue
+        for item in data:
+            if not isinstance(item, dict) or "position" not in item:
+                continue
+            jobs.append(
+                Job(
+                    title=normalize_space(item.get("position")),
+                    company=normalize_space(item.get("company")),
+                    location=normalize_space(item.get("location") or "Remote"),
+                    url=normalize_space(item.get("url") or item.get("apply_url")),
+                    description=text_from_html(
+                        " ".join(
+                            [
+                                str(item.get("description") or ""),
+                                " ".join(item.get("tags") or []),
+                            ]
+                        )
+                    ),
+                    source="remoteok",
+                    posted_at=normalize_space(item.get("date")),
+                    external_id=str(item.get("id") or ""),
+                )
+            )
+        time.sleep(1)
+    return valid_jobs(dedupe_jobs(jobs))
+
+
+def fetch_adzuna(config: dict[str, Any]) -> list[Job]:
+    adzuna = config["sources"].get("adzuna", {})
+    if not adzuna.get("enabled", False):
+        return []
+    app_id = os.environ.get("ADZUNA_APP_ID")
+    app_key = os.environ.get("ADZUNA_APP_KEY")
+    if not app_id or not app_key:
+        return []
+
+    country = adzuna.get("country", "in")
+    jobs: list[Job] = []
+    for query in adzuna.get("queries", []):
+        params = urllib.parse.urlencode(
+            {
+                "app_id": app_id,
+                "app_key": app_key,
+                "what": query,
+                "where": "India",
+                "results_per_page": 50,
+                "sort_by": "date",
+                "content-type": "application/json",
+            }
+        )
+        url = f"https://api.adzuna.com/v1/api/jobs/{country}/search/1?{params}"
+        data = http_json(url, timeout=20)
+        for item in (data or {}).get("results", []):
+            company = item.get("company") or {}
+            location = item.get("location") or {}
+            jobs.append(
+                Job(
+                    title=normalize_space(item.get("title")),
+                    company=normalize_space(company.get("display_name")),
+                    location=normalize_space(location.get("display_name")),
+                    url=normalize_space(item.get("redirect_url")),
+                    description=text_from_html(item.get("description")),
+                    source="adzuna",
+                    posted_at=normalize_space(item.get("created")),
+                    external_id=str(item.get("id") or ""),
+                )
+            )
+    return valid_jobs(dedupe_jobs(jobs))
+
+
+def fetch_rss(config: dict[str, Any]) -> list[Job]:
+    rss = config["sources"].get("rss", {})
+    if not rss.get("enabled", False):
+        return []
+    jobs: list[Job] = []
+    for feed in rss.get("feeds", []):
+        url = feed.get("url") if isinstance(feed, dict) else str(feed)
+        source_name = feed.get("name", "rss") if isinstance(feed, dict) else "rss"
+        root = http_xml(url, timeout=20)
+        if root is None:
+            continue
+        for item in root.findall(".//item") + root.findall(".//{http://www.w3.org/2005/Atom}entry"):
+            title = item.findtext("title") or item.findtext("{http://www.w3.org/2005/Atom}title")
+            link = item.findtext("link") or ""
+            atom_link = item.find("{http://www.w3.org/2005/Atom}link")
+            if atom_link is not None:
+                link = atom_link.attrib.get("href", link)
+            description = item.findtext("description") or item.findtext("summary") or ""
+            jobs.append(
+                Job(
+                    title=normalize_space(title),
+                    company=source_name,
+                    location="",
+                    url=normalize_space(link),
+                    description=text_from_html(description),
+                    source="rss",
+                    external_id=normalize_space(link),
+                )
+            )
+    return valid_jobs(dedupe_jobs(jobs))
+
+
+def dedupe_jobs(jobs: Iterable[Job]) -> list[Job]:
+    seen: set[str] = set()
+    result: list[Job] = []
+    for job in jobs:
+        key = job.fingerprint
+        if key in seen:
+            continue
+        seen.add(key)
+        result.append(job)
+    return result
+
+
+def score_job(job: Job, config: dict[str, Any]) -> dict[str, Any]:
+    profile = config["profile"]
+    title = job.title.lower()
+    body = " ".join([job.title, job.company, job.location, job.description]).lower()
+    score = 0
+    reasons: list[str] = []
+    penalties: list[str] = []
+
+    for term, weight in profile["title_boosts"].items():
+        if term_matches(term, title):
+            score += int(weight)
+            reasons.append(f"title:{term}")
+
+    for term, penalty in profile.get("title_penalties", {}).items():
+        if term_matches(term, title):
+            score -= int(penalty)
+            penalties.append(f"title:{term}")
+
+    for category, payload in profile["positive_keywords"].items():
+        matches = [term for term in payload["terms"] if term_matches(term, body)]
+        if matches:
+            score += int(payload["weight"])
+            reasons.append(f"{category}:{', '.join(matches[:3])}")
+
+    for category, payload in profile["negative_keywords"].items():
+        matches = [term for term in payload["terms"] if term_matches(term, body)]
+        if matches:
+            score -= int(payload["penalty"])
+            penalties.append(f"{category}:{', '.join(matches[:3])}")
+
+    watched_company = infer_watched_company(job, config)
+    if watched_company:
+        score += 12
+        reasons.append(f"watchlist:{watched_company}")
+
+    location_text = job.location.lower()
+    location_matches_target = any(term_matches(location.lower(), location_text) for location in profile["target_locations"])
+    if location_matches_target:
+        score += 8
+        reasons.append("location-match")
+    elif location_text and not any(term_matches(term, body) for term in ["remote", "relocation provided", "india"]):
+        penalty = int(profile.get("non_target_location_penalty", 0))
+        if penalty:
+            score -= penalty
+            penalties.append("non_target_location")
+
+    score = max(score, 0)
+    return {
+        "score": score,
+        "reasons": reasons[:6],
+        "penalties": penalties[:4],
+        "watched_company": watched_company,
+    }
+
+
+def load_seen() -> dict[str, Any]:
+    return load_json(SEEN_JOBS_PATH, {"seen": {}})
+
+
+def update_seen(seen: dict[str, Any], jobs: list[dict[str, Any]]) -> None:
+    now = dt.datetime.now(dt.timezone.utc).isoformat()
+    entries = seen.setdefault("seen", {})
+    for item in jobs:
+        entries[item["id"]] = {
+            "first_seen_at": entries.get(item["id"], {}).get("first_seen_at", now),
+            "last_seen_at": now,
+            "title": item["title"],
+            "company": item["company"],
+            "url": item["url"],
+            "score": item["score"],
+        }
+    write_json(SEEN_JOBS_PATH, seen)
+
+
+def build_matches(jobs: list[Job], config: dict[str, Any]) -> list[dict[str, Any]]:
+    min_score = int(config["profile"].get("minimum_score_to_notify", 45))
+    matches: list[dict[str, Any]] = []
+    for job in dedupe_jobs(jobs):
+        scored = score_job(job, config)
+        watched_company = scored["watched_company"]
+        if not watched_company and job.source not in {"greenhouse", "lever", "ashby", "workable", "recruitee", "personio"}:
+            continue
+        if scored["score"] < min_score:
+            continue
+        matches.append(
+            {
+                "id": job.fingerprint,
+                "score": scored["score"],
+                "title": job.title,
+                "company": watched_company or job.company,
+                "source_company": job.source_company,
+                "location": job.location,
+                "url": job.url,
+                "source": job.source,
+                "posted_at": job.posted_at,
+                "reasons": scored["reasons"],
+                "penalties": scored["penalties"],
+                "description_preview": textwrap.shorten(job.description, width=280, placeholder="..."),
+            }
+        )
+    matches.sort(key=lambda item: (-item["score"], item["company"], item["title"]))
+    return matches[: int(config["profile"].get("max_results_per_run", 25))]
+
+
+def render_markdown(
+    matches: list[dict[str, Any]],
+    *,
+    only_new: bool,
+    discovered_count: int,
+    network_skips: dict[str, int],
+) -> str:
+    now = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S %Z")
+    lines = [
+        "# Latest Job Matches",
+        "",
+        f"Generated: {now}",
+        f"Mode: {'new jobs only' if only_new else 'top current matches'}",
+        f"Discovered direct ATS sources: {discovered_count}",
+        f"Matches: {len(matches)}",
+        "",
+    ]
+    if network_skips:
+        lines.extend(["## Source Warnings", ""])
+        for reason, count in sorted(network_skips.items(), key=lambda item: (-item[1], item[0]))[:10]:
+            lines.append(f"- {count} skipped request(s): {reason}")
+        lines.append("")
+    if not matches:
+        lines.extend(
+            [
+                "No matching jobs crossed the configured score threshold in this run.",
+                "",
+                "Check whether your direct ATS discovery found sources, or add RSS feeds/API keys in config.",
+            ]
+        )
+        return "\n".join(lines) + "\n"
+
+    for index, item in enumerate(matches, 1):
+        lines.extend(
+            [
+                f"## {index}. {item['title']}",
+                "",
+                f"- Company: {item['company']}",
+                f"- Score: {item['score']}",
+                f"- Location: {item['location'] or 'Not specified'}",
+                f"- Source: {item['source']}",
+                f"- Apply: {item['url']}",
+                f"- Reasons: {', '.join(item['reasons']) or 'n/a'}",
+            ]
+        )
+        if item["penalties"]:
+            lines.append(f"- Penalties: {', '.join(item['penalties'])}")
+        if item["description_preview"]:
+            lines.append(f"- Preview: {item['description_preview']}")
+        lines.append("")
+    return "\n".join(lines)
+
+
+def append_history(matches: list[dict[str, Any]]) -> None:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    now = dt.datetime.now(dt.timezone.utc).isoformat()
+    with HISTORY_PATH.open("a", encoding="utf-8") as handle:
+        for item in matches:
+            payload = {"recorded_at": now, **item}
+            handle.write(json.dumps(payload, sort_keys=True) + "\n")
+
+
+def notify_telegram(matches: list[dict[str, Any]], markdown_path: Path) -> None:
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not token or not chat_id or not matches:
+        return
+
+    lines = ["Latest job matches:"]
+    for item in matches[:10]:
+        lines.append(f"{item['score']} - {item['company']} - {item['title']}\n{item['url']}")
+    lines.append(f"\nFull report: {markdown_path.name}")
+    payload = urllib.parse.urlencode({"chat_id": chat_id, "text": "\n\n".join(lines)})
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    request = urllib.request.Request(url, data=payload.encode("utf-8"), method="POST")
+    with urllib.request.urlopen(request, timeout=20):
+        pass
+
+
+def notify_discord(matches: list[dict[str, Any]]) -> None:
+    webhook = os.environ.get("DISCORD_WEBHOOK_URL")
+    if not webhook or not matches:
+        return
+    lines = ["**Latest job matches**"]
+    for item in matches[:10]:
+        lines.append(f"- **{item['score']}** [{item['company']}] {item['title']} - {item['url']}")
+    payload = json.dumps({"content": "\n".join(lines)}).encode("utf-8")
+    request = urllib.request.Request(
+        webhook,
+        data=payload,
+        method="POST",
+        headers={"Content-Type": "application/json", "User-Agent": USER_AGENT},
+    )
+    with urllib.request.urlopen(request, timeout=20):
+        pass
+
+
+def notify_email(matches: list[dict[str, Any]], markdown: str) -> None:
+    host = os.environ.get("SMTP_HOST")
+    port = int(os.environ.get("SMTP_PORT", "587"))
+    user = os.environ.get("SMTP_USER")
+    password = os.environ.get("SMTP_PASSWORD")
+    sender = os.environ.get("SMTP_FROM", user or "")
+    recipient = os.environ.get("SMTP_TO")
+    if not all([host, user, password, sender, recipient]) or not matches:
+        return
+
+    message = email.message.EmailMessage()
+    message["Subject"] = f"{len(matches)} job matches to apply"
+    message["From"] = sender
+    message["To"] = recipient
+    message.set_content(markdown)
+
+    context = ssl.create_default_context()
+    with smtplib.SMTP(host, port, timeout=30) as smtp:
+        smtp.starttls(context=context)
+        smtp.login(user, password)
+        smtp.send_message(message)
+
+
+def run(config: dict[str, Any], *, only_new: bool, force_discovery: bool, notify: bool) -> int:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    discovered = []
+    if config["sources"]["direct_ats"].get("enabled", True):
+        discovered = discover_direct_sources(config, force=force_discovery)
+
+    jobs: list[Job] = []
+    jobs.extend(fetch_discovered_sources(config, discovered))
+    jobs.extend(fetch_remoteok(config))
+    jobs.extend(fetch_adzuna(config))
+    jobs.extend(fetch_rss(config))
+
+    matches = build_matches(jobs, config)
+    seen = load_seen()
+    if only_new:
+        existing_ids = set(seen.get("seen", {}).keys())
+        new_matches = [item for item in matches if item["id"] not in existing_ids]
+        if not existing_ids:
+            new_matches = matches
+        matches_to_report = new_matches
+    else:
+        matches_to_report = matches
+
+    update_seen(seen, matches)
+    append_history(matches_to_report)
+
+    markdown = render_markdown(
+        matches_to_report,
+        only_new=only_new,
+        discovered_count=len(discovered),
+        network_skips=NETWORK_SKIPS,
+    )
+    LATEST_MD_PATH.write_text(markdown, encoding="utf-8")
+    write_json(LATEST_JSON_PATH, matches_to_report)
+
+    if notify:
+        notify_telegram(matches_to_report, LATEST_MD_PATH)
+        notify_discord(matches_to_report)
+        notify_email(matches_to_report, markdown)
+
+    print(f"Fetched jobs: {len(jobs)}")
+    print(f"Matches above threshold: {len(matches)}")
+    print(f"Reported matches: {len(matches_to_report)}")
+    if NETWORK_SKIPS:
+        print("Network skips:")
+        for reason, count in sorted(NETWORK_SKIPS.items(), key=lambda item: (-item[1], item[0]))[:5]:
+            print(f"  {count}x {reason}")
+    print(f"Report: {LATEST_MD_PATH}")
+    return 0
+
+
+def main(argv: list[str]) -> int:
+    parser = argparse.ArgumentParser(description="Free job-opening watcher and notifier.")
+    subparsers = parser.add_subparsers(dest="command", required=True)
+
+    discover_parser = subparsers.add_parser("discover", help="Discover public ATS sources for watched companies.")
+    discover_parser.add_argument("--force", action="store_true", help="Rebuild discovered source cache.")
+
+    run_parser = subparsers.add_parser("run", help="Fetch, score, report, and optionally notify.")
+    run_parser.add_argument("--only-new", action="store_true", help="Report only jobs not seen in previous runs.")
+    run_parser.add_argument("--force-discovery", action="store_true", help="Refresh direct ATS source discovery before running.")
+    run_parser.add_argument("--notify", action="store_true", help="Send Telegram/Discord/email notifications if env vars are set.")
+
+    args = parser.parse_args(argv)
+    config = load_json(CONFIG_PATH, {})
+
+    if args.command == "discover":
+        sources = discover_direct_sources(config, force=args.force)
+        print(f"Discovered direct ATS sources: {len(sources)}")
+        print(f"Cache: {DISCOVERED_SOURCES_PATH}")
+        return 0
+
+    if args.command == "run":
+        return run(config, only_new=args.only_new, force_discovery=args.force_discovery, notify=args.notify)
+
+    parser.error("Unknown command")
+    return 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv[1:]))

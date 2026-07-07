@@ -1,0 +1,54 @@
+name: Job Alerts
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 09:00 IST and 18:00 IST on weekdays.
+    - cron: "30 3 * * 1-5"
+    - cron: "30 12 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  job-alerts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run job watcher
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          SMTP_TO: ${{ secrets.SMTP_TO }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python job_alerts.py run --only-new --notify
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: latest-job-matches
+          path: |
+            outputs/latest_job_matches.md
+            outputs/latest_job_matches.json
+
+      - name: Commit state and report
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update job alert state"
+          file_pattern: "data/*.json data/*.jsonl outputs/latest_job_matches.md outputs/latest_job_matches.json"

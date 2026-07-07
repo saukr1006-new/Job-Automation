@@ -1,0 +1,246 @@
+{
+  "profile": {
+    "candidate_name": "Saurabh Kumar",
+    "target_roles": [
+      "Software Development Engineer II",
+      "Backend Engineer",
+      "Senior Backend Engineer",
+      "Java Backend Engineer",
+      "Platform Engineer",
+      "Distributed Systems Engineer",
+      "AI Backend Engineer",
+      "LLM Integration Engineer",
+      "Recommendation Systems Engineer",
+      "Search Engineer"
+    ],
+    "target_locations": [
+      "India",
+      "Bengaluru",
+      "Bangalore",
+      "Hyderabad",
+      "Pune",
+      "Noida",
+      "Gurgaon",
+      "Gurugram",
+      "Delhi NCR",
+      "Mumbai",
+      "Chennai",
+      "Remote"
+    ],
+    "positive_keywords": {
+      "java_spring_backend": {
+        "weight": 30,
+        "terms": ["java", "spring boot", "spring", "spring security", "maven", "jvm"]
+      },
+      "distributed_systems": {
+        "weight": 24,
+        "terms": ["distributed systems", "high scale", "scalable", "microservices", "system design", "backend platform"]
+      },
+      "streaming_and_async": {
+        "weight": 18,
+        "terms": ["kafka", "event driven", "asynchronous", "streaming", "pub/sub", "message queue"]
+      },
+      "ai_backend": {
+        "weight": 18,
+        "terms": ["llm", "genai", "generative ai", "ai platform", "model context protocol", "mcp", "embeddings"]
+      },
+      "search_recommendations": {
+        "weight": 16,
+        "terms": ["recommendation", "personalization", "search", "ranking", "elasticsearch", "vector", "qdrant"]
+      },
+      "databases": {
+        "weight": 12,
+        "terms": ["postgresql", "postgres", "mongodb", "sql", "database", "data pipeline"]
+      },
+      "observability_cloud": {
+        "weight": 10,
+        "terms": ["prometheus", "grafana", "docker", "kubernetes", "jenkins", "observability"]
+      },
+      "payments_fintech": {
+        "weight": 10,
+        "terms": ["payment", "payments", "fintech", "banking", "transaction", "ledger", "gateway"]
+      }
+    },
+    "title_boosts": {
+      "backend": 18,
+      "software engineer ii": 18,
+      "sde ii": 18,
+      "sde-2": 18,
+      "platform": 14,
+      "distributed": 14,
+      "java": 14,
+      "ai": 10,
+      "ml platform": 10,
+      "recommendation": 10,
+      "search": 10
+    },
+    "title_penalties": {
+      "devops": 50,
+      "staff": 45,
+      "principal": 50,
+      "architect": 45,
+      "manager": 60,
+      "lead": 30,
+      "support": 35,
+      "solutions engineer": 35
+    },
+    "negative_keywords": {
+      "frontend_only": {
+        "penalty": 35,
+        "terms": ["frontend only", "front-end only", "react developer", "angular developer", "ui developer"]
+      },
+      "qa_support": {
+        "penalty": 45,
+        "terms": ["qa engineer", "quality analyst", "manual testing", "support engineer", "customer support"]
+      },
+      "devops_only": {
+        "penalty": 35,
+        "terms": ["devops engineer", "lead devops", "data devops", "sre", "site reliability engineer"]
+      },
+      "non_engineering": {
+        "penalty": 45,
+        "terms": ["sales", "marketing", "recruiter", "hr business partner", "account executive"]
+      },
+      "too_junior": {
+        "penalty": 30,
+        "terms": ["intern", "internship", "graduate trainee", "0-1 years", "0-2 years", "fresher"]
+      },
+      "too_senior": {
+        "penalty": 35,
+        "terms": ["principal engineer", "principal software engineer", "staff engineer", "staff software engineer", "lead software engineer", "technical lead", "engineering manager", "director engineering"]
+      }
+    },
+    "non_target_location_penalty": 25,
+    "minimum_score_to_notify": 45,
+    "max_results_per_run": 25
+  },
+  "sources": {
+    "remoteok": {
+      "enabled": true,
+      "tags": ["java", "backend", "api", "python"]
+    },
+    "adzuna": {
+      "enabled": true,
+      "country": "in",
+      "queries": [
+        "Java Spring Boot Backend Engineer",
+        "Software Development Engineer II Java",
+        "Backend Engineer Kafka Microservices",
+        "AI Backend Engineer LLM",
+        "Recommendation Systems Engineer"
+      ]
+    },
+    "rss": {
+      "enabled": true,
+      "feeds": []
+    },
+    "direct_ats": {
+      "enabled": true,
+      "max_slug_candidates_per_company": 1,
+      "request_timeout_seconds": 5,
+      "concurrency": 20
+    }
+  },
+  "companies": [
+    {"name": "Microsoft", "group": "Global Tech Giants & Top Product Companies", "aliases": ["microsoft"]},
+    {"name": "Google", "group": "Global Tech Giants & Top Product Companies", "aliases": ["google"]},
+    {"name": "Amazon", "group": "Global Tech Giants & Top Product Companies", "aliases": ["amazon", "aws", "amazon-web-services"]},
+    {"name": "Apple", "group": "Global Tech Giants & Top Product Companies", "aliases": ["apple"]},
+    {"name": "Meta", "group": "Global Tech Giants & Top Product Companies", "aliases": ["meta", "facebook"]},
+    {"name": "Adobe", "group": "Global Tech Giants & Top Product Companies", "aliases": ["adobe"]},
+    {"name": "Salesforce", "group": "Global Tech Giants & Top Product Companies", "aliases": ["salesforce"]},
+    {"name": "Atlassian", "group": "Global Tech Giants & Top Product Companies", "aliases": ["atlassian"]},
+    {"name": "Uber", "group": "Global Tech Giants & Top Product Companies", "aliases": ["uber"]},
+    {"name": "Intuit", "group": "Global Tech Giants & Top Product Companies", "aliases": ["intuit"]},
+    {"name": "LinkedIn", "group": "Global Tech Giants & Top Product Companies", "aliases": ["linkedin"]},
+    {"name": "Oracle", "group": "Global Tech Giants & Top Product Companies", "aliases": ["oracle"]},
+    {"name": "SAP", "group": "Global Tech Giants & Top Product Companies", "aliases": ["sap"]},
+    {"name": "Cisco", "group": "Global Tech Giants & Top Product Companies", "aliases": ["cisco"]},
+    {"name": "IBM", "group": "Global Tech Giants & Top Product Companies", "aliases": ["ibm"]},
+    {"name": "Samsung Research Institute", "group": "Global Tech Giants & Top Product Companies", "aliases": ["samsung", "samsung-research", "sri"]},
+    {"name": "Intel", "group": "Global Tech Giants & Top Product Companies", "aliases": ["intel"]},
+    {"name": "Qualcomm", "group": "Global Tech Giants & Top Product Companies", "aliases": ["qualcomm"]},
+    {"name": "NVIDIA", "group": "Global Tech Giants & Top Product Companies", "aliases": ["nvidia"]},
+    {"name": "AMD", "group": "Global Tech Giants & Top Product Companies", "aliases": ["amd"]},
+    {"name": "Airbnb", "group": "Global Tech Giants & Top Product Companies", "aliases": ["airbnb"]},
+    {"name": "Netflix", "group": "Global Tech Giants & Top Product Companies", "aliases": ["netflix"]},
+    {"name": "ServiceNow", "group": "Global Tech Giants & Top Product Companies", "aliases": ["servicenow", "service-now"]},
+    {"name": "VMware", "group": "Global Tech Giants & Top Product Companies", "aliases": ["vmware", "broadcom"]},
+    {"name": "Expedia Group", "group": "Global Tech Giants & Top Product Companies", "aliases": ["expedia", "expedia-group"]},
+    {"name": "Flipkart", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["flipkart"]},
+    {"name": "Zomato", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["zomato"]},
+    {"name": "Swiggy", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["swiggy"]},
+    {"name": "PhonePe", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["phonepe", "phone-pe"]},
+    {"name": "Razorpay", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["razorpay"]},
+    {"name": "CRED", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["cred"]},
+    {"name": "Paytm", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["paytm"]},
+    {"name": "Zerodha", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["zerodha"]},
+    {"name": "Groww", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["groww"]},
+    {"name": "Meesho", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["meesho"]},
+    {"name": "Zepto", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["zepto"]},
+    {"name": "Freshworks", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["freshworks"]},
+    {"name": "Zoho", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["zoho"]},
+    {"name": "Postman", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["postman"]},
+    {"name": "BrowserStack", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["browserstack"]},
+    {"name": "Dream11", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["dream11", "dream-sports"]},
+    {"name": "Ola", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["ola", "olacabs", "ola-electric"]},
+    {"name": "OYO", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["oyo", "oyorooms"]},
+    {"name": "MakeMyTrip", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["makemytrip", "make-my-trip"]},
+    {"name": "ShareChat", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["sharechat", "mohalla-tech"]},
+    {"name": "Pine Labs", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["pinelabs", "pine-labs"]},
+    {"name": "Lenskart", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["lenskart"]},
+    {"name": "Upstox", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["upstox"]},
+    {"name": "Firstcry", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["firstcry"]},
+    {"name": "OfBusiness", "group": "High-Growth Indian Unicorns & Startups", "aliases": ["ofbusiness", "of-business"]},
+    {"name": "Goldman Sachs", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["goldman-sachs", "goldmansachs"]},
+    {"name": "JPMorgan Chase & Co.", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["jpmorgan", "jpmorgan-chase", "jp-morgan-chase"]},
+    {"name": "Morgan Stanley", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["morgan-stanley", "morganstanley"]},
+    {"name": "D. E. Shaw & Co.", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["deshaw", "de-shaw", "d-e-shaw"]},
+    {"name": "Tower Research Capital", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["tower-research", "tower-research-capital"]},
+    {"name": "Arcesium", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["arcesium"]},
+    {"name": "Wells Fargo", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["wellsfargo", "wells-fargo"]},
+    {"name": "Barclays", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["barclays"]},
+    {"name": "Citi", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["citi", "citigroup"]},
+    {"name": "Standard Chartered", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["standard-chartered", "standardchartered"]},
+    {"name": "American Express", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["american-express", "amex"]},
+    {"name": "Visa", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["visa"]},
+    {"name": "Mastercard", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["mastercard"]},
+    {"name": "PayPal", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["paypal"]},
+    {"name": "Stripe", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["stripe"]},
+    {"name": "Bloomberg", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["bloomberg"]},
+    {"name": "Fidelity Investments", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["fidelity", "fidelity-investments"]},
+    {"name": "BNY Mellon", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["bny-mellon", "bnymellon"]},
+    {"name": "NatWest Group", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["natwest", "natwest-group"]},
+    {"name": "UBS", "group": "FinTech, Investment Banking & Global Captive Centers", "aliases": ["ubs"]},
+    {"name": "Snowflake", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["snowflake"]},
+    {"name": "Databricks", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["databricks"]},
+    {"name": "Qdrant", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["qdrant"]},
+    {"name": "Rubrik", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["rubrik"]},
+    {"name": "Nutanix", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["nutanix"]},
+    {"name": "Spotify", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["spotify"]},
+    {"name": "Disney+ Hotstar", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["hotstar", "disney-hotstar", "disney-plus-hotstar"]},
+    {"name": "JioSaavn", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["jiosaavn", "jio-saavn"]},
+    {"name": "Gaana", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["gaana"]},
+    {"name": "Chartmetric", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["chartmetric"]},
+    {"name": "Walmart Global Tech", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["walmart", "walmart-global-tech"]},
+    {"name": "Target in India", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["target", "target-india"]},
+    {"name": "Tesco Technology", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["tesco", "tesco-technology"]},
+    {"name": "Lowe's India", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["lowes", "lowes-india"]},
+    {"name": "Agoda", "group": "Data Infrastructure, AI, & Media Streaming", "aliases": ["agoda"]},
+    {"name": "Tata Consultancy Services", "group": "IT Services & Global Consulting", "aliases": ["tcs", "tata-consultancy-services"]},
+    {"name": "Infosys", "group": "IT Services & Global Consulting", "aliases": ["infosys"]},
+    {"name": "Wipro", "group": "IT Services & Global Consulting", "aliases": ["wipro"]},
+    {"name": "HCLTech", "group": "IT Services & Global Consulting", "aliases": ["hcltech", "hcl"]},
+    {"name": "Tech Mahindra", "group": "IT Services & Global Consulting", "aliases": ["tech-mahindra", "techmahindra"]},
+    {"name": "LTIMindtree", "group": "IT Services & Global Consulting", "aliases": ["ltimindtree", "lti-mindtree"]},
+    {"name": "Cognizant", "group": "IT Services & Global Consulting", "aliases": ["cognizant"]},
+    {"name": "Accenture", "group": "IT Services & Global Consulting", "aliases": ["accenture"]},
+    {"name": "Capgemini", "group": "IT Services & Global Consulting", "aliases": ["capgemini"]},
+    {"name": "Deloitte", "group": "IT Services & Global Consulting", "aliases": ["deloitte"]},
+    {"name": "PwC", "group": "IT Services & Global Consulting", "aliases": ["pwc"]},
+    {"name": "EY", "group": "IT Services & Global Consulting", "aliases": ["ey", "ernst-young"]},
+    {"name": "KPMG", "group": "IT Services & Global Consulting", "aliases": ["kpmg"]},
+    {"name": "IBM Consulting", "group": "IT Services & Global Consulting", "aliases": ["ibm-consulting", "ibm"]},
+    {"name": "EPAM Systems", "group": "IT Services & Global Consulting", "aliases": ["epam", "epam-systems"]}
+  ]
+}
