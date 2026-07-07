@@ -738,8 +738,8 @@ def append_history(matches: list[dict[str, Any]]) -> None:
 
 
 def notify_telegram(matches: list[dict[str, Any]], markdown_path: Path) -> None:
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
     if not token or not chat_id or not matches:
         return
 
@@ -755,7 +755,7 @@ def notify_telegram(matches: list[dict[str, Any]], markdown_path: Path) -> None:
 
 
 def notify_discord(matches: list[dict[str, Any]]) -> None:
-    webhook = os.environ.get("DISCORD_WEBHOOK_URL")
+    webhook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
     if not webhook or not matches:
         return
     lines = ["**Latest job matches**"]
@@ -773,13 +773,21 @@ def notify_discord(matches: list[dict[str, Any]]) -> None:
 
 
 def notify_email(matches: list[dict[str, Any]], markdown: str) -> None:
-    host = os.environ.get("SMTP_HOST")
-    port = int(os.environ.get("SMTP_PORT", "587"))
-    user = os.environ.get("SMTP_USER")
-    password = os.environ.get("SMTP_PASSWORD")
-    sender = os.environ.get("SMTP_FROM", user or "")
-    recipient = os.environ.get("SMTP_TO")
+    if not matches:
+        return
+
+    host = os.environ.get("SMTP_HOST", "").strip()
+    port_raw = os.environ.get("SMTP_PORT", "").strip() or "587"
+    user = os.environ.get("SMTP_USER", "").strip()
+    password = os.environ.get("SMTP_PASSWORD", "").strip()
+    sender = os.environ.get("SMTP_FROM", "").strip() or user
+    recipient = os.environ.get("SMTP_TO", "").strip()
     if not all([host, user, password, sender, recipient]) or not matches:
+        return
+    try:
+        port = int(port_raw)
+    except ValueError:
+        print(f"Skipping email notification: invalid SMTP_PORT={port_raw!r}")
         return
 
     message = email.message.EmailMessage()
@@ -793,6 +801,13 @@ def notify_email(matches: list[dict[str, Any]], markdown: str) -> None:
         smtp.starttls(context=context)
         smtp.login(user, password)
         smtp.send_message(message)
+
+
+def notify_safely(name: str, callback: Any) -> None:
+    try:
+        callback()
+    except Exception as exc:  # noqa: BLE001 - notifications must not break the job report.
+        print(f"Skipping {name} notification after error: {type(exc).__name__}: {exc}")
 
 
 def run(config: dict[str, Any], *, only_new: bool, force_discovery: bool, notify: bool) -> int:
@@ -833,9 +848,9 @@ def run(config: dict[str, Any], *, only_new: bool, force_discovery: bool, notify
     write_json(LATEST_JSON_PATH, matches_to_report)
 
     if notify:
-        notify_telegram(matches_to_report, LATEST_MD_PATH)
-        notify_discord(matches_to_report)
-        notify_email(matches_to_report, markdown)
+        notify_safely("Telegram", lambda: notify_telegram(matches_to_report, LATEST_MD_PATH))
+        notify_safely("Discord", lambda: notify_discord(matches_to_report))
+        notify_safely("email", lambda: notify_email(matches_to_report, markdown))
 
     print(f"Fetched jobs: {len(jobs)}")
     print(f"Matches above threshold: {len(matches)}")
