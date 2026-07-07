@@ -2,6 +2,12 @@ name: Job Alerts
 
 on:
   workflow_dispatch:
+    inputs:
+      send_current_matches:
+        description: "Send current top matches, even if already seen"
+        required: false
+        default: false
+        type: boolean
   schedule:
     # 09:00 IST and 18:00 IST on weekdays.
     - cron: "30 3 * * 1-5"
@@ -31,7 +37,12 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
-        run: python job_alerts.py run --only-new --notify
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.send_current_matches }}" == "true" ]]; then
+            python job_alerts.py run --notify
+          else
+            python job_alerts.py run --only-new --notify
+          fi
 
       - name: Upload report artifact
         uses: actions/upload-artifact@v4

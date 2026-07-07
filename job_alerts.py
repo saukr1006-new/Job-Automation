@@ -740,7 +740,11 @@ def append_history(matches: list[dict[str, Any]]) -> None:
 def notify_telegram(matches: list[dict[str, Any]], markdown_path: Path) -> None:
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
-    if not token or not chat_id or not matches:
+    if not matches:
+        print("Skipping Telegram notification: no reported matches.")
+        return
+    if not token or not chat_id:
+        print("Skipping Telegram notification: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID is missing.")
         return
 
     lines = ["Latest job matches:"]
@@ -752,6 +756,7 @@ def notify_telegram(matches: list[dict[str, Any]], markdown_path: Path) -> None:
     request = urllib.request.Request(url, data=payload.encode("utf-8"), method="POST")
     with urllib.request.urlopen(request, timeout=20):
         pass
+    print(f"Telegram notification sent for {min(len(matches), 10)} job(s).")
 
 
 def notify_discord(matches: list[dict[str, Any]]) -> None:
@@ -847,7 +852,9 @@ def run(config: dict[str, Any], *, only_new: bool, force_discovery: bool, notify
     LATEST_MD_PATH.write_text(markdown, encoding="utf-8")
     write_json(LATEST_JSON_PATH, matches_to_report)
 
-    if notify:
+    if notify and not matches_to_report:
+        print("No reported matches; all notifications skipped.")
+    elif notify:
         notify_safely("Telegram", lambda: notify_telegram(matches_to_report, LATEST_MD_PATH))
         notify_safely("Discord", lambda: notify_discord(matches_to_report))
         notify_safely("email", lambda: notify_email(matches_to_report, markdown))
