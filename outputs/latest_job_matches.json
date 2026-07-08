@@ -1,122 +1,30 @@
 [
   {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer for Core Banking Platform team which aims to deliver enterprise level capabilities for Customer Account Ledger and Transaction Processing . In this role, you will: Lead moderately complex initiatives and...",
+    "company": "Accenture",
+    "description_preview": "Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...",
     "experience_requirements": [
       {
         "max": null,
         "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+        "text": "rastructure-oriented backend systems. additional information: - the candidate should have minimum 4 years of experience in node.js. - this position is based at our bengaluru client office and wor"
       }
     ],
-    "id": "0e657de2d34d471270eb187c",
-    "location": "Bengaluru, India",
+    "id": "85fe2b179b2ab761572a3404",
+    "location": "Bengaluru",
     "penalties": [],
-    "posted_at": "Posted Today",
+    "posted_at": "Posted 30+ Days Ago",
     "reasons": [
       "experience-fit:4+ years",
       "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable",
-      "streaming_and_async:kafka, streaming",
-      "databases:mongodb, sql, database",
-      "observability_cloud:grafana, kubernetes"
-    ],
-    "score": 132,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-537634"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [
-      {
-        "max": 5,
-        "min": 3,
-        "text": "testing) strong communication and ability to collaborate across teams work experience of 3-5 years experience with cloud platforms (pcf, kubernetes, aws, or azure) exposure to ci/cd pipeli"
-      }
-    ],
-    "id": "6668895d3c8f94b76a19e699",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:3+ years",
-      "title:software engineer ii",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:distributed systems, scalable",
-      "observability_cloud:kubernetes, observability",
-      "payments_fintech:payments"
-    ],
-    "score": 120,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-281554"
-  },
-  {
-    "company": "Visa",
-    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 3,
-        "text": "firmed by your hiring manager. qualifications basic qualifications: bachelor's degree, or 3+ years of relevant work experience. experience in developing and/or implementing web-based or mo"
-      },
-      {
-        "max": null,
-        "min": 2,
-        "text": "ecure coding practices and complying with regulatory standards. preferred qualifications: 2 or more years of work experience. experience in developing and maintaining data pipelines and large-sca"
-      }
-    ],
-    "id": "8ce5b49afff355a0637cbb5c",
-    "location": "IN - Bengaluru, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:3+ years",
-      "title:java",
-      "java_spring_backend:java",
-      "ai_backend:generative ai",
+      "distributed_systems:scalable, microservices",
+      "ai_backend:genai",
       "observability_cloud:observability",
-      "payments_fintech:payments"
+      "watchlist:Accenture"
     ],
     "score": 110,
     "source": "workday",
-    "source_company": "Visa",
-    "title": "Software Engineer- Java(Min 0.6 yrs to 1.5 yrs of experience)",
-    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Software-Engineer--Java-Min-06-yrs-to-15-yrs-of-experience-_REF084655W-1"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [
-      {
-        "max": 6,
-        "min": 3,
-        "text": "e to agile processes and participate actively in agile ceremonies. all about you \u2022 strong 3-6 years of experience in full stack java application development and support, using modern and in"
-      }
-    ],
-    "id": "2865f95826109b120f2c7ce9",
-    "location": "Pune, India",
-    "penalties": [
-      "title:full stack",
-      "too_senior:technical lead"
-    ],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:3+ years",
-      "title:software engineer ii",
-      "title:java",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "databases:sql"
-    ],
-    "score": 99,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Software Engineer II - Java Full stack",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-stack_R-276490"
+    "source_company": "Accenture",
+    "title": "Custom Software Engineer",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5544758-S2019442-1"
   }
 ]
