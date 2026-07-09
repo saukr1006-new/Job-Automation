@@ -191,17 +191,57 @@ def http_xml(url: str, timeout: int) -> ET.Element | None:
         return None
 
 
+CORPORATE_SUFFIXES = [
+    " inc", " inc.", " incorporated", " llc", " ltd", " ltd.", " limited",
+    " co", " co.", " corp", " corp.", " corporation", " group",
+    " technologies", " technology", " systems", " software",
+    " services", " solutions", " consultancy services", " consulting",
+    " global", " international", " holdings", " company",
+    " & co.", " & co", " and co.", " and co",
+]
+
+
+def strip_corporate_suffix(value: str) -> str:
+    lowered = value.lower().strip()
+    changed = True
+    while changed:
+        changed = False
+        for suffix in CORPORATE_SUFFIXES:
+            if lowered.endswith(suffix):
+                lowered = lowered[: -len(suffix)].strip()
+                changed = True
+        lowered = lowered.rstrip("&,. ").strip()
+    return lowered
+
+
 def company_slug_candidates(company: dict[str, Any], limit: int) -> list[str]:
+    base_values: list[str] = [company["name"], *company.get("aliases", [])]
+    expanded: list[str] = []
+    for value in base_values:
+        expanded.append(value)
+        stripped = strip_corporate_suffix(value)
+        if stripped and stripped != value.lower().strip():
+            expanded.append(stripped)
+
     values: list[str] = []
-    for value in [company["name"], *company.get("aliases", [])]:
+    for value in expanded:
+        cleaned = value.replace("+", " plus ").replace("&", " and ")
+        no_space = slugify(cleaned, "")
+        dashed = slugify(cleaned, "-")
         values.extend(
             [
-                slugify(value, ""),
-                slugify(value, "-"),
-                slugify(value.replace("+", " plus "), ""),
-                slugify(value.replace("+", " plus "), "-"),
+                no_space,
+                dashed,
+                f"{no_space}india",
+                f"{no_space}-india",
+                f"{no_space}careers",
+                f"{no_space}-careers",
+                f"{no_space}softwareprivatelimited",
+                f"{no_space}technologies",
+                f"{no_space}group",
             ]
         )
+
     seen: set[str] = set()
     result: list[str] = []
     for value in values:
@@ -400,6 +440,92 @@ def fetch_personio(company_name: str, slug: str, timeout: int) -> list[Job]:
     return valid_jobs(jobs)
 
 
+RELEVANT_TITLE_TERMS = [
+    "software", "backend", "back end", "java", "platform", "distributed",
+    "data engineer", "kafka", "genai", "ai ", "machine learning", "sde",
+    "developer", "engineer",
+]
+NOISY_TITLE_TERMS = [
+    "intern", "internship", "manager", "principal", "staff", "architect",
+    "support", "solutions engineer", "sales", "recruiter", "hr ",
+]
+
+
+def is_relevant_job_title(title: str) -> bool:
+    lowered = f" {title.lower()} "
+    if not any(term in lowered for term in RELEVANT_TITLE_TERMS):
+        return False
+    if any(term in lowered for term in NOISY_TITLE_TERMS):
+        return False
+    return True
+
+
+def fetch_smartrecruiters_detail(slug: str, posting_id: str, timeout: int) -> str:
+    url = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings/{posting_id}"
+    data = http_json(url, timeout)
+    if not isinstance(data, dict):
+        return ""
+    sections = ((data.get("jobAd") or {}).get("sections")) or {}
+    parts = []
+    for key in ["jobDescription", "qualifications", "additionalInformation"]:
+        text = ((sections.get(key) or {}).get("text")) or ""
+        if text:
+            parts.append(text_from_html(text))
+    return normalize_space(" ".join(parts))
+
+
+def fetch_smartrecruiters(company_name: str, slug: str, timeout: int) -> list[Job]:
+    url = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=100"
+    data = http_json(url, timeout)
+    summaries = []
+    for item in (data or {}).get("content", []):
+        title = normalize_space(item.get("name"))
+        if not title:
+            continue
+        location = item.get("location") or {}
+        location_parts = [
+            normalize_space(location.get(key))
+            for key in ["city", "region", "country"]
+            if normalize_space(location.get(key))
+        ]
+        posting_url = normalize_space(item.get("ref") or item.get("postingUrl") or item.get("applyUrl"))
+        summaries.append(
+            {
+                "id": str(item.get("id") or ""),
+                "title": title,
+                "location": ", ".join(location_parts),
+                "url": posting_url,
+            }
+        )
+
+    relevant = [item for item in summaries if is_relevant_job_title(item["title"])][:60]
+
+    def fetch_detail(item: dict[str, Any]) -> tuple[dict[str, Any], str]:
+        return item, fetch_smartrecruiters_detail(slug, item["id"], timeout)
+
+    descriptions: dict[str, str] = {}
+    if relevant:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+            for item, description in executor.map(fetch_detail, relevant):
+                descriptions[item["id"]] = description
+
+    jobs = []
+    for item in summaries:
+        jobs.append(
+            Job(
+                title=item["title"],
+                company=company_name,
+                location=item["location"],
+                url=item["url"],
+                description=descriptions.get(item["id"], ""),
+                source="smartrecruiters",
+                source_company=company_name,
+                external_id=item["id"],
+            )
+        )
+    return valid_jobs(jobs)
+
+
 ATS_FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
@@ -407,6 +533,7 @@ ATS_FETCHERS = {
     "workable": fetch_workable,
     "recruitee": fetch_recruitee,
     "personio": fetch_personio,
+    "smartrecruiters": fetch_smartrecruiters,
 }
 
 

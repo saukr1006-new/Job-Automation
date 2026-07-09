@@ -147,9 +147,9 @@
     },
     "direct_ats": {
       "enabled": true,
-      "max_slug_candidates_per_company": 1,
+      "max_slug_candidates_per_company": 8,
       "request_timeout_seconds": 5,
-      "concurrency": 20
+      "concurrency": 24
     },
     "workday": {
       "enabled": true,
@@ -222,6 +222,24 @@
           "host": "cisco.wd5.myworkdayjobs.com",
           "tenant": "cisco",
           "site": "Cisco_Careers"
+        },
+        {
+          "company": "BrowserStack",
+          "host": "browserstack.wd3.myworkdayjobs.com",
+          "tenant": "browserstack",
+          "site": "External"
+        },
+        {
+          "company": "Expedia Group",
+          "host": "expedia.wd108.myworkdayjobs.com",
+          "tenant": "expedia",
+          "site": "search"
+        },
+        {
+          "company": "Salesforce",
+          "host": "salesforce.wd12.myworkdayjobs.com",
+          "tenant": "salesforce",
+          "site": "External_Career_Site"
         }
       ]
     }

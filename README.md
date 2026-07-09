@@ -34,11 +34,38 @@ The script uses free sources:
    - Workable
    - Recruitee
    - Personio
-2. Remote OK public API
-3. Adzuna API, if free API keys are provided
-4. Custom RSS feeds, if you add them in config
+   - SmartRecruiters (added — public API, no key required, used by many enterprise companies)
+2. Workday (curated list of verified tenants — see below)
+3. Remote OK public API
+4. Adzuna API, if free API keys are provided
+5. Custom RSS feeds, if you add them in config
 
-Not every company exposes a public feed. For those companies, use job-alert emails or add a custom RSS/source when available.
+### Direct ATS discovery got smarter
+
+`discover` now tries up to 8 slug variants per company (was 1), including:
+
+- the raw and dashed slug
+- the name with common corporate suffixes stripped (Inc, Ltd, Group, Technologies, Consultancy Services, etc.)
+- `{slug}india`, `{slug}careers`, `{slug}softwareprivatelimited`, `{slug}technologies`, `{slug}group`
+
+This is what found **Razorpay** on Greenhouse (`razorpaysoftwareprivatelimited`) without anyone having to manually look it up — the old single-slug guess (`razorpay`) never would have matched.
+
+### Why ~100 companies still won't fully resolve
+
+Not every company exposes a public, unauthenticated job feed. After this round of research, the honest picture is:
+
+**No free public API exists — confirmed custom/proprietary career portals:**
+Google, Microsoft, Apple, Amazon (core/AWS), Qualcomm (moved off Workday to `careers.qualcomm.com` in 2021 — this is why the old Workday entry returned zero results), Zomato, Ola, MakeMyTrip, Zerodha, ShareChat, Pine Labs, OfBusiness, and most large banks (Goldman Sachs, Morgan Stanley, Citi, Barclays, UBS, American Express, Standard Chartered, NatWest, BNY Mellon, Fidelity). Several large enterprises also run Workday behind a bot-blocking/authenticated wall (Goldman Sachs is a known example) even when they're nominally "on Workday."
+
+**IT services giants** (TCS, Infosys, Wipro, HCLTech, Tech Mahindra, LTIMindtree, Cognizant, Capgemini, Deloitte, PwC, KPMG, EPAM) run their own bulk-hiring portals, not modern ATS platforms. These aren't crawlable via any free API.
+
+For all of the above, the practical free path is still the one already documented below: LinkedIn/Naukri job alerts, Google Alerts, or an RSS feed if the company publishes one.
+
+**Newly confirmed and added this round:**
+- Razorpay → Greenhouse (`razorpaysoftwareprivatelimited`) — found via improved slug discovery
+- BrowserStack → Workday (`browserstack.wd3.myworkdayjobs.com/External`)
+- Expedia Group → Workday (`expedia.wd108.myworkdayjobs.com/search`)
+- Salesforce → Workday (`salesforce.wd12.myworkdayjobs.com/External_Career_Site`), as a backup to the existing Recruitee source
 
 ## Local Run
 
@@ -83,6 +110,8 @@ To refresh direct ATS discovery and notify:
 ```bash
 python3 job_alerts.py run --only-new --force-discovery --notify
 ```
+
+**Recommended after this update:** run `discover --force` once to pick up the expanded slug candidates and the SmartRecruiters source type. The old `data/discovered_sources.json` cache from before this change won't include the new hits until you force a refresh.
 
 ## Telegram Notification Setup
 
@@ -177,17 +206,18 @@ Edit `config/job_watch_config.json`:
 
 ## Improving Company Coverage
 
-Some companies use Workday, custom career sites, or logged-in portals that do not expose stable public feeds. For those:
+Some companies use custom career sites or logged-in portals that do not expose stable public feeds (see the confirmed list above). For those:
 
 1. Create job alerts on LinkedIn/Naukri/Instahyre manually.
 2. Add Google Alerts for targeted queries.
 3. Add any RSS feed URL into config.
-4. If you discover a company ATS slug, add it as an alias in `config/job_watch_config.json`.
-5. Re-run:
+4. If you discover a company ATS slug yourself, add it as an alias in `config/job_watch_config.json` and re-run discovery — you don't need to add a manual source entry unless it's Workday.
 
 ```bash
 python3 job_alerts.py discover --force
 ```
+
+If you find a **Workday** tenant for a company not yet listed, add it under `sources.workday.manual_sources` in the config with `company`, `host`, `tenant`, and `site` — Workday tenants can't be auto-discovered the way Greenhouse/Lever slugs can, because the host subdomain (wd1, wd3, wd5, wd108, wd12, ...) isn't guessable.
 
 ## Recommended Google Alerts
 
@@ -201,6 +231,9 @@ Create alerts for:
 "Recommendation Systems Engineer" "India"
 "Adobe" "Backend Engineer" "India"
 "Microsoft" "Software Engineer II" "India"
+"Google" "Software Engineer" "India"
+"Goldman Sachs" "Software Engineer" "India"
+"Zomato" OR "Ola" OR "Zerodha" "Backend Engineer" "India"
 ```
 
-Use these as a backup layer because Google Alerts can catch custom career pages that public ATS APIs miss.
+Use these as a backup layer because Google Alerts can catch custom career pages that public ATS APIs miss — this is the only free, no-maintenance way to cover the companies listed as confirmed dead-ends above.
