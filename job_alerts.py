@@ -1292,6 +1292,29 @@ def main(argv: list[str]) -> int:
         sources = discover_direct_sources(config, force=args.force)
         print(f"Discovered direct ATS sources: {len(sources)}")
         print(f"Cache: {DISCOVERED_SOURCES_PATH}")
+        if not sources and NETWORK_SKIPS:
+            total_failures = sum(NETWORK_SKIPS.values())
+            print(f"\nWARNING: 0 sources found and {total_failures} request(s) failed.")
+            print("This usually means requests never reached the ATS APIs at all")
+            print("(SSL certificate verification failure or network/proxy block),")
+            print("not that the companies genuinely have no public feeds.")
+            print("\nTop failure reasons:")
+            for reason, count in sorted(NETWORK_SKIPS.items(), key=lambda item: (-item[1], item[0]))[:8]:
+                print(f"  {count}x {reason}")
+            print(
+                "\nIf every failure reason mentions CERTIFICATE_VERIFY_FAILED or "
+                "SSLError, your Python's CA bundle can't be verified. Test with:"
+            )
+            print("  JOB_ALERTS_INSECURE_SSL=1 python3 job_alerts.py discover --force")
+            print(
+                "If that suddenly finds sources, the diagnosis is confirmed — fix your "
+                "interpreter's certificates rather than leaving insecure mode on."
+            )
+        elif not sources:
+            print(
+                "\n0 sources with no recorded network failures is unusual — "
+                "check that config/job_watch_config.json loaded correctly."
+            )
         return 0
 
     if args.command == "run":
