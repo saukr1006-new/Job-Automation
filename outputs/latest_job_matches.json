@@ -1,174 +1,23 @@
 [
   {
-    "company": "Salesforce",
-    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
-    "experience_requirements": [],
-    "id": "3963f2ab29d2c2b168ea0dca",
-    "location": "India - Hyderabad",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "java_spring_backend:java",
-      "distributed_systems:scalable",
-      "streaming_and_async:kafka, streaming",
-      "search_recommendations:search",
-      "observability_cloud:docker, kubernetes",
-      "watchlist:Salesforce"
-    ],
-    "score": 118,
-    "source": "workday",
-    "source_company": "Salesforce",
-    "title": "Software Engineer SMTS",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineer-SMTS_JR338173"
-  },
-  {
-    "company": "Accenture",
-    "description_preview": "Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "rastructure-oriented backend systems. additional information: - the candidate should have minimum 4 years of experience in node.js. - this position is based at our bengaluru client office and wor"
-      }
-    ],
-    "id": "b7819756f2bfcd2e8de61679",
-    "location": "Bengaluru",
-    "penalties": [],
-    "posted_at": "Posted 20 Days Ago",
-    "reasons": [
-      "experience-fit:4+ years",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "ai_backend:genai",
-      "observability_cloud:observability",
-      "watchlist:Accenture"
-    ],
-    "score": 110,
-    "source": "workday",
-    "source_company": "Accenture",
-    "title": "Custom Software Engineer",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5544759-S2019441-1"
-  },
-  {
-    "company": "Salesforce",
-    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "ng innovative technologies to production. desired skills and experience: required skills: 4+ years of industry experience of ml engineering in building ai systems and/or services. experien"
-      }
-    ],
-    "id": "a61c7508b6f0264ed49c8fc1",
-    "location": "India - Bangalore",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:4+ years",
-      "title:ai",
-      "distributed_systems:scalable, microservices",
-      "streaming_and_async:kafka",
-      "ai_backend:generative ai",
-      "observability_cloud:docker, kubernetes"
-    ],
-    "score": 108,
-    "source": "workday",
-    "source_company": "Salesforce",
-    "title": "Software Engineering SMTS - AI Cloud",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-MTS--Tableau_JR327532"
-  },
-  {
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "628458eb8119d27fd437c46e",
-    "location": "Pune, India",
-    "penalties": [
-      "title:full stack"
-    ],
-    "posted_at": "Posted Yesterday",
+    "id": "81572eb4354080f91897dcbd",
+    "location": "Vadodara, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
     "reasons": [
-      "title:java",
       "java_spring_backend:java",
-      "distributed_systems:scalable",
-      "observability_cloud:observability",
-      "payments_fintech:payment, payments",
-      "watchlist:Mastercard"
+      "distributed_systems:scalable, microservices",
+      "payments_fintech:payments",
+      "watchlist:Mastercard",
+      "location-match"
     ],
-    "score": 96,
+    "score": 84,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Senior Software Engineer (Java Full stack, Python)",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Java-Full-stack---AI--Python---PyTorch---TensorFlow--Hugging-Face-_R-278862-1"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer - Gen AI. We believe in the power of working together because great ideas can come from anyone. Through collaboration, any employee can have an impact and make a difference for the entire company. Explore...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 2,
-        "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 2,
-        "text": "lowing: work experience, training, military experience, education desired qualifications: 2+ years of software engineering experience in a bfsi gcc or product engineering organization. str"
-      }
-    ],
-    "id": "8ae973713b8c935f4153b5b8",
-    "location": "Bengaluru, India",
-    "penalties": [
-      "junior_experience:2+ years"
-    ],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "java_spring_backend:java",
-      "distributed_systems:microservices",
-      "ai_backend:llm, generative ai",
-      "search_recommendations:search, vector",
-      "watchlist:Wells Fargo",
-      "location-match"
-    ],
-    "score": 90,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Software-Engineer_R-553174"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer - Gen AI. We believe in the power of working together because great ideas can come from anyone. Through collaboration, any employee can have an impact and make a difference for the entire company. Explore...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 2,
-        "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 2,
-        "text": "lowing: work experience, training, military experience, education desired qualifications: 2+ years of software engineering experience in a bfsi gcc or product engineering organization. str"
-      }
-    ],
-    "id": "06883164116b35e8f3fbe034",
-    "location": "Bengaluru, India",
-    "penalties": [
-      "junior_experience:2+ years"
-    ],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "java_spring_backend:java",
-      "distributed_systems:microservices",
-      "ai_backend:llm, generative ai",
-      "search_recommendations:search, vector",
-      "watchlist:Wells Fargo",
-      "location-match"
-    ],
-    "score": 90,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Software-Engineer_R-553177"
+    "title": "Senior Software Engineer - IOS",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vadodara-India/Senior-Software-Engineer---IOS_R-281998"
   }
 ]
