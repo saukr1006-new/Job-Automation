@@ -1,101 +1,5 @@
 [
   {
-    "company": "Adobe",
-    "description_preview": "What You'll Do - Design and develop backend services that contribute to the core architecture of the commerce platform - Build end-to-end features with a focus on correctness, performance, and maintainability; use LLM-powered development tools (Claude, Codex) as a force...",
-    "experience_requirements": [
-      {
-        "max": 5,
-        "min": 3,
-        "text": "ements to performance, scalability, and reliability what you need to succeed experience - 3\u20135 years of professional software development experience in java backend systems - hands-on experi"
-      }
-    ],
-    "id": "b237064c32c25122f27cd5b1",
-    "location": "Bangalore",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:3+ years",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices",
-      "streaming_and_async:kafka",
-      "ai_backend:llm",
-      "databases:mongodb, sql, database"
-    ],
-    "score": 150,
-    "source": "workday",
-    "source_company": "Adobe",
-    "title": "Software Development Engineer",
-    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Software-Development-Engineer_R169795-1"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "698fc22000376bf0f96c10cb",
-    "location": "Pune, India",
-    "penalties": [
-      "title:full stack"
-    ],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "title:software engineer ii",
-      "title:java",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable",
-      "ai_backend:llm",
-      "observability_cloud:kubernetes, observability"
-    ],
-    "score": 132,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Software Engineer II Java Full stack Developer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II-Java-Full-stack-Developer_R-281493"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "454e6cc1967492c45c533b84",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Yesterday",
-    "reasons": [
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable",
-      "streaming_and_async:kafka",
-      "databases:sql",
-      "observability_cloud:docker, kubernetes, jenkins",
-      "payments_fintech:payments, gateway"
-    ],
-    "score": 124,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Senior Software Engineer-1",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-1_R-281676-1"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "215327b4cd3129aa668b743c",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Yesterday",
-    "reasons": [
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable",
-      "streaming_and_async:kafka",
-      "databases:sql",
-      "observability_cloud:docker, kubernetes, jenkins",
-      "payments_fintech:payments, gateway"
-    ],
-    "score": 124,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Senior Software Engineer-2",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-2_R-281677-1"
-  },
-  {
     "company": "Wells Fargo",
     "description_preview": "About this role: Wells Fargo is seeking for a Java backend developer with leadership experience who enjoys and thrives on solving complex problems through innovation while influencing change at scale in a diverse environment. You will technically lead a focused team of...",
     "experience_requirements": [
@@ -115,7 +19,7 @@
         "text": "olutions through tooling and code 4+ years of data modeling and data integration patterns 4+ years of experience with logging, monitoring, and event detection on cloud or distributed platf"
       }
     ],
-    "id": "19c490013b82af0b60e9230b",
+    "id": "dd69135f0af2b56a8c5c8447",
     "location": "Hyderabad, India",
     "penalties": [
       "devops_only:sre"
@@ -132,29 +36,7 @@
     "score": 95,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer - Java Backend Developer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-Backend-Developer_R-560202"
-  },
-  {
-    "company": "Salesforce",
-    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
-    "experience_requirements": [],
-    "id": "5c118e9c55758f2f88f6922e",
-    "location": "India - Hyderabad",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "distributed_systems:scalable",
-      "streaming_and_async:kafka, streaming",
-      "search_recommendations:search",
-      "observability_cloud:docker, kubernetes",
-      "watchlist:Salesforce",
-      "location-match"
-    ],
-    "score": 88,
-    "source": "workday",
-    "source_company": "Salesforce",
-    "title": "MTS/SMTS/LMTS - Software Engineer",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/SMTS--Senior-Software-Backend-Engineer_JR312327"
+    "title": "Senior Software Engineer - Java Backend",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-Backend_R-560207"
   }
 ]
