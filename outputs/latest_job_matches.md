@@ -1,22 +1,20 @@
 # Latest Job Matches
 
-Generated: 2026-07-13 18:24:04 
+Generated: 2026-07-14 10:20:41 
 Mode: new jobs only
 Discovered direct ATS sources: 21
 Matches: 1
 
 ## Source Warnings
 
-- 1 skipped request(s): boards-api.greenhouse.io: TimeoutError: The read operation timed out
+- 1 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
 
-## 1. Senior Software Engineer - Java Backend
+## 1. Software Engineering Technical Leader, CI / Build (G11 BLR)
 
-- Company: Wells Fargo
-- Score: 95
-- Location: Hyderabad, India
+- Company: Cisco
+- Score: 100
+- Location: Bangalore, India
 - Source: workday
-- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-Backend_R-560207
-- Reasons: experience-fit:4+ years, title:backend, title:java, java_spring_backend:java, ai_backend:llm, genai, databases:mongodb, sql, database
-- Penalties: devops_only:sre
-- Experience signal: 4+ years, 4+ years
-- Preview: About this role: Wells Fargo is seeking for a Java backend developer with leadership experience who enjoys and thrives on solving complex problems through innovation while influencing change at scale in a diverse environment. You will technically lead a focused team of...
+- Apply: https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/Software-Engineering-Technical-Leader--CI---Build--G11-BLR-_2017479
+- Reasons: java_spring_backend:java, distributed_systems:distributed systems, search_recommendations:elasticsearch, observability_cloud:prometheus, grafana, docker, watchlist:Cisco, location-match
+- Preview: Meet the Team Cisco Intersight is a cloud-native operations platform that provides unified management, automation, visibility, and lifecycle operations for infrastructure across data center, cloud, and edge environments. Its SaaS, on-premises, and mobile offerings depend on...

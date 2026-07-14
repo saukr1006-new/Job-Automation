@@ -1,42 +1,24 @@
 [
   {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking for a Java backend developer with leadership experience who enjoys and thrives on solving complex problems through innovation while influencing change at scale in a diverse environment. You will technically lead a focused team of...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 4,
-        "text": "integration patterns. 4+ years of building automation solutions through tooling and code 4+ years of data modeling and data integration patterns 4+ years of experience with logging, monit"
-      },
-      {
-        "max": null,
-        "min": 4,
-        "text": "olutions through tooling and code 4+ years of data modeling and data integration patterns 4+ years of experience with logging, monitoring, and event detection on cloud or distributed platf"
-      }
-    ],
-    "id": "dd69135f0af2b56a8c5c8447",
-    "location": "Hyderabad, India",
-    "penalties": [
-      "devops_only:sre"
-    ],
+    "company": "Cisco",
+    "description_preview": "Meet the Team Cisco Intersight is a cloud-native operations platform that provides unified management, automation, visibility, and lifecycle operations for infrastructure across data center, cloud, and edge environments. Its SaaS, on-premises, and mobile offerings depend on...",
+    "experience_requirements": [],
+    "id": "331f950c439ec7583b637284",
+    "location": "Bangalore, India",
+    "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "experience-fit:4+ years",
-      "title:backend",
-      "title:java",
       "java_spring_backend:java",
-      "ai_backend:llm, genai",
-      "databases:mongodb, sql, database"
+      "distributed_systems:distributed systems",
+      "search_recommendations:elasticsearch",
+      "observability_cloud:prometheus, grafana, docker",
+      "watchlist:Cisco",
+      "location-match"
     ],
-    "score": 95,
+    "score": 100,
     "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer - Java Backend",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-Backend_R-560207"
+    "source_company": "Cisco",
+    "title": "Software Engineering Technical Leader, CI / Build (G11 BLR)",
+    "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/Software-Engineering-Technical-Leader--CI---Build--G11-BLR-_2017479"
   }
 ]
