@@ -1,40 +1,63 @@
 [
   {
-    "company": "Visa",
-    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
+    "company": "Salesforce",
+    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
     "experience_requirements": [
       {
-        "max": null,
-        "min": 2,
-        "text": "preferred qualifications: 3 or more years of work experience with a bachelor\u2019s degree or more than 2 years of work experience with an advanced degree (e.g. masters, mba, jd, md) 3+ years of experi"
-      },
-      {
-        "max": null,
+        "max": 10,
         "min": 3,
-        "text": "more than 2 years of work experience with an advanced degree (e.g. masters, mba, jd, md) 3+ years of experience with java / groovy. experience with aws services: sqs, sns, dynamodb, s3, a"
-      },
-      {
-        "max": null,
-        "min": 2,
-        "text": "be confirmed by your hiring manager. qualifications qualifications basic qualifications: 2 or more years of work experience with a bachelor\u2019s degree or an advanced degree (e.g. masters, mba, jd,"
+        "text": "e of high ownership, accountability, delivery, and innovation. required skills/experience 3- 10 years of hands-on experience with good expertise in full-stack software development (for mts &"
       }
     ],
-    "id": "0edee12f0067c31185f8d374",
-    "location": "IN - Bengaluru, India",
+    "id": "9e7ca72f585d06642aaad934",
+    "location": "India - Bangalore",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:3+ years",
       "java_spring_backend:java",
-      "distributed_systems:distributed systems, scalable, microservices",
-      "streaming_and_async:kafka",
-      "databases:postgresql, mongodb, sql",
-      "observability_cloud:docker, kubernetes, observability"
+      "distributed_systems:distributed systems, scalable",
+      "databases:database",
+      "observability_cloud:docker, kubernetes, jenkins",
+      "watchlist:Salesforce"
     ],
-    "score": 132,
+    "score": 104,
+    "source": "workday",
+    "source_company": "Salesforce",
+    "title": "Software Engineering, MTS/ SMTS (Full-Stack)",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-MTS_JR338172-1"
+  },
+  {
+    "company": "Visa",
+    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
+    "experience_requirements": [
+      {
+        "max": 5,
+        "min": 3,
+        "text": "sr. software engineer (python, agentic ai, javascript - 3-5 years' experience) about us visa is a world leader in payments technology, facilitating transac"
+      },
+      {
+        "max": null,
+        "min": 3,
+        "text": "ns of these days will be confirmed by your hiring manager. qualifications qualifications: 3 or more years of work experience with a bachelor\u2019s degree or with an advanced degree we are looking for"
+      }
+    ],
+    "id": "5c9c72c71b07a14c2c26ecbd",
+    "location": "IN - Bengaluru, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:3+ years",
+      "title:ai",
+      "distributed_systems:distributed systems, scalable",
+      "ai_backend:generative ai",
+      "observability_cloud:docker, kubernetes",
+      "payments_fintech:payment, payments, fintech"
+    ],
+    "score": 100,
     "source": "workday",
     "source_company": "Visa",
-    "title": "Sr. Software Engineer",
-    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Software-Engineer_REF080317W"
+    "title": "Sr. Software Engineer (Python, Agentic AI, JavaScript - 3-5 years' experience)",
+    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Software-Engineer--Python--Agentic-AI--JavaScript---3-5-years--experience-_REF084824W-1"
   }
 ]
