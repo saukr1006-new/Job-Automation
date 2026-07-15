@@ -1,62 +1,40 @@
 [
   {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "company": "Visa",
+    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
     "experience_requirements": [
       {
         "max": null,
-        "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+        "min": 2,
+        "text": "preferred qualifications: 3 or more years of work experience with a bachelor\u2019s degree or more than 2 years of work experience with an advanced degree (e.g. masters, mba, jd, md) 3+ years of experi"
       },
       {
         "max": null,
         "min": 3,
-        "text": "g understanding of human centered ai design for workplace applications. job expectations: 3+ years of software engineering experience as a java full stack developer (spring, spring boot, o"
+        "text": "more than 2 years of work experience with an advanced degree (e.g. masters, mba, jd, md) 3+ years of experience with java / groovy. experience with aws services: sqs, sns, dynamodb, s3, a"
       },
       {
         "max": null,
-        "min": 3,
-        "text": "h genai tools \u2013 co pilot experience with adding ai capabilities to products/applications. 3+ years of java j2ee development experience. distributed technologies: kafka, mongodb excellent w"
+        "min": 2,
+        "text": "be confirmed by your hiring manager. qualifications qualifications basic qualifications: 2 or more years of work experience with a bachelor\u2019s degree or an advanced degree (e.g. masters, mba, jd,"
       }
     ],
-    "id": "1f0092889c531b6e0105e663",
-    "location": "Hyderabad, India",
+    "id": "0edee12f0067c31185f8d374",
+    "location": "IN - Bengaluru, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "experience-fit:4+ years",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "streaming_and_async:kafka, event driven",
-      "ai_backend:genai, generative ai",
-      "search_recommendations:ranking"
-    ],
-    "score": 156,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-559771"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "18e74c8f4475dcaaee646b2d",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted 2 Days Ago",
-    "reasons": [
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable",
+      "experience-fit:3+ years",
+      "java_spring_backend:java",
+      "distributed_systems:distributed systems, scalable, microservices",
       "streaming_and_async:kafka",
-      "databases:sql",
-      "observability_cloud:docker, kubernetes, jenkins",
-      "payments_fintech:payments, gateway"
+      "databases:postgresql, mongodb, sql",
+      "observability_cloud:docker, kubernetes, observability"
     ],
-    "score": 124,
+    "score": 132,
     "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Senior Software Engineer-3",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-3_R-281678-1"
+    "source_company": "Visa",
+    "title": "Sr. Software Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Software-Engineer_REF080317W"
   }
 ]
