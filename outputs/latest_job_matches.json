@@ -1,31 +1,7 @@
 [
   {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "3d9756ee689be0347a24455e",
-    "location": "Pune, India",
-    "penalties": [
-      "title:full stack"
-    ],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "title:java",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "streaming_and_async:kafka, event driven",
-      "ai_backend:genai",
-      "payments_fintech:payment, payments"
-    ],
-    "score": 122,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Senior Software Engineer (Java Full stack developer)",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Java-Full-stack-developer-_R-279299"
-  },
-  {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a... In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for projects and programs...",
+    "description_preview": "About this role: Wells Fargo is seeking a senior software engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
     "experience_requirements": [
       {
         "max": null,
@@ -35,27 +11,60 @@
       {
         "max": null,
         "min": 4,
-        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of software engineering experience as a java full stack developer (spring, spring boot) s"
+        "text": "owing: work experience, training, military experience, education desired qualifications : 4+ years of hands-on experience in building application using java, spring framework and spring bo"
       }
     ],
-    "id": "c91b301742faf67642348c1d",
-    "location": "Hyderabad, India",
+    "id": "2e09aa1e541f97d52b3de5a0",
+    "location": "Bengaluru, India",
     "penalties": [
-      "title:full stack"
+      "title:fullstack"
     ],
     "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
       "title:java",
+      "title:ai",
       "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "streaming_and_async:kafka, streaming, pub/sub",
-      "observability_cloud:docker, kubernetes"
+      "distributed_systems:microservices",
+      "streaming_and_async:kafka"
     ],
-    "score": 112,
+    "score": 178,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer -Java Full stack",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer--Java-Full-stack_R-548746"
+    "title": "Senior Software Engineer - Java Fullstack, Gen AI",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Java-Fullstack--Gen-AI_R-538031"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      },
+      {
+        "max": null,
+        "min": 4,
+        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of experience on software development including full life cycle development sdlc (systems"
+      }
+    ],
+    "id": "14c87a0629ec4c8dba28975e",
+    "location": "Bengaluru, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:4+ years",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:microservices",
+      "streaming_and_async:kafka",
+      "databases:mongodb, sql",
+      "payments_fintech:payments"
+    ],
+    "score": 122,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-545834-1"
   }
 ]
