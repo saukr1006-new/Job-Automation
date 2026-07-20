@@ -1,100 +1,24 @@
 [
   {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking for a Senior Software Engineer. In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      }
-    ],
-    "id": "3bcef5a9e0298a74b6d30670",
-    "location": "Hyderabad, India",
-    "penalties": [
-      "title:full stack"
-    ],
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "e19b82403b40b2e5c6b37e12",
+    "location": "Pune, India",
+    "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "experience-fit:4+ years",
-      "title:java",
-      "java_spring_backend:java",
-      "distributed_systems:microservices",
-      "streaming_and_async:kafka",
-      "ai_backend:genai, mcp"
-    ],
-    "score": 132,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer - Java Full Stack, GenAI",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-Full-Stack--GenAI_R-537642"
-  },
-  {
-    "company": "Accenture",
-    "description_preview": "Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 3,
-        "text": "ions for performance and scalability. additional information: - the candidate should have minimum 3 years of experience in spring boot. - this position is based with in india. - a 15 years full t"
-      }
-    ],
-    "id": "6952f6aae2f0d8c3df15796a",
-    "location": "Bengaluru",
-    "penalties": [],
-    "posted_at": "Posted 3 Days Ago",
-    "reasons": [
-      "experience-fit:3+ years",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable",
-      "databases:database",
-      "watchlist:Accenture",
-      "location-match"
-    ],
-    "score": 94,
-    "source": "workday",
-    "source_company": "Accenture",
-    "title": "Custom Software Engineer",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5517356-S2015539-1"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer, and we are looking for seasoned SRE who enjoys and thrives on solving complex problems at scale. This role would be an awesome fit for someone with expertise with Infrastructure automation, but also a passion...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 4,
-        "text": "job expectations: bachelor's degree in computer science or engineering or related field. 4+ years of experience in an sre or devops role, preferably in a hybrid infrastructure & cloud env"
-      },
-      {
-        "max": null,
-        "min": 3,
-        "text": "ence in an sre or devops role, preferably in a hybrid infrastructure & cloud environment. 3+ years of development experience in one or more or programming languages. 3+ years of experience"
-      }
-    ],
-    "id": "58d3533451005ea7cdfe5eda",
-    "location": "Hyderabad, India",
-    "penalties": [
-      "devops_only:sre"
-    ],
-    "posted_at": "Posted 3 Days Ago",
-    "reasons": [
-      "experience-fit:4+ years",
+      "title:platform",
       "java_spring_backend:java",
       "distributed_systems:scalable",
-      "streaming_and_async:kafka",
-      "search_recommendations:search",
-      "observability_cloud:grafana, observability"
+      "observability_cloud:jenkins",
+      "payments_fintech:payments",
+      "watchlist:Mastercard"
     ],
-    "score": 91,
+    "score": 108,
     "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-560640"
+    "source_company": "Mastercard",
+    "title": "Senior Platform Engineer",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Platform-Engineer_R-281478"
   }
 ]
