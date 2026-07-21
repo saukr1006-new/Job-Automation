@@ -2,23 +2,114 @@
   {
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "e19b82403b40b2e5c6b37e12",
+    "experience_requirements": [
+      {
+        "max": 5,
+        "min": 3,
+        "text": "degree in computer science, engineering, information technology, or related discipline. * 3\u20135 years of experience in devsecops, platform engineering, or software engineering. * experience b"
+      }
+    ],
+    "id": "078714543da95310b206741f",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:platform",
-      "java_spring_backend:java",
-      "distributed_systems:scalable",
-      "observability_cloud:jenkins",
-      "payments_fintech:payments",
-      "watchlist:Mastercard"
+      "experience-fit:3+ years",
+      "title:software engineer ii",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka",
+      "databases:mongodb, sql"
+    ],
+    "score": 150,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Software Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-282822"
+  },
+  {
+    "company": "Visa",
+    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "sr. sw engineer (python, genai, 4+ years' experience) about us visa is a world leader in payments technology, facilitating transac"
+      },
+      {
+        "max": null,
+        "min": 4,
+        "text": "these days will be confirmed by your hiring manager. qualifications basic qualifications: 4 or more years of work experience with a bachelor's degree or with an advanced degree experience in tech"
+      }
+    ],
+    "id": "29642cff89d353453c953dc4",
+    "location": "IN - Bengaluru, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:4+ years",
+      "distributed_systems:scalable, microservices, system design",
+      "streaming_and_async:kafka, streaming, pub/sub",
+      "ai_backend:llm, genai, generative ai",
+      "observability_cloud:prometheus, docker, kubernetes",
+      "payments_fintech:payments, fintech, gateway"
     ],
     "score": 108,
     "source": "workday",
+    "source_company": "Visa",
+    "title": "Sr. SW Engineer (Python, GenAI, 4+ years' experience)",
+    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer--Python--GenAI--4--years--experience-_REF084891W"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "48fa1ff4d2a7c08a9c98c172",
+    "location": "Navi Mumbai, India (Finicity)",
+    "penalties": [],
+    "posted_at": "Posted Yesterday",
+    "reasons": [
+      "title:software engineer ii",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable",
+      "payments_fintech:payment, payments, banking",
+      "watchlist:Mastercard",
+      "location-match"
+    ],
+    "score": 102,
+    "source": "workday",
     "source_company": "Mastercard",
-    "title": "Senior Platform Engineer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Platform-Engineer_R-281478"
+    "title": "Software Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Navi-Mumbai-India-Finicity/Software-Engineer-II_R-282346"
+  },
+  {
+    "company": "PhonePe",
+    "description_preview": "About PhonePe Limited: Headquartered in India, its flagship product, the PhonePe digital payments app, was launched in Aug 2016. As of April 2025, PhonePe has over 60 Crore (600 Million) registered users and a digital payments acceptance network spread across over 4 Crore (40+...",
+    "experience_requirements": [
+      {
+        "max": 5,
+        "min": 3,
+        "text": "ech, or ph.d. in computer science or related technical discipline&nbsp;(or equivalent). \u25cf 3-5 years of experience in the art of writing code and solving problems on a&nbsp;large scale. phon"
+      }
+    ],
+    "id": "a895f6f0fad892141cc463a5",
+    "location": "Pune",
+    "penalties": [
+      "too_junior:intern"
+    ],
+    "posted_at": "",
+    "reasons": [
+      "experience-fit:3+ years",
+      "title:backend",
+      "java_spring_backend:java",
+      "distributed_systems:distributed systems, scalable",
+      "search_recommendations:elasticsearch",
+      "payments_fintech:payment, payments"
+    ],
+    "score": 96,
+    "source": "greenhouse",
+    "source_company": "PhonePe",
+    "title": "Software Engineer-Backend (3-5 years, Pune)",
+    "url": "https://job-boards.greenhouse.io/phonepe/jobs/7807087003"
   }
 ]
