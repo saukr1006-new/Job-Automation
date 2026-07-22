@@ -1,68 +1,63 @@
 [
   {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Specialty Software Engineer In this role, you will: Lead or participate in complex initiatives on selected domains Assure quality, security and compliance for supported systems and applications Serve as a technical resource in...",
     "experience_requirements": [
       {
         "max": null,
         "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      }
-    ],
-    "id": "db78c343c41d74d231f7fadc",
-    "location": "Hyderabad, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:4+ years",
-      "java_spring_backend:spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "streaming_and_async:kafka",
-      "databases:sql",
-      "observability_cloud:jenkins"
-    ],
-    "score": 122,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-554176"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+        "text": "ers, colleagues and managers to resolve issues and achieve goals required qualifications: 4+ years of specialty software engineering experience, or equivalent demonstrated through one or a"
       },
       {
         "max": null,
-        "min": 4,
-        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of strong hands-on experience in designing, developing and maintaining distributed stream"
-      },
-      {
-        "max": null,
-        "min": 2,
-        "text": "oracle database. good to have exposure to mongodb experience with soap/rest web services 2+ years' experience with api gateway (apigee) and containerization job expectations: involve in e"
+        "min": 3,
+        "text": "lowing: work experience, training, military experience, education desired qualifications: 3+ years of experience in design, implement, and optimize low-latency , high-throughput java appli"
       }
     ],
-    "id": "f8359064006abb5b30c32ec8",
+    "id": "4e828714e009283858ba2f04",
     "location": "Bengaluru, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
-      "distributed_systems:system design",
-      "streaming_and_async:kafka, streaming",
-      "databases:mongodb, database",
-      "observability_cloud:docker, kubernetes, jenkins",
-      "payments_fintech:gateway"
+      "title:java",
+      "java_spring_backend:java",
+      "distributed_systems:distributed systems",
+      "databases:database",
+      "watchlist:Wells Fargo"
     ],
-    "score": 102,
+    "score": 108,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer - .NET C#",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---NET-C-_R-540862-1"
+    "title": "Senior Specialty Software Engineer - Java, E-Trading",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Specialty-Software-Engineer---Java--E-Trading_R-561713"
+  },
+  {
+    "company": "Accenture",
+    "description_preview": "Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 3,
+        "text": "ions for performance and scalability. additional information: - the candidate should have minimum 3 years of experience in spring boot. - this position is based with in india. - a 15 years full t"
+      }
+    ],
+    "id": "5dd04b7de362eecf5d55ef29",
+    "location": "Pune",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:3+ years",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable",
+      "databases:database",
+      "watchlist:Accenture",
+      "location-match"
+    ],
+    "score": 94,
+    "source": "workday",
+    "source_company": "Accenture",
+    "title": "Custom Software Engineer",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5517350-S2015535-1"
   }
 ]
