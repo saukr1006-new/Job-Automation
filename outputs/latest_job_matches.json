@@ -1,24 +1,68 @@
 [
   {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "76ef1035d08cc8a9a7f143e6",
-    "location": "Pune, India",
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      }
+    ],
+    "id": "db78c343c41d74d231f7fadc",
+    "location": "Hyderabad, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:platform",
-      "java_spring_backend:java",
-      "distributed_systems:scalable",
-      "observability_cloud:jenkins",
-      "payments_fintech:payments",
-      "watchlist:Mastercard"
+      "experience-fit:4+ years",
+      "java_spring_backend:spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka",
+      "databases:sql",
+      "observability_cloud:jenkins"
     ],
-    "score": 108,
+    "score": 122,
     "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Senior Platform Engineer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Platform-Engineer_R-282375"
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-554176"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      },
+      {
+        "max": null,
+        "min": 4,
+        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of strong hands-on experience in designing, developing and maintaining distributed stream"
+      },
+      {
+        "max": null,
+        "min": 2,
+        "text": "oracle database. good to have exposure to mongodb experience with soap/rest web services 2+ years' experience with api gateway (apigee) and containerization job expectations: involve in e"
+      }
+    ],
+    "id": "f8359064006abb5b30c32ec8",
+    "location": "Bengaluru, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:4+ years",
+      "distributed_systems:system design",
+      "streaming_and_async:kafka, streaming",
+      "databases:mongodb, database",
+      "observability_cloud:docker, kubernetes, jenkins",
+      "payments_fintech:gateway"
+    ],
+    "score": 102,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer - .NET C#",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---NET-C-_R-540862-1"
   }
 ]
