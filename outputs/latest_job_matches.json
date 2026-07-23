@@ -1,24 +1,30 @@
 [
   {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "3922142ead29eaa85947525d",
-    "location": "Pune, India",
+    "company": "Salesforce",
+    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 3,
+        "text": "lifications: * bachelor's degree in computer science or a similar technical discipline. * 3+ years of professional software development experience * strong problem-solving skills coupled w"
+      }
+    ],
+    "id": "19d0ffffe4bed5cccc4e6e26",
+    "location": "India - Hyderabad",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
+      "experience-fit:3+ years",
       "java_spring_backend:java",
-      "distributed_systems:scalable",
-      "observability_cloud:observability",
-      "payments_fintech:payment, payments",
-      "watchlist:Mastercard",
+      "distributed_systems:distributed systems, scalable",
+      "databases:sql",
+      "watchlist:Salesforce",
       "location-match"
     ],
     "score": 94,
     "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Senior Software Engineer-1",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-1_R-281153-1"
+    "source_company": "Salesforce",
+    "title": "Software Engineering MTS",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR351520-1"
   }
 ]
