@@ -1,30 +1,32 @@
 [
   {
-    "company": "Salesforce",
-    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer. In this role, you will: Participate in low to moderately complex initiatives and projects associated with the technology domain, including installation, upgrades, and deployment efforts Identify opportunities for...",
     "experience_requirements": [
       {
         "max": null,
-        "min": 3,
-        "text": "lifications: * bachelor's degree in computer science or a similar technical discipline. * 3+ years of professional software development experience * strong problem-solving skills coupled w"
+        "min": 2,
+        "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
       }
     ],
-    "id": "19d0ffffe4bed5cccc4e6e26",
-    "location": "India - Hyderabad",
-    "penalties": [],
+    "id": "d39cd48621b099dcca6ade71",
+    "location": "Hyderabad, India",
+    "penalties": [
+      "junior_experience:2+ years"
+    ],
     "posted_at": "Posted Today",
     "reasons": [
-      "experience-fit:3+ years",
-      "java_spring_backend:java",
-      "distributed_systems:distributed systems, scalable",
-      "databases:sql",
-      "watchlist:Salesforce",
-      "location-match"
+      "title:backend",
+      "title:java",
+      "title:ai",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:microservices",
+      "streaming_and_async:kafka"
     ],
-    "score": 94,
+    "score": 146,
     "source": "workday",
-    "source_company": "Salesforce",
-    "title": "Software Engineering MTS",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR351520-1"
+    "source_company": "Wells Fargo",
+    "title": "Software Engineer - Backend Java, Spring Boot, Microservices, Kafka, AI/ML, Gen AI",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer---Backend-Java--Spring-Boot--Microservices--Kafka--AI-ML--Gen-AI_R-552636"
   }
 ]
