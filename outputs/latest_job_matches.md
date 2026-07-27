@@ -1,45 +1,31 @@
 # Latest Job Matches
 
-Generated: 2026-07-27 13:44:38 
+Generated: 2026-07-27 18:13:08 
 Mode: new jobs only
 Discovered direct ATS sources: 21
-Matches: 3
+Matches: 2
 
 ## Source Warnings
 
-- 3 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
-- 1 skipped request(s): api.lever.co: TimeoutError: The read operation timed out
+- 1 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
 
-## 1. Custom Software Engineer
-
-- Company: Accenture
-- Score: 100
-- Location: Pune
-- Source: workday
-- Apply: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5416626-S1995306
-- Reasons: experience-fit:3+ years, java_spring_backend:java, distributed_systems:distributed systems, scalable, microservices, streaming_and_async:kafka, streaming, watchlist:Accenture, location-match
-- Experience signal: 3+ years
-- Preview: Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...
-
-## 2. Software Development Engineer, Full Stack (AI/Agents) – Developer Platforms
-
-- Company: Adobe
-- Score: 94
-- Location: Bangalore
-- Source: workday
-- Apply: https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Software-Development-Engineer--Full-Stack--AI-Agents----Developer-Platforms_R170396
-- Reasons: experience-fit:4+ years, title:ai, distributed_systems:microservices, ai_backend:llm, model context protocol, mcp, search_recommendations:search, vector, observability_cloud:observability
-- Penalties: title:full stack
-- Experience signal: 4-6 years
-- Preview: The Developer Platforms team builds the tools, portals, and infrastructure that empower Adobe's engineers to do their best work. We are responsible for the internal developer portal. This hub helps thousands of Adobe engineers discover services, access documentation, onboard...
-
-## 3. Senior Software Engineer-2
+## 1. Senior Software Engineer-Database Engineer
 
 - Company: Mastercard
-- Score: 94
+- Score: 106
 - Location: Pune, India
 - Source: workday
-- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-2_R-281154-1
-- Reasons: java_spring_backend:java, distributed_systems:scalable, observability_cloud:observability, payments_fintech:payment, payments, watchlist:Mastercard, location-match
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-Database-Engineer_R-281679
+- Reasons: java_spring_backend:java, maven, distributed_systems:scalable, databases:postgresql, sql, database, observability_cloud:jenkins, payments_fintech:payments, watchlist:Mastercard
 - Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
+
+## 2. Account Engineer
+
+- Company: Snowflake
+- Score: 86
+- Location: CO-Colombia-Remote
+- Source: ashby
+- Apply: https://jobs.ashbyhq.com/snowflake/4fafd350-a140-426f-8602-310b8d75b5fd
+- Reasons: java_spring_backend:java, distributed_systems:scalable, databases:sql, watchlist:Snowflake, location-match
+- Preview: At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as...
