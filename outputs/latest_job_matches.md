@@ -1,31 +1,55 @@
 # Latest Job Matches
 
-Generated: 2026-07-27 18:13:08 
+Generated: 2026-07-28 11:36:35 
 Mode: new jobs only
 Discovered direct ATS sources: 21
-Matches: 2
+Matches: 4
 
 ## Source Warnings
 
-- 1 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 3 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 2 skipped request(s): visa.wd5.myworkdayjobs.com: TimeoutError: The read operation timed out
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
 
-## 1. Senior Software Engineer-Database Engineer
+## 1. Senior Software Engineer
 
 - Company: Mastercard
-- Score: 106
+- Score: 124
 - Location: Pune, India
 - Source: workday
-- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-Database-Engineer_R-281679
-- Reasons: java_spring_backend:java, maven, distributed_systems:scalable, databases:postgresql, sql, database, observability_cloud:jenkins, payments_fintech:payments, watchlist:Mastercard
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-282442
+- Reasons: java_spring_backend:java, spring boot, spring, distributed_systems:scalable, streaming_and_async:kafka, event driven, databases:sql, observability_cloud:docker, kubernetes, jenkins, payments_fintech:payments
 - Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
 
-## 2. Account Engineer
+## 2. Senior Software Engineer
 
-- Company: Snowflake
-- Score: 86
-- Location: CO-Colombia-Remote
-- Source: ashby
-- Apply: https://jobs.ashbyhq.com/snowflake/4fafd350-a140-426f-8602-310b8d75b5fd
-- Reasons: java_spring_backend:java, distributed_systems:scalable, databases:sql, watchlist:Snowflake, location-match
-- Preview: At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as...
+- Company: Wells Fargo
+- Score: 114
+- Location: Bengaluru, India
+- Source: workday
+- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-560245
+- Reasons: experience-fit:4+ years, distributed_systems:scalable, streaming_and_async:asynchronous, ai_backend:llm, embeddings, search_recommendations:search, vector, observability_cloud:kubernetes
+- Experience signal: 4+ years, 4+ years
+- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer. In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments. Contribute to large scale planning of strategies. Design, code, test, debug, and document for...
+
+## 3. Senior Software Engineer - Java , Spring boot, Microservices
+
+- Company: Wells Fargo
+- Score: 108
+- Location: Bengaluru, India
+- Source: workday
+- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Java---Spring-boot--Microservices_R-535752
+- Reasons: experience-fit:4+ years, title:java, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, databases:sql, database, watchlist:Wells Fargo
+- Experience signal: 4+ years
+- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
+
+## 4. Software Development Engineer
+
+- Company: Adobe
+- Score: 92
+- Location: Noida
+- Source: workday
+- Apply: https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Noida/Software-Development-Engineer_R170315
+- Reasons: experience-fit:4+ years, java_spring_backend:java, distributed_systems:distributed systems, scalable, microservices, observability_cloud:observability, watchlist:Adobe, location-match
+- Experience signal: 4-6 years
+- Preview: About the Role We are looking for a Computer Scientist 2 to join the App Builder team and help build the next generation of extensibility experiences across Adobe products. This role is ideal for an engineer who enjoys building cloud-native applications , developer platforms ,...

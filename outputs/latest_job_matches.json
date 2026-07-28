@@ -3,43 +3,111 @@
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "5034ca9157e808ca51766e9c",
+    "id": "d769a7ec6d533a92b46f0562",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "java_spring_backend:java, maven",
+      "java_spring_backend:java, spring boot, spring",
       "distributed_systems:scalable",
-      "databases:postgresql, sql, database",
-      "observability_cloud:jenkins",
-      "payments_fintech:payments",
-      "watchlist:Mastercard"
+      "streaming_and_async:kafka, event driven",
+      "databases:sql",
+      "observability_cloud:docker, kubernetes, jenkins",
+      "payments_fintech:payments"
     ],
-    "score": 106,
+    "score": 124,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Senior Software Engineer-Database Engineer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-Database-Engineer_R-281679"
+    "title": "Senior Software Engineer",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-282442"
   },
   {
-    "company": "Snowflake",
-    "description_preview": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don\u2019t just use tools; you possess an innate curiosity, treating AI as...",
-    "experience_requirements": [],
-    "id": "b25e39133ccecec9f8247592",
-    "location": "CO-Colombia-Remote",
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer. In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments. Contribute to large scale planning of strategies. Design, code, test, debug, and document for...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff. required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      },
+      {
+        "max": null,
+        "min": 4,
+        "text": "cus on delivering high-quality features aligned to product requirements and user stories. 4+ years of software engineering experience or equivalent demonstrated through work experience, tr"
+      }
+    ],
+    "id": "267ef16c24b590a2b2e984e0",
+    "location": "Bengaluru, India",
     "penalties": [],
-    "posted_at": "",
+    "posted_at": "Posted Today",
     "reasons": [
-      "java_spring_backend:java",
+      "experience-fit:4+ years",
       "distributed_systems:scalable",
-      "databases:sql",
-      "watchlist:Snowflake",
+      "streaming_and_async:asynchronous",
+      "ai_backend:llm, embeddings",
+      "search_recommendations:search, vector",
+      "observability_cloud:kubernetes"
+    ],
+    "score": 114,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-560245"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      }
+    ],
+    "id": "aca587530ef499611202b297",
+    "location": "Bengaluru, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:4+ years",
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "databases:sql, database",
+      "watchlist:Wells Fargo"
+    ],
+    "score": 108,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer - Java , Spring boot, Microservices",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Java---Spring-boot--Microservices_R-535752"
+  },
+  {
+    "company": "Adobe",
+    "description_preview": "About the Role We are looking for a Computer Scientist 2 to join the App Builder team and help build the next generation of extensibility experiences across Adobe products. This role is ideal for an engineer who enjoys building cloud-native applications , developer platforms ,...",
+    "experience_requirements": [
+      {
+        "max": 6,
+        "min": 4,
+        "text": "nt experience in computer science or a related field, or equivalent practical experience. 4-6 years of software engineering experience building production-quality applications or platform s"
+      }
+    ],
+    "id": "0b50d07144008f328a2b13b4",
+    "location": "Noida",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:4+ years",
+      "java_spring_backend:java",
+      "distributed_systems:distributed systems, scalable, microservices",
+      "observability_cloud:observability",
+      "watchlist:Adobe",
       "location-match"
     ],
-    "score": 86,
-    "source": "ashby",
-    "source_company": "Snowflake",
-    "title": "Account Engineer",
-    "url": "https://jobs.ashbyhq.com/snowflake/4fafd350-a140-426f-8602-310b8d75b5fd"
+    "score": 92,
+    "source": "workday",
+    "source_company": "Adobe",
+    "title": "Software Development Engineer",
+    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Noida/Software-Development-Engineer_R170315"
   }
 ]
