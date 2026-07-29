@@ -1,30 +1,52 @@
 [
   {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      }
-    ],
-    "id": "7ab4dee2c5d802ddb6a56fc4",
-    "location": "Bengaluru, India",
+    "company": "Salesforce",
+    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
+    "experience_requirements": [],
+    "id": "a12c9cd34a82ef1591e11200",
+    "location": "India - Bangalore",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "experience-fit:4+ years",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices",
+      "title:java",
+      "title:ai",
+      "java_spring_backend:java",
+      "distributed_systems:distributed systems, scalable",
       "streaming_and_async:kafka",
-      "payments_fintech:banking",
-      "watchlist:Wells Fargo"
+      "ai_backend:llm, model context protocol, mcp"
     ],
-    "score": 110,
+    "score": 172,
     "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Software Sr Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Software-Sr-Engineer_R-542118-1"
+    "source_company": "Salesforce",
+    "title": "Software Engineering MTS/SMTS (Java + Spark + AI/ML) Bangalore",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-LMTS-SMTS--Bigdata-Spark-and-AI-skills----Informatica_JR339998"
+  },
+  {
+    "company": "Accenture",
+    "description_preview": "Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 3,
+        "text": "cloud platforms such as aws or azure. additional information: - the candidate should have minimum 3 years of experience in spring boot. - this position is based at our bengaluru office. - a 15 ye"
+      }
+    ],
+    "id": "fd33e9b00843b5fdb8b23883",
+    "location": "Bengaluru",
+    "penalties": [],
+    "posted_at": "Posted 30+ Days Ago",
+    "reasons": [
+      "experience-fit:3+ years",
+      "java_spring_backend:spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "databases:postgresql, database",
+      "watchlist:Accenture",
+      "location-match"
+    ],
+    "score": 94,
+    "source": "workday",
+    "source_company": "Accenture",
+    "title": "Custom Software Engineer",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5477490-S1999920-1"
   }
 ]

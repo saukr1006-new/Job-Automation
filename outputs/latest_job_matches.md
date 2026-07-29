@@ -1,23 +1,33 @@
 # Latest Job Matches
 
-Generated: 2026-07-28 17:50:12 
+Generated: 2026-07-29 11:49:17 
 Mode: new jobs only
 Discovered direct ATS sources: 21
-Matches: 1
+Matches: 2
 
 ## Source Warnings
 
-- 2 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 5 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 1 skipped request(s): boards-api.greenhouse.io: TimeoutError: The read operation timed out
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
-- 1 skipped request(s): wf.wd1.myworkdayjobs.com: TimeoutError: The read operation timed out
 
-## 1. Software Sr Engineer
+## 1. Software Engineering MTS/SMTS (Java + Spark + AI/ML) Bangalore
 
-- Company: Wells Fargo
-- Score: 110
-- Location: Bengaluru, India
+- Company: Salesforce
+- Score: 172
+- Location: India - Bangalore
 - Source: workday
-- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Software-Sr-Engineer_R-542118-1
-- Reasons: experience-fit:4+ years, java_spring_backend:java, spring boot, spring, distributed_systems:microservices, streaming_and_async:kafka, payments_fintech:banking, watchlist:Wells Fargo
-- Experience signal: 4+ years
-- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
+- Apply: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-LMTS-SMTS--Bigdata-Spark-and-AI-skills----Informatica_JR339998
+- Reasons: title:java, title:ai, java_spring_backend:java, distributed_systems:distributed systems, scalable, streaming_and_async:kafka, ai_backend:llm, model context protocol, mcp
+- Preview: To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...
+
+## 2. Custom Software Engineer
+
+- Company: Accenture
+- Score: 94
+- Location: Bengaluru
+- Source: workday
+- Apply: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5477490-S1999920-1
+- Reasons: experience-fit:3+ years, java_spring_backend:spring boot, spring, distributed_systems:scalable, microservices, databases:postgresql, database, watchlist:Accenture, location-match
+- Experience signal: 3+ years
+- Preview: Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...
