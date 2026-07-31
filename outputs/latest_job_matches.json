@@ -3,110 +3,22 @@
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "c8ace94800a81391d097c7a8",
+    "id": "0bc1d7fb9c85b6f27f00a232",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:java",
-      "java_spring_backend:java, spring",
-      "streaming_and_async:event driven",
-      "databases:sql",
-      "payments_fintech:payment, payments",
-      "watchlist:Mastercard"
-    ],
-    "score": 104,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Senior Software Engineer (Java)",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Java-_R-282026"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a... In this role, you will: Participate in low to moderately complex initiatives and projects associated with the technology domain, including installation, upgrades, and deployment efforts Identify opportunities for service quality and...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 2,
-        "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      }
-    ],
-    "id": "71c9862eadb496fa887bd851",
-    "location": "Bengaluru, India",
-    "penalties": [
-      "junior_experience:2+ years",
-      "title:full stack"
-    ],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "title:java",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices",
-      "streaming_and_async:kafka",
-      "ai_backend:genai",
-      "observability_cloud:kubernetes"
-    ],
-    "score": 104,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Software Engineer - Java full stack engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Software-Engineer---Java-full-stack-engineer_R-563698"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "426057cf556a19541d94d638",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "java_spring_backend:java, spring",
-      "streaming_and_async:event driven",
-      "databases:sql",
-      "payments_fintech:payment, payments",
+      "title:software engineer ii",
+      "java_spring_backend:java",
+      "observability_cloud:jenkins",
+      "payments_fintech:payments, transaction, gateway",
       "watchlist:Mastercard",
       "location-match"
     ],
-    "score": 90,
+    "score": 88,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Software engineer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-engineer_R-281108"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer - Gen AI. We believe in the power of working together because great ideas can come from anyone. Through collaboration, any employee can have an impact and make a difference for the entire company. Explore...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 2,
-        "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 2,
-        "text": "lowing: work experience, training, military experience, education desired qualifications: 2+ years of software engineering experience in a bfsi gcc or product engineering organization. str"
-      }
-    ],
-    "id": "5e0f242212840a6057f28a07",
-    "location": "Bengaluru, India",
-    "penalties": [
-      "junior_experience:2+ years"
-    ],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "java_spring_backend:java",
-      "distributed_systems:microservices",
-      "ai_backend:llm, generative ai",
-      "search_recommendations:search, vector",
-      "watchlist:Wells Fargo",
-      "location-match"
-    ],
-    "score": 90,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Software-Engineer_R-553175"
+    "title": "Software Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-280417"
   }
 ]
