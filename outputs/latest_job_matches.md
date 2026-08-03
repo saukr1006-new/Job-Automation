@@ -1,45 +1,34 @@
 # Latest Job Matches
 
-Generated: 2026-08-03 13:48:03 
+Generated: 2026-08-03 18:30:38 
 Mode: new jobs only
 Discovered direct ATS sources: 21
-Matches: 3
+Matches: 2
 
 ## Source Warnings
 
 - 8 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 1 skipped request(s): mastercard.wd1.myworkdayjobs.com: TimeoutError: The read operation timed out
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
 - 1 skipped request(s): wf.wd1.myworkdayjobs.com: TimeoutError: The read operation timed out
 
-## 1. Senior Software Engineer
-
-- Company: Wells Fargo
-- Score: 114
-- Location: Bengaluru, India
-- Source: workday
-- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-564788
-- Reasons: experience-fit:4+ years, distributed_systems:scalable, streaming_and_async:asynchronous, ai_backend:llm, embeddings, search_recommendations:search, vector, observability_cloud:kubernetes
-- Experience signal: 4+ years, 4+ years
-- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer to design, build, and deliver scalable, high-quality software solutions within enterprise technology environments. This role requires strong technical expertise, ownership mindset, and the ability to lead...
-
-## 2. Software Engineer I
+## 1. Director, Platform Engineering
 
 - Company: Mastercard
-- Score: 102
+- Score: 108
 - Location: Pune, India
 - Source: workday
-- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-I_R-282195
-- Reasons: java_spring_backend:java, spring boot, spring, distributed_systems:distributed systems, scalable, streaming_and_async:kafka, event driven, payments_fintech:payment, payments, transaction, watchlist:Mastercard, location-match
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Director--Platform-Engineering_R-282376-1
+- Reasons: title:platform, java_spring_backend:java, distributed_systems:scalable, observability_cloud:jenkins, payments_fintech:payments, watchlist:Mastercard
 - Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
 
-## 3. Senior Software Engineer - Java Full Stack
+## 2. Software Engineering SMTS - Tableau Cloud
 
-- Company: Wells Fargo
-- Score: 96
-- Location: Hyderabad, India
+- Company: Salesforce
+- Score: 98
+- Location: India - Bangalore
 - Source: workday
-- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-Full-Stack_R-562802
-- Reasons: experience-fit:4+ years, title:java, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, databases:sql, database, watchlist:Wells Fargo
-- Penalties: title:full stack
+- Apply: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-MTS--Tableau_JR327532
+- Reasons: experience-fit:4+ years, distributed_systems:scalable, microservices, streaming_and_async:kafka, ai_backend:generative ai, observability_cloud:docker, kubernetes, watchlist:Salesforce
 - Experience signal: 4+ years
-- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
+- Preview: To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...
