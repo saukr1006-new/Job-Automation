@@ -1,24 +1,87 @@
 [
   {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer to design, build, and deliver scalable, high-quality software solutions within enterprise technology environments. This role requires strong technical expertise, ownership mindset, and the ability to lead...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "ncluding participation in meetings aligned with u.s. time zones. required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      },
+      {
+        "max": null,
+        "min": 4,
+        "text": "cus on delivering high-quality features aligned to product requirements and user stories. 4+ years of software engineering experience or equivalent demonstrated through work experience, tr"
+      }
+    ],
+    "id": "07be5335fb5057d3cfc05eaa",
+    "location": "Bengaluru, India",
+    "penalties": [],
+    "posted_at": "Posted 3 Days Ago",
+    "reasons": [
+      "experience-fit:4+ years",
+      "distributed_systems:scalable",
+      "streaming_and_async:asynchronous",
+      "ai_backend:llm, embeddings",
+      "search_recommendations:search, vector",
+      "observability_cloud:kubernetes"
+    ],
+    "score": 114,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-564788"
+  },
+  {
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "0bc1d7fb9c85b6f27f00a232",
+    "id": "98d5d3e2b940ee486ccdbdd6",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:software engineer ii",
-      "java_spring_backend:java",
-      "observability_cloud:jenkins",
-      "payments_fintech:payments, transaction, gateway",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:distributed systems, scalable",
+      "streaming_and_async:kafka, event driven",
+      "payments_fintech:payment, payments, transaction",
       "watchlist:Mastercard",
       "location-match"
     ],
-    "score": 88,
+    "score": 102,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-280417"
+    "title": "Software Engineer I",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-I_R-282195"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      }
+    ],
+    "id": "709f359714cc39f3ccb6b00a",
+    "location": "Hyderabad, India",
+    "penalties": [
+      "title:full stack"
+    ],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:4+ years",
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "databases:sql, database",
+      "watchlist:Wells Fargo"
+    ],
+    "score": 96,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer - Java Full Stack",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-Full-Stack_R-562802"
   }
 ]
