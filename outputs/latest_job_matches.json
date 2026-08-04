@@ -1,54 +1,35 @@
 [
   {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "0a54866f80ea3159d73fa038",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "title:software engineer ii",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "streaming_and_async:event driven",
-      "databases:sql",
-      "payments_fintech:payment, payments"
-    ],
-    "score": 132,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-287052-1"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Specialty Software Engineer. In this role, you will: Lead or participate in complex initiatives on selected domains Assure quality, security and compliance for supported systems and applications Serve as a technical resource in...",
     "experience_requirements": [
       {
         "max": null,
-        "min": 2,
-        "text": "gree in computer science, engineering, information technology, or a related discipline. \u2022 minimum 2 years of professional software development experience. \u2022 strong hands-on experience with java,"
+        "min": 4,
+        "text": "ers, colleagues and managers to resolve issues and achieve goals required qualifications: 4+ years of specialty software engineering experience, or equivalent demonstrated through one or a"
+      },
+      {
+        "max": null,
+        "min": 4,
+        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of experience in design, implement, and optimize low-latency , high-throughput java appli"
       }
     ],
-    "id": "253ad28d144c95f6b7c499f2",
-    "location": "Pune, India",
-    "penalties": [
-      "junior_experience:2+ years"
-    ],
+    "id": "a193054df8f87fbcad5c2066",
+    "location": "Bengaluru, India",
+    "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:software engineer ii",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:distributed systems, scalable, microservices",
-      "streaming_and_async:kafka",
-      "databases:sql, database",
-      "observability_cloud:docker, kubernetes, observability"
+      "experience-fit:4+ years",
+      "title:java",
+      "java_spring_backend:java",
+      "distributed_systems:distributed systems",
+      "databases:database",
+      "watchlist:Wells Fargo"
     ],
-    "score": 124,
+    "score": 108,
     "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-287128"
+    "source_company": "Wells Fargo",
+    "title": "Senior Specialty Software Engineer - Java, E-Trading",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Specialty-Software-Engineer---Java--E-Trading_R-565485"
   }
 ]
