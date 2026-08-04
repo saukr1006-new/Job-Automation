@@ -3,50 +3,52 @@
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "09c58302d0c299f167eff161",
+    "id": "0a54866f80ea3159d73fa038",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:platform",
-      "java_spring_backend:java",
-      "distributed_systems:scalable",
-      "observability_cloud:jenkins",
-      "payments_fintech:payments",
-      "watchlist:Mastercard"
+      "title:software engineer ii",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:event driven",
+      "databases:sql",
+      "payments_fintech:payment, payments"
     ],
-    "score": 108,
+    "score": 132,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Director, Platform Engineering",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Director--Platform-Engineering_R-282376-1"
+    "title": "Software Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-287052-1"
   },
   {
-    "company": "Salesforce",
-    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [
       {
         "max": null,
-        "min": 4,
-        "text": "ng innovative technologies to production. desired skills and experience: required skills: 4+ years of industry experience of ml engineering in building ai systems and/or services. experien"
+        "min": 2,
+        "text": "gree in computer science, engineering, information technology, or a related discipline. \u2022 minimum 2 years of professional software development experience. \u2022 strong hands-on experience with java,"
       }
     ],
-    "id": "cb636fcfd67590d8532b13c4",
-    "location": "India - Bangalore",
-    "penalties": [],
+    "id": "253ad28d144c95f6b7c499f2",
+    "location": "Pune, India",
+    "penalties": [
+      "junior_experience:2+ years"
+    ],
     "posted_at": "Posted Today",
     "reasons": [
-      "experience-fit:4+ years",
-      "distributed_systems:scalable, microservices",
+      "title:software engineer ii",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:distributed systems, scalable, microservices",
       "streaming_and_async:kafka",
-      "ai_backend:generative ai",
-      "observability_cloud:docker, kubernetes",
-      "watchlist:Salesforce"
+      "databases:sql, database",
+      "observability_cloud:docker, kubernetes, observability"
     ],
-    "score": 98,
+    "score": 124,
     "source": "workday",
-    "source_company": "Salesforce",
-    "title": "Software Engineering SMTS - Tableau Cloud",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-MTS--Tableau_JR327532"
+    "source_company": "Mastercard",
+    "title": "Software Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-287128"
   }
 ]
