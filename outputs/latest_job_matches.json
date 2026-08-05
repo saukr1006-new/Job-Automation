@@ -3,80 +3,22 @@
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "6f49d9cc27668657afd88318",
+    "id": "0a5cc7a80ca1daf04ab3aa51",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:ai",
-      "distributed_systems:scalable",
-      "ai_backend:generative ai",
-      "search_recommendations:vector",
+      "title:software engineer ii",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:event driven",
       "databases:sql",
-      "observability_cloud:docker, kubernetes"
+      "payments_fintech:payment, payments"
     ],
-    "score": 120,
+    "score": 132,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "AI Engineer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/AI-Engineer_R-279646"
-  },
-  {
-    "company": "Salesforce",
-    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "ontinuous improvement while fostering a culture of engineering excellence. qualifications 4+ years of experience in software engineering, quality engineering, test automation, or a related"
-      }
-    ],
-    "id": "d35d989c301535099fe75122",
-    "location": "India - Hyderabad",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:4+ years",
-      "java_spring_backend:java, maven",
-      "distributed_systems:distributed systems, scalable, microservices",
-      "ai_backend:llm",
-      "databases:sql",
-      "watchlist:Salesforce"
-    ],
-    "score": 112,
-    "source": "workday",
-    "source_company": "Salesforce",
-    "title": "Software Engineering-MTS-SDET",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-SDET_JR312798"
-  },
-  {
-    "company": "Databricks",
-    "description_preview": "P-1414 At Databricks, we are passionate about helping data teams solve the world's toughest problems \u2014 from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 3,
-        "text": "cess their data. what we look for: bs (or higher) in computer science, or a related field 3+ years of production level experience in one of: java, scala, c++, or similar language experienc"
-      }
-    ],
-    "id": "2d36d30a21b500709a27fb8e",
-    "location": "Belgrade, Serbia",
-    "penalties": [
-      "non_target_location"
-    ],
-    "posted_at": "",
-    "reasons": [
-      "experience-fit:3+ years",
-      "title:backend",
-      "java_spring_backend:java",
-      "distributed_systems:distributed systems",
-      "ai_backend:ai platform",
-      "databases:sql"
-    ],
-    "score": 97,
-    "source": "greenhouse",
-    "source_company": "Databricks",
-    "title": "Software Engineer - Backend",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002"
+    "title": "Software Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-286702"
   }
 ]
