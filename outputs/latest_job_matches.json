@@ -1,7 +1,7 @@
 [
   {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Java Full Stack Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and...",
+    "description_preview": "About this role: Wells Fargo is seeking a... In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for projects and programs...",
     "experience_requirements": [
       {
         "max": null,
@@ -14,7 +14,7 @@
         "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of hands-on software engineering experience in designing, developing, and supporting ente"
       }
     ],
-    "id": "24b19b3063918e3a0eba2a0a",
+    "id": "dc85a63acdeda0c2c69a28c3",
     "location": "Hyderabad, India",
     "penalties": [],
     "posted_at": "Posted Today",
@@ -30,13 +30,13 @@
     "source": "workday",
     "source_company": "Wells Fargo",
     "title": "Senior Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-565212"
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-565298"
   },
   {
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "a5aabd8313d43f52fa477cb5",
+    "id": "fbe631eb7a2017a1a44da807",
     "location": "Gurgaon, India",
     "penalties": [],
     "posted_at": "Posted Today",
@@ -52,67 +52,6 @@
     "source": "workday",
     "source_company": "Mastercard",
     "title": "AI Engineer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Gurgaon-India/AI-Engineer_R-287146"
-  },
-  {
-    "company": "Visa",
-    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
-    "experience_requirements": [
-      {
-        "max": 5,
-        "min": 3,
-        "text": "these days will be confirmed by your hiring manager. qualifications basic qualifications: 3-5 years of relevant work experience and a bachelor's degree or with an advanced degree. self-driv"
-      },
-      {
-        "max": 5,
-        "min": 3,
-        "text": "on security, ssdlc, and knowledge of cryptography fundamentals. preferred qualifications: 3-5 years of work experience with a bachelor\u2019s degree or with an advanced degree. exposure to leadi"
-      }
-    ],
-    "id": "7ca59ea346dc062aea1c301c",
-    "location": "IN - Bengaluru, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:3+ years",
-      "title:java",
-      "java_spring_backend:java",
-      "ai_backend:genai, generative ai",
-      "observability_cloud:docker, kubernetes, jenkins",
-      "payments_fintech:payments"
-    ],
-    "score": 110,
-    "source": "workday",
-    "source_company": "Visa",
-    "title": "Sr. SW Engineer (3-5 years, Java/Python, GenAI, Agentic Development)",
-    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer--3-5-years--Java-Python--GenAI--Agentic-Development-_REF087084W"
-  },
-  {
-    "company": "Tower Research Capital",
-    "description_preview": "Tower Research Capital is a leading quantitative trading firm founded in 1998. Tower has built its business on a high-performance platform and independent trading teams. We have a 25+ year track record of innovation and a reputation&nbsp; for discovering unique market...",
-    "experience_requirements": [
-      {
-        "max": 7,
-        "min": 3,
-        "text": "qualifications a master\u2019s degree or phd in computer science or a related field. at least 3\u20137 years of experience working with kubernetes as both a user and administrator. expertise in one"
-      }
-    ],
-    "id": "5738264751efc7dad7b18778",
-    "location": "Gurgaon",
-    "penalties": [],
-    "posted_at": "",
-    "reasons": [
-      "experience-fit:3+ years",
-      "title:platform",
-      "distributed_systems:distributed systems",
-      "streaming_and_async:kafka",
-      "observability_cloud:kubernetes, observability",
-      "watchlist:Tower Research Capital"
-    ],
-    "score": 94,
-    "source": "greenhouse",
-    "source_company": "Tower Research Capital",
-    "title": "Platform as a Service Engineer",
-    "url": "https://www.tower-research.com/open-positions/?gh_jid=8036383"
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Gurgaon-India/AI-Engineer_R-287145"
   }
 ]
