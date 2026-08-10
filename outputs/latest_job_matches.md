@@ -1,6 +1,6 @@
 # Latest Job Matches
 
-Generated: 2026-08-10 05:07:16 
+Generated: 2026-08-10 13:55:06 
 Mode: new jobs only
 Discovered direct ATS sources: 21
 Matches: 2
@@ -10,26 +10,23 @@ Matches: 2
 - 4 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
 
-## 1. Forward Deployed Engineer, Applied AI
+## 1. Sr. SW Engineer Software Engineering
 
-- Company: Snowflake
-- Score: 99
-- Location: PL-Warsaw-Lixa C
-- Source: ashby
-- Apply: https://jobs.ashbyhq.com/snowflake/467250b0-43bc-47aa-91d5-6312687e4097
-- Reasons: experience-fit:3+ years, title:ai, java_spring_backend:java, distributed_systems:scalable, ai_backend:llm, generative ai, ai platform, databases:sql
-- Penalties: non_target_location
-- Experience signal: 3+ years
-- Preview: At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as...
+- Company: Visa
+- Score: 120
+- Location: IN - Bengaluru, India
+- Source: workday
+- Apply: https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/SW-Engineer-Software-Engineering_REF080261W
+- Reasons: experience-fit:4+ years, java_spring_backend:java, distributed_systems:distributed systems, scalable, streaming_and_async:asynchronous, observability_cloud:docker, payments_fintech:payment, payments, transaction
+- Experience signal: 4+ years
+- Preview: About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...
 
-## 2. Software Engineer, Applied AI
+## 2. Senior Software Development Engineer in Test (Performance)
 
-- Company: Snowflake
-- Score: 99
-- Location: PL-Warsaw-Lixa C
-- Source: ashby
-- Apply: https://jobs.ashbyhq.com/snowflake/6e31e0cb-7821-4dcf-9d69-0afce918bcc4
-- Reasons: experience-fit:3+ years, title:ai, java_spring_backend:java, distributed_systems:scalable, ai_backend:llm, generative ai, ai platform, databases:sql
-- Penalties: non_target_location
-- Experience signal: 3+ years
-- Preview: At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as...
+- Company: Mastercard
+- Score: 96
+- Location: Pune, India
+- Source: workday
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Development-Engineer-in-Test--Performance-_R-287217
+- Reasons: java_spring_backend:java, spring boot, spring, distributed_systems:scalable, databases:sql, payments_fintech:payments, watchlist:Mastercard, location-match
+- Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
