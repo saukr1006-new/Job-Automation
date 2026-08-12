@@ -1,21 +1,33 @@
 # Latest Job Matches
 
-Generated: 2026-08-12 05:15:41 
+Generated: 2026-08-12 13:56:13 
 Mode: new jobs only
 Discovered direct ATS sources: 21
-Matches: 1
+Matches: 2
 
 ## Source Warnings
 
 - 5 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
 
-## 1. Software Engineer II
+## 1. Senior Software Engineer - Java and Angular full stack
+
+- Company: Wells Fargo
+- Score: 95
+- Location: Hyderabad, India
+- Source: workday
+- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-and-Angular-full-stack_R-567304
+- Reasons: experience-fit:4+ years, title:java, java_spring_backend:java, spring boot, spring, distributed_systems:microservices, streaming_and_async:kafka, streaming, ai_backend:llm, genai
+- Penalties: title:full stack, too_senior:technical lead
+- Experience signal: 4+ years
+- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
+
+## 2. Software Engineer II
 
 - Company: Mastercard
 - Score: 90
-- Location: Pune, India
+- Location: Vadodara, India
 - Source: workday
-- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-281700-1
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vadodara-India/Software-Engineer-II_R-284464-1
 - Reasons: title:software engineer ii, java_spring_backend:java, databases:sql, payments_fintech:payments, watchlist:Mastercard, location-match
 - Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
