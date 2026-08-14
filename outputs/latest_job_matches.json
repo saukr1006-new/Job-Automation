@@ -1,30 +1,40 @@
 [
   {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer with strong expertise in Python, Java full stack, GenAI and modern UI technologies. This role focuses on building scalable, high-quality applications, driving user experience and engineering excellence,...",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer (Prometheus and Full Stack Developer) who will be part of building Observability capabilities with technology led innovation at an enterprise scale to transform Telemetry, Monitoring and Observability for on-...",
     "experience_requirements": [
       {
         "max": null,
         "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+        "text": "e analysis and remediation automation to reduce operational toil required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      },
+      {
+        "max": null,
+        "min": 4,
+        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of strong software engineering experience with modern programming languages. experience w"
+      },
+      {
+        "max": null,
+        "min": 3,
+        "text": "nosql and sql databases, kafka pub/sub model, etl, microservices development, kubernetes. 3+ years of experience in developing ai-powered products end-to-end design, develop, and deploy ai"
       }
     ],
-    "id": "3f64ebfa67d38ca69f122bcf",
+    "id": "e256c1ab9861cacf8fc215dd",
     "location": "Bengaluru, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
-      "title:ai",
-      "java_spring_backend:java",
-      "distributed_systems:scalable",
-      "ai_backend:genai",
-      "databases:mongodb, sql, database"
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:microservices",
+      "streaming_and_async:kafka, pub/sub",
+      "databases:sql, database",
+      "observability_cloud:prometheus, grafana, kubernetes"
     ],
     "score": 122,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer \u2013 React, Angular, Node.js, AI Tools",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---React--Angular--Nodejs--AI-Tools_R-551876"
+    "title": "Senior Software Engineer",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-566980"
   }
 ]
