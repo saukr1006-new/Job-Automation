@@ -1,40 +1,23 @@
 [
   {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer (Prometheus and Full Stack Developer) who will be part of building Observability capabilities with technology led innovation at an enterprise scale to transform Telemetry, Monitoring and Observability for on-...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "e analysis and remediation automation to reduce operational toil required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 4,
-        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of strong software engineering experience with modern programming languages. experience w"
-      },
-      {
-        "max": null,
-        "min": 3,
-        "text": "nosql and sql databases, kafka pub/sub model, etl, microservices development, kubernetes. 3+ years of experience in developing ai-powered products end-to-end design, develop, and deploy ai"
-      }
-    ],
-    "id": "e256c1ab9861cacf8fc215dd",
-    "location": "Bengaluru, India",
+    "company": "Meesho",
+    "description_preview": "What does 500,000,000+ mean to you? That's the number of users who installed Meesho's Android app, Millions of people across Bharat empowered to buy and sell products at fair prices, many experiencing e-commerce for the very first time. At Meesho, our Android team isn\u2019t just...",
+    "experience_requirements": [],
+    "id": "3f2eb0618f7f863495d7fb79",
+    "location": "Bangalore, Karnataka",
     "penalties": [],
-    "posted_at": "Posted Today",
+    "posted_at": "",
     "reasons": [
-      "experience-fit:4+ years",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices",
-      "streaming_and_async:kafka, pub/sub",
-      "databases:sql, database",
-      "observability_cloud:prometheus, grafana, kubernetes"
+      "java_spring_backend:java",
+      "distributed_systems:scalable",
+      "observability_cloud:observability",
+      "watchlist:Meesho",
+      "location-match"
     ],
-    "score": 122,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-566980"
+    "score": 84,
+    "source": "lever",
+    "source_company": "Meesho",
+    "title": "Software Development Engineer IV Android",
+    "url": "https://jobs.lever.co/meesho/30360256-2780-43e4-828e-51c0b9dc6d17"
   }
 ]
