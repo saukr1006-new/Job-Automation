@@ -1,30 +1,30 @@
 [
   {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking Senior Software Engineer. We believe in the power of working together because great ideas can come from anyone. Through collaboration, any employee can have an impact and make a difference for the entire company. Explore opportunities...",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer. Performance tester/engineer with proven experience in performance testing of web-based/client-server applications and backend testing In this role, you will: Lead moderately complex initiatives and...",
     "experience_requirements": [
       {
         "max": null,
         "min": 4,
-        "text": "s parallel loading, incremental loads, and cdc where applicable. required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
       }
     ],
-    "id": "6a3a30981781fbe4b6160cf2",
+    "id": "f7a03396bff07a21b5d2cd18",
     "location": "Hyderabad, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
-      "distributed_systems:scalable",
-      "streaming_and_async:kafka, streaming, pub/sub",
-      "ai_backend:genai, embeddings",
-      "databases:mongodb, sql",
-      "watchlist:Wells Fargo"
+      "java_spring_backend:java, maven",
+      "distributed_systems:microservices",
+      "observability_cloud:jenkins",
+      "watchlist:Wells Fargo",
+      "location-match"
     ],
-    "score": 100,
+    "score": 92,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer (Python/ PySprak/ GCP)",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer--Python--PySprak--GCP-_R-567282"
+    "title": "Senior Software Engineer - Performance Engineer, LoadRunner, Splunk, AppDynamics",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Performance-Engineer--LoadRunner--Splunk--AppDynamics_R-538052-1"
   }
 ]
