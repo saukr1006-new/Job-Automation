@@ -1,80 +1,30 @@
 [
   {
-    "company": "Accenture",
-    "description_preview": "Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...",
-    "experience_requirements": [],
-    "id": "bd45aa52fab3c818b83daaee",
-    "location": "Bengaluru",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable",
-      "streaming_and_async:kafka",
-      "ai_backend:llm, generative ai",
-      "search_recommendations:recommendation, search, vector",
-      "databases:postgresql"
-    ],
-    "score": 148,
-    "source": "workday",
-    "source_company": "Accenture",
-    "title": "Custom Software Engineer",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5704126-S2065026-1"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [
-      {
-        "max": 5,
-        "min": 3,
-        "text": "degree in information systems, information technology, computer science or engineering \u2022 3-5 years of strong hands-on experience of working on scalable, multi-threaded software products de"
-      }
-    ],
-    "id": "4f0dd13d32952291b3f29482",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:3+ years",
-      "title:software engineer ii",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "databases:sql",
-      "observability_cloud:jenkins"
-    ],
-    "score": 132,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-288786-1"
-  },
-  {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "description_preview": "Key Responsibilities \u2022 Lead moderately complex technical initiatives and provide guidance to junior engineers. \u2022 Design, develop, enhance, and support enterprise applications across monolithic and microservices platforms. \u2022 Drive modernization efforts by identifying...",
     "experience_requirements": [
       {
         "max": null,
         "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+        "text": "computer science, engineering, or a related discipline, or equivalent work experience. \u2022 4+ years of software engineering experience. \u2022 strong hands-on experience with java 11/17+ and adv"
       }
     ],
-    "id": "23902bc4a3480ac5356570f4",
+    "id": "fa13de611144790632163d13",
     "location": "Bengaluru, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
-      "title:java",
-      "java_spring_backend:java, spring boot, spring",
+      "java_spring_backend:java, spring",
       "distributed_systems:scalable, microservices",
-      "ai_backend:mcp",
-      "databases:sql, database"
+      "streaming_and_async:kafka, streaming",
+      "databases:mongodb",
+      "observability_cloud:docker, kubernetes, observability"
     ],
-    "score": 126,
+    "score": 132,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer - Java , Spring boot, Microservices",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Java---Spring-boot--Microservices_R-537630"
+    "title": "Senior Software Engineer",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-567571"
   }
 ]
