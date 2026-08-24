@@ -1,70 +1,110 @@
 [
   {
-    "company": "Visa",
-    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
+    "company": "Salesforce",
+    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
     "experience_requirements": [
       {
         "max": null,
-        "min": 1,
-        "text": "firmed by your hiring manager. qualifications basic qualifications: bachelor's degree, or 1+ years of relevant work experience. experience in developing and/or implementing web-based or mo"
-      },
-      {
-        "max": null,
-        "min": 1,
-        "text": "erience with nosql datastores like mongodb, docker, kubernetes, preferred qualifications: 1 or more years of work experience. experience in developing and maintaining data pipelines and large-sca"
+        "min": 4,
+        "text": "view, mentor junior engineers, and provide technical guidance to the team required skills 4+ years of software development experience mastery of programming language(s) and platforms deep"
       }
     ],
-    "id": "c7c9a02f8941cae734d785c8",
-    "location": "IN - Bengaluru, India",
-    "penalties": [
-      "junior_experience:1+ years"
-    ],
+    "id": "bb217c609cc0aa5674e0b89c",
+    "location": "India - Bangalore",
+    "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "java_spring_backend:java, spring, maven",
+      "experience-fit:4+ years",
+      "title:backend",
+      "java_spring_backend:java",
+      "distributed_systems:distributed systems",
       "streaming_and_async:kafka, streaming",
-      "ai_backend:generative ai",
-      "databases:mongodb, sql",
-      "observability_cloud:docker, kubernetes, jenkins",
-      "payments_fintech:payments"
+      "search_recommendations:elasticsearch"
     ],
-    "score": 100,
+    "score": 156,
     "source": "workday",
-    "source_company": "Visa",
-    "title": "Software Engineer",
-    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Software-Engineer_REF081660W"
+    "source_company": "Salesforce",
+    "title": "Software Engineering- MTS (Backend + Infra)",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering--MTS--Backend---Infra-_JR350272"
   },
   {
-    "company": "CRED",
-    "description_preview": "prefr (a brand under DTPL) is a tech-first fintech platform reshaping how India\u2019s digital-first generation experiences credit. we currently offer instant personal loans from \u20b950,000 to \u20b95,00,000 through a seamless, end-to-end digital journey \u2014 serving India\u2019s creditworthy yet...",
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
     "experience_requirements": [
       {
         "max": null,
         "min": 4,
-        "text": "tices in ml system design \\n '}, {'text': 'you should apply if:', 'content': ' \\n \\n have 4+ years of experience building production-grade software systems in java / scala / python \\n have"
-      },
-      {
-        "max": null,
-        "min": 4,
-        "text": "h: sdks, and platforms that touched ml systems and served multiple internal teams \\n have 4+ years of experience building production-grade software systems in scala / python \\n strong gras"
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
       }
     ],
-    "id": "ee45f3f36029a1a56322449d",
-    "location": "hyderabad",
+    "id": "8025674fa1ecdac7185530fe",
+    "location": "Bengaluru, India",
     "penalties": [],
-    "posted_at": "",
+    "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
-      "java_spring_backend:java",
-      "distributed_systems:scalable, system design",
-      "payments_fintech:fintech",
-      "watchlist:CRED",
-      "location-match"
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "ai_backend:mcp",
+      "databases:sql, database"
     ],
-    "score": 92,
-    "source": "lever",
-    "source_company": "CRED",
-    "title": "machine learning engineer (prefr)",
-    "url": "https://jobs.lever.co/cred/7e4d512e-fc89-40fd-9a30-46c5459bbea5"
+    "score": 126,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer - Java , Spring boot, Microservices",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Java---Spring-boot--Microservices_R-537629-1"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "3f8d91102ba9b4c5bc6cd46b",
+    "location": "Pune, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable",
+      "streaming_and_async:kafka, event driven, streaming",
+      "observability_cloud:docker, kubernetes, jenkins",
+      "payments_fintech:payment, payments, transaction",
+      "watchlist:Mastercard"
+    ],
+    "score": 112,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Senior Software Engineer",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-286291"
+  },
+  {
+    "company": "PhonePe",
+    "description_preview": "About PhonePe Limited: Headquartered in India, its flagship product, the PhonePe digital payments app, was launched in Aug 2016. As of April 2025, PhonePe has over 60 Crore (600 Million) registered users and a digital payments acceptance network spread across over 4 Crore (40+...",
+    "experience_requirements": [
+      {
+        "max": 5,
+        "min": 3,
+        "text": "h, or ph.d. in computer science or related technical discipline (or equivalent) . \u25cf&nbsp; 3-5 years of experience in the art of writing code and solving problems on a large scale . phonepe"
+      }
+    ],
+    "id": "9dc80729578de2ef598bef6e",
+    "location": "Bangalore",
+    "penalties": [
+      "too_junior:intern"
+    ],
+    "posted_at": "",
+    "reasons": [
+      "experience-fit:3+ years",
+      "title:backend",
+      "java_spring_backend:java",
+      "distributed_systems:distributed systems, scalable",
+      "search_recommendations:elasticsearch",
+      "payments_fintech:payment, payments"
+    ],
+    "score": 96,
+    "source": "greenhouse",
+    "source_company": "PhonePe",
+    "title": "Software Engineer(3-5 years) Backend",
+    "url": "https://job-boards.greenhouse.io/phonepe/jobs/7821471003"
   }
 ]

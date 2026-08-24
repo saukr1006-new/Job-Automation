@@ -1,37 +1,59 @@
 # Latest Job Matches
 
-Generated: 2026-08-24 04:22:56 
+Generated: 2026-08-24 13:31:09 
 Mode: new jobs only
 Discovered direct ATS sources: 21
-Matches: 2
+Matches: 4
 
 ## Source Warnings
 
-- 2 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 7 skipped request(s): mastercard.wd1.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 4 skipped request(s): wf.wd1.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 2 skipped request(s): intel.wd1.myworkdayjobs.com: TimeoutError: The read operation timed out
 - 1 skipped request(s): adobe.wd5.myworkdayjobs.com: TimeoutError: The read operation timed out
-- 1 skipped request(s): nvidia.wd5.myworkdayjobs.com: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>
+- 1 skipped request(s): paypal.wd1.myworkdayjobs.com: TimeoutError: The read operation timed out
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
-- 1 skipped request(s): wf.wd1.myworkdayjobs.com: TimeoutError: The read operation timed out
 
-## 1. Software Engineer
+## 1. Software Engineering- MTS (Backend + Infra)
 
-- Company: Visa
-- Score: 100
-- Location: IN - Bengaluru, India
+- Company: Salesforce
+- Score: 156
+- Location: India - Bangalore
 - Source: workday
-- Apply: https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Software-Engineer_REF081660W
-- Reasons: java_spring_backend:java, spring, maven, streaming_and_async:kafka, streaming, ai_backend:generative ai, databases:mongodb, sql, observability_cloud:docker, kubernetes, jenkins, payments_fintech:payments
-- Penalties: junior_experience:1+ years
-- Experience signal: 1+ years, 1+ years
-- Preview: About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...
+- Apply: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering--MTS--Backend---Infra-_JR350272
+- Reasons: experience-fit:4+ years, title:backend, java_spring_backend:java, distributed_systems:distributed systems, streaming_and_async:kafka, streaming, search_recommendations:elasticsearch
+- Experience signal: 4+ years
+- Preview: To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...
 
-## 2. machine learning engineer (prefr)
+## 2. Senior Software Engineer - Java , Spring boot, Microservices
 
-- Company: CRED
-- Score: 92
-- Location: hyderabad
-- Source: lever
-- Apply: https://jobs.lever.co/cred/7e4d512e-fc89-40fd-9a30-46c5459bbea5
-- Reasons: experience-fit:4+ years, java_spring_backend:java, distributed_systems:scalable, system design, payments_fintech:fintech, watchlist:CRED, location-match
-- Experience signal: 4+ years, 4+ years
-- Preview: prefr (a brand under DTPL) is a tech-first fintech platform reshaping how India’s digital-first generation experiences credit. we currently offer instant personal loans from ₹50,000 to ₹5,00,000 through a seamless, end-to-end digital journey — serving India’s creditworthy yet...
+- Company: Wells Fargo
+- Score: 126
+- Location: Bengaluru, India
+- Source: workday
+- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Java---Spring-boot--Microservices_R-537629-1
+- Reasons: experience-fit:4+ years, title:java, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, ai_backend:mcp, databases:sql, database
+- Experience signal: 4+ years
+- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
+
+## 3. Senior Software Engineer
+
+- Company: Mastercard
+- Score: 112
+- Location: Pune, India
+- Source: workday
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-286291
+- Reasons: java_spring_backend:java, spring boot, spring, distributed_systems:scalable, streaming_and_async:kafka, event driven, streaming, observability_cloud:docker, kubernetes, jenkins, payments_fintech:payment, payments, transaction, watchlist:Mastercard
+- Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
+
+## 4. Software Engineer(3-5 years) Backend
+
+- Company: PhonePe
+- Score: 96
+- Location: Bangalore
+- Source: greenhouse
+- Apply: https://job-boards.greenhouse.io/phonepe/jobs/7821471003
+- Reasons: experience-fit:3+ years, title:backend, java_spring_backend:java, distributed_systems:distributed systems, scalable, search_recommendations:elasticsearch, payments_fintech:payment, payments
+- Penalties: too_junior:intern
+- Experience signal: 3-5 years
+- Preview: About PhonePe Limited: Headquartered in India, its flagship product, the PhonePe digital payments app, was launched in Aug 2016. As of April 2025, PhonePe has over 60 Crore (600 Million) registered users and a digital payments acceptance network spread across over 4 Crore (40+...
