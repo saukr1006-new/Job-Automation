@@ -1,33 +1,37 @@
 # Latest Job Matches
 
-Generated: 2026-08-21 13:26:28 
+Generated: 2026-08-24 04:22:56 
 Mode: new jobs only
 Discovered direct ATS sources: 21
 Matches: 2
 
 ## Source Warnings
 
-- 7 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 2 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 1 skipped request(s): adobe.wd5.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 1 skipped request(s): nvidia.wd5.myworkdayjobs.com: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
+- 1 skipped request(s): wf.wd1.myworkdayjobs.com: TimeoutError: The read operation timed out
 
-## 1. Senior Software Engineer
+## 1. Software Engineer
 
-- Company: Wells Fargo
-- Score: 110
-- Location: Hyderabad, India
+- Company: Visa
+- Score: 100
+- Location: IN - Bengaluru, India
 - Source: workday
-- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-520610
-- Reasons: experience-fit:4+ years, distributed_systems:distributed systems, scalable, streaming_and_async:streaming, ai_backend:genai, databases:sql, database, observability_cloud:docker, jenkins, observability
-- Experience signal: 4+ years
-- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer. This is for Data Engineering to join the CALM (Corporate Asset and Liability Management) Data Engineering team within the Enterprise Functions Technology (EFT) organization. In this role, you will be...
+- Apply: https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Software-Engineer_REF081660W
+- Reasons: java_spring_backend:java, spring, maven, streaming_and_async:kafka, streaming, ai_backend:generative ai, databases:mongodb, sql, observability_cloud:docker, kubernetes, jenkins, payments_fintech:payments
+- Penalties: junior_experience:1+ years
+- Experience signal: 1+ years, 1+ years
+- Preview: About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...
 
-## 2. Custom Software Engineer
+## 2. machine learning engineer (prefr)
 
-- Company: Accenture
-- Score: 94
-- Location: Bengaluru
-- Source: workday
-- Apply: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5474555-S2000033-1
-- Reasons: experience-fit:3+ years, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, databases:postgresql, database, watchlist:Accenture, location-match
-- Experience signal: 3+ years
-- Preview: Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...
+- Company: CRED
+- Score: 92
+- Location: hyderabad
+- Source: lever
+- Apply: https://jobs.lever.co/cred/7e4d512e-fc89-40fd-9a30-46c5459bbea5
+- Reasons: experience-fit:4+ years, java_spring_backend:java, distributed_systems:scalable, system design, payments_fintech:fintech, watchlist:CRED, location-match
+- Experience signal: 4+ years, 4+ years
+- Preview: prefr (a brand under DTPL) is a tech-first fintech platform reshaping how India’s digital-first generation experiences credit. we currently offer instant personal loans from ₹50,000 to ₹5,00,000 through a seamless, end-to-end digital journey — serving India’s creditworthy yet...
