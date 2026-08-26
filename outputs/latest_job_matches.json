@@ -1,30 +1,83 @@
 [
   {
-    "company": "CRED",
-    "description_preview": "prefr (a brand under DTPL) is a tech-first fintech platform reshaping how India\u2019s digital-first generation experiences credit. we currently offer instant personal loans from \u20b950,000 to \u20b95,00,000 through a seamless, end-to-end digital journey \u2014 serving India\u2019s creditworthy yet...",
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "5b743f8ba53762a9378e346a",
+    "location": "Pune, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "title:ai",
+      "java_spring_backend:java",
+      "distributed_systems:distributed systems, scalable, microservices",
+      "ai_backend:llm, generative ai",
+      "search_recommendations:vector",
+      "observability_cloud:docker, kubernetes, observability"
+    ],
+    "score": 138,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Senior AI Engineer",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-AI-Engineer_R-289151-1"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
     "experience_requirements": [
       {
         "max": null,
         "min": 4,
-        "text": "tices in ml system design \\n '}, {'text': 'you should apply if:', 'content': ' \\n \\n have 4+ years of experience building production-grade software systems in java / scala / python \\n have"
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      },
+      {
+        "max": null,
+        "min": 4,
+        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of hands-on software engineering experience in designing, developing, and supporting ente"
       }
     ],
-    "id": "e5beb7293b004330f962e688",
-    "location": "hyderabad",
-    "penalties": [],
-    "posted_at": "",
+    "id": "fd7dffe6021acdaa0c9e2251",
+    "location": "Hyderabad, India",
+    "penalties": [
+      "title:full stack"
+    ],
+    "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
-      "java_spring_backend:java",
-      "distributed_systems:scalable, system design",
-      "payments_fintech:fintech",
-      "watchlist:CRED",
-      "location-match"
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka, streaming",
+      "databases:mongodb, sql, database"
     ],
-    "score": 92,
-    "source": "lever",
-    "source_company": "CRED",
-    "title": "machine learning engineer",
-    "url": "https://jobs.lever.co/cred/7e4d512e-fc89-40fd-9a30-46c5459bbea5"
+    "score": 124,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer - Java Full Stack",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-Full-Stack_R-567845"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "a6ae5f3b06a3d3b15c246dfb",
+    "location": "Pune, India",
+    "penalties": [
+      "title:data engineer"
+    ],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "title:ai",
+      "distributed_systems:scalable",
+      "streaming_and_async:kafka, streaming",
+      "ai_backend:generative ai, embeddings",
+      "search_recommendations:search, vector",
+      "databases:sql"
+    ],
+    "score": 118,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Senior AI Data Engineer",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-AI-Data-Engineer_R-289110-1"
   }
 ]
