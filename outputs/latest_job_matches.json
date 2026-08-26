@@ -1,40 +1,30 @@
 [
   {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "company": "CRED",
+    "description_preview": "prefr (a brand under DTPL) is a tech-first fintech platform reshaping how India\u2019s digital-first generation experiences credit. we currently offer instant personal loans from \u20b950,000 to \u20b95,00,000 through a seamless, end-to-end digital journey \u2014 serving India\u2019s creditworthy yet...",
     "experience_requirements": [
       {
         "max": null,
         "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 2,
-        "text": "ience, education desired qualifications: strong years of software engineering experience. 2+ years of experience in application design and development using java and microservices . 2+ yea"
-      },
-      {
-        "max": null,
-        "min": 2,
-        "text": "years of experience in application design and development using java and microservices . 2+ years of experience using database technologies such as oracle and mongodb . familiarity using"
+        "text": "tices in ml system design \\n '}, {'text': 'you should apply if:', 'content': ' \\n \\n have 4+ years of experience building production-grade software systems in java / scala / python \\n have"
       }
     ],
-    "id": "f018dfb573b340ac0d987732",
-    "location": "Hyderabad, India",
+    "id": "e5beb7293b004330f962e688",
+    "location": "hyderabad",
     "penalties": [],
-    "posted_at": "Posted Today",
+    "posted_at": "",
     "reasons": [
       "experience-fit:4+ years",
-      "title:java",
-      "title:ai",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices",
-      "streaming_and_async:kafka"
+      "java_spring_backend:java",
+      "distributed_systems:scalable, system design",
+      "payments_fintech:fintech",
+      "watchlist:CRED",
+      "location-match"
     ],
-    "score": 136,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer - Java, Spring, Microservices, React, Gen AI",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java--Spring--Microservices--React--Gen-AI_R-570595-1"
+    "score": 92,
+    "source": "lever",
+    "source_company": "CRED",
+    "title": "machine learning engineer",
+    "url": "https://jobs.lever.co/cred/7e4d512e-fc89-40fd-9a30-46c5459bbea5"
   }
 ]
