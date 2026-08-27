@@ -1,116 +1,42 @@
 [
   {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [
-      {
-        "max": 5,
-        "min": 3,
-        "text": "s degree in information systems, information technology, computer science or engineering\u2022 3-5 years of strong hands-on experience of working on scalable, multi-threaded software products de"
-      }
-    ],
-    "id": "14a043f1a82acb81b96d9709",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:3+ years",
-      "title:software engineer ii",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "databases:sql",
-      "observability_cloud:jenkins"
-    ],
-    "score": 132,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-288941"
-  },
-  {
-    "company": "Meesho",
-    "description_preview": "About the Team Want to be the brains behind our robust systems? Then joining us as Software Development Engineer - III - Backend may be the right thing for you! When 5% of Indian households shop with us, it\u2019s important to build resilient systems to manage millions of orders...",
-    "experience_requirements": [
-      {
-        "max": 6,
-        "min": 4,
-        "text": "'what you will need', 'content': '\\n btech degree in computer science or related field \\n 4-6 years of relevant work experience \\n strong experience in java \\n strong knowledge of any of th"
-      }
-    ],
-    "id": "4de92d3deb0491c74b2ba2ce",
-    "location": "Bangalore, Karnataka",
-    "penalties": [],
-    "posted_at": "",
-    "reasons": [
-      "experience-fit:4+ years",
-      "title:backend",
-      "java_spring_backend:java",
-      "distributed_systems:scalable",
-      "streaming_and_async:asynchronous",
-      "databases:postgresql, sql"
-    ],
-    "score": 130,
-    "source": "lever",
-    "source_company": "Meesho",
-    "title": "Software Development Engineer III -Backend",
-    "url": "https://jobs.lever.co/meesho/c68ee07f-0e16-455b-bc4a-87848aaf46fa"
-  },
-  {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer. In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      }
-    ],
-    "id": "fd2b870a5aaea65cad911844",
-    "location": "Bengaluru, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:4+ years",
-      "title:java",
-      "title:ai",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "databases:sql, database"
-    ],
-    "score": 118,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer - Java, React with Gen AI",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Java--React-with-Gen-AI_R-566153"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "Job Description About this role: Wells Fargo is seeking a Software Engineer In this role, you will: Participate in low to moderately complex initiatives and projects associated with the technology domain, including installation, upgrades, and deployment efforts Identify...",
+    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer to join the Core Banking Platform team, responsible for delivering enterprise-scale capabilities for Customer Account Ledger and Transaction Processing systems. At Wells Fargo, we believe that great ideas can come...",
     "experience_requirements": [
       {
         "max": null,
         "min": 2,
         "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      },
+      {
+        "max": null,
+        "min": 2,
+        "text": "lowing: work experience, training, military experience, education desired qualifications: 2+ years of hands-on experience with java and spring boot frameworks. 1+ years of experience with"
+      },
+      {
+        "max": null,
+        "min": 1,
+        "text": "red qualifications: 2+ years of hands-on experience with java and spring boot frameworks. 1+ years of experience with multithreading and distributed caching technologies. experience buildi"
       }
     ],
-    "id": "9b55bc8ab42f40ed260e250f",
+    "id": "935481e6988e7ecce8c244ac",
     "location": "Hyderabad, India",
     "penalties": [
       "junior_experience:2+ years"
     ],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:backend",
       "title:java",
-      "java_spring_backend:java",
-      "distributed_systems:distributed systems, scalable, microservices",
-      "observability_cloud:jenkins",
-      "watchlist:Wells Fargo"
+      "title:ai",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka",
+      "databases:mongodb, sql, database"
     ],
-    "score": 98,
+    "score": 130,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Software Engineer - Java backend Development",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer---Java-backend-Development_R-570931-1"
+    "title": "Software Engineer - Java Springboot with Gen AI",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer---Java-Engineer_R-570574"
   }
 ]
