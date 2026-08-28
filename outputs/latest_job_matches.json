@@ -1,42 +1,32 @@
 [
   {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer to join the Core Banking Platform team, responsible for delivering enterprise-scale capabilities for Customer Account Ledger and Transaction Processing systems. At Wells Fargo, we believe that great ideas can come...",
+    "company": "Snowflake",
+    "description_preview": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don\u2019t just use tools; you possess an innate curiosity, treating AI as...",
     "experience_requirements": [
       {
         "max": null,
-        "min": 2,
-        "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 2,
-        "text": "lowing: work experience, training, military experience, education desired qualifications: 2+ years of hands-on experience with java and spring boot frameworks. 1+ years of experience with"
-      },
-      {
-        "max": null,
-        "min": 1,
-        "text": "red qualifications: 2+ years of hands-on experience with java and spring boot frameworks. 1+ years of experience with multithreading and distributed caching technologies. experience buildi"
+        "min": 4,
+        "text": "or m.e. in computer science, electronics and communication, or an equivalent discipline - 4+ years of full-stack software engineering experience building modern application architectures,"
       }
     ],
-    "id": "935481e6988e7ecce8c244ac",
-    "location": "Hyderabad, India",
+    "id": "7ba2ace108fbc76e3d0fb0c1",
+    "location": "IN-Bangalore-MSO",
     "penalties": [
-      "junior_experience:2+ years"
+      "title:fullstack"
     ],
-    "posted_at": "Posted Today",
+    "posted_at": "",
     "reasons": [
-      "title:java",
-      "title:ai",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "streaming_and_async:kafka",
-      "databases:mongodb, sql, database"
+      "experience-fit:4+ years",
+      "java_spring_backend:java",
+      "distributed_systems:scalable",
+      "ai_backend:llm, ai platform",
+      "databases:sql",
+      "watchlist:Snowflake"
     ],
-    "score": 130,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Software Engineer - Java Springboot with Gen AI",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer---Java-Engineer_R-570574"
+    "score": 100,
+    "source": "ashby",
+    "source_company": "Snowflake",
+    "title": "Senior Software Engineer (Fullstack)",
+    "url": "https://jobs.ashbyhq.com/snowflake/5aa98590-e2bf-4f0a-a3b9-1795c6e22509"
   }
 ]
