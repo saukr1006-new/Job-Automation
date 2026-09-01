@@ -1,7 +1,7 @@
 [
   {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer. This role will be responsible for the design, development, modernization, and support of the ITEMS application ecosystem, encompassing front-end, back-end, and data engineering components. The ideal candidate...",
     "experience_requirements": [
       {
         "max": null,
@@ -11,109 +11,116 @@
       {
         "max": null,
         "min": 4,
-        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of experience in application design and development using java and microservices . 4+ yea"
+        "text": "llowing: work experience, training, military experience, education desired qualifications 4+ years of software engineering experience in enterprise applications. 3+ years of full-stack dev"
       },
       {
         "max": null,
-        "min": 4,
-        "text": "years of experience in application design and development using java and microservices . 4+ years of experience using database technologies such as oracle and mongodb . familiarity using"
+        "min": 3,
+        "text": "ed qualifications 4+ years of software engineering experience in enterprise applications. 3+ years of full-stack development experience using angular and java technologies. 3+ years of han"
       }
     ],
-    "id": "5b910a5543afbf2a643a4b76",
-    "location": "Bengaluru, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:4+ years",
-      "title:java",
-      "title:ai",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices",
-      "streaming_and_async:kafka"
-    ],
-    "score": 146,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer - Java, Spring, Microservices, Kafka, Gen AI",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Java--Spring--Microservices--Kafka--Gen-AI_R-544622-1"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer In this role, you will: Participate in low to moderately complex initiatives and projects associated with the technology domain, including installation, upgrades, and deployment efforts Identify opportunities for...",
-    "experience_requirements": [],
-    "id": "66dd81ebe739ecc913a60f65",
-    "location": "Bengaluru, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "title:ai",
-      "java_spring_backend:spring",
-      "streaming_and_async:kafka",
-      "ai_backend:mcp",
-      "databases:mongodb",
-      "payments_fintech:banking"
-    ],
-    "score": 118,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Software Engineer- AI Engineer-Google ADK/Langchain",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/AI-Engineer_R-542087"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "589366370956a3057ed618dd",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Yesterday",
-    "reasons": [
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "databases:database",
-      "observability_cloud:jenkins",
-      "payments_fintech:payments",
-      "watchlist:Mastercard"
-    ],
-    "score": 106,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Senior Software Engineer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-289673"
-  },
-  {
-    "company": "Visa",
-    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
-    "experience_requirements": [
-      {
-        "max": 5,
-        "min": 3,
-        "text": "these days will be confirmed by your hiring manager. qualifications basic qualifications: 3-5 years of relevant work experience and a bachelor's degree or with an advanced degree. self-driv"
-      },
-      {
-        "max": 5,
-        "min": 3,
-        "text": "on security, ssdlc, and knowledge of cryptography fundamentals. preferred qualifications: 3-5 years of work experience with a bachelor\u2019s degree or with an advanced degree. exposure to leadi"
-      }
-    ],
-    "id": "cc8c9bb852851ceec1c4c058",
-    "location": "IN - Bengaluru, India",
+    "id": "e9eeb32b0a7db2d7b794ae3f",
+    "location": "Hyderabad, India",
     "penalties": [
       "title:full stack"
     ],
     "posted_at": "Posted Today",
     "reasons": [
-      "experience-fit:3+ years",
+      "experience-fit:4+ years",
       "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka",
+      "databases:postgresql, sql"
+    ],
+    "score": 134,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer \u2013Java Full Stack",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer--Java-Full-Stack_R-569705-1"
+  },
+  {
+    "company": "Paytm",
+    "description_preview": "About Us: Paytm is India's leading mobile payments and financial services distribution company. Pioneer of the mobile QR payments revolution in India, Paytm builds technologies that help small businesses with payments and commerce. Paytm\u2019s mission is to serve half a billion...",
+    "experience_requirements": [
+      {
+        "max": 6,
+        "min": 3,
+        "text": "roduct design sense & specialized in hadoop and spark technologies. requirements: minimum 3-6 years of experience in big data technologies. the position grow our analytics capabilities with"
+      }
+    ],
+    "id": "bedaf1315f3d00056546cb78",
+    "location": "Noida, Uttar Pradesh",
+    "penalties": [],
+    "posted_at": "",
+    "reasons": [
+      "experience-fit:3+ years",
       "java_spring_backend:java",
-      "ai_backend:genai, generative ai",
-      "observability_cloud:docker, kubernetes, jenkins",
-      "payments_fintech:payments"
+      "streaming_and_async:kafka, streaming",
+      "databases:sql, database",
+      "payments_fintech:payments",
+      "watchlist:Paytm"
     ],
     "score": 98,
+    "source": "lever",
+    "source_company": "Paytm",
+    "title": "Data Engineering - Senior Engineer",
+    "url": "https://jobs.lever.co/paytm/77e1e11f-744f-4f62-8c91-e59393db2208"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      }
+    ],
+    "id": "544cc5d81b29e3a9762c32c8",
+    "location": "Hyderabad, India",
+    "penalties": [
+      "title:full stack"
+    ],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:4+ years",
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "databases:sql, database",
+      "watchlist:Wells Fargo"
+    ],
+    "score": 96,
     "source": "workday",
-    "source_company": "Visa",
-    "title": "Sr. SW Engineer (3-5 years, GenAI, Java/Python full stack)",
-    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer--3-5-years--GenAI--Java-Python-full-stack-_REF087773W"
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer - Java Full Stack",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-Full-Stack_R-568050"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "0b964cc3caa196631fe4a78d",
+    "location": "Pune, India",
+    "penalties": [
+      "title:lead",
+      "title:full stack",
+      "too_senior:lead software engineer"
+    ],
+    "posted_at": "Posted 6 Days Ago",
+    "reasons": [
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices, system design",
+      "streaming_and_async:kafka",
+      "ai_backend:llm, generative ai",
+      "search_recommendations:elasticsearch"
+    ],
+    "score": 95,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Lead Software Engineer (Java Full stack developer)",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-288287"
   }
 ]
