@@ -1,5 +1,82 @@
 [
   {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "92fd76ed65d25d70579b9471",
+    "location": "Pune, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka",
+      "databases:sql",
+      "observability_cloud:observability"
+    ],
+    "score": 138,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Software Engineer - Java Spring Boot",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer---Java-Spring-Boot_R-289576"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "a948cb9fd3d4c166a0c9edf3",
+    "location": "Pune, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka",
+      "databases:sql",
+      "observability_cloud:observability"
+    ],
+    "score": 138,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Software Engineer - Java Spring Boot",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer---Java-Spring-Boot_R-289581"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Java Full Stack Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      },
+      {
+        "max": null,
+        "min": 4,
+        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of hands-on software engineering experience in designing, developing, and supporting ente"
+      }
+    ],
+    "id": "72e02059cf2589bd325534e7",
+    "location": "Hyderabad, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:4+ years",
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka, streaming",
+      "databases:mongodb, sql, database"
+    ],
+    "score": 136,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer(Java, Springboot)",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-565212"
+  },
+  {
     "company": "Wells Fargo",
     "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
     "experience_requirements": [
@@ -11,30 +88,87 @@
       {
         "max": null,
         "min": 4,
-        "text": "analysis of general modules or features of new or upgraded software systems and products. 4+ years experience in flexcube domain/ corporate banking/ oracle banking payments, oracle banking"
-      },
-      {
-        "max": null,
-        "min": 4,
-        "text": "- banking base, international payments, term deposit, foreign exchange and money markets. 4+ years experience in design & development in mvc architecture by leveraging spring boot, web ser"
+        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of hands-on software engineering experience in designing, developing, and supporting ente"
       }
     ],
-    "id": "25f8a49a6f3eba06658950a1",
-    "location": "Bengaluru, India",
+    "id": "fc0b4854d5d54a95c780b495",
+    "location": "Hyderabad, India",
     "penalties": [],
-    "posted_at": "Posted Yesterday",
+    "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
       "title:java",
       "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices",
-      "databases:sql",
-      "payments_fintech:payments, banking"
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka, streaming",
+      "databases:mongodb, sql, database"
     ],
-    "score": 118,
+    "score": 136,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer - Java/OBPM/PBLM",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Java-OBPM-PBLM_R-572226"
+    "title": "Senior Software Engineer(Java, spring boot)",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-565287"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "79fd40cc99e21c44672de3e0",
+    "location": "Pune, India",
+    "penalties": [
+      "title:full stack"
+    ],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka",
+      "databases:sql",
+      "observability_cloud:observability",
+      "payments_fintech:payment, payments"
+    ],
+    "score": 112,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Senior Software Engineer - Full Stack",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer---Full-Stack_R-289527"
+  },
+  {
+    "company": "Visa",
+    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
+    "experience_requirements": [
+      {
+        "max": 6,
+        "min": 3,
+        "text": "sr. sw engineer (3 - 6 years of experience as a full-stack developer - .net / python, react / angular, genai) about us"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "text": "stems, or a related field with 3+ years of relevant experience. preferred qualifications: 3-5 years of work experience experience in any full stack platforms (.net / python, etc ). hands-on"
+      },
+      {
+        "max": null,
+        "min": 3,
+        "text": "ions: bachelor\u2019s degree in computer science, information systems, or a related field with 3+ years of relevant experience. preferred qualifications: 3-5 years of work experience experience"
+      }
+    ],
+    "id": "b3834f0413a078fba142f77b",
+    "location": "IN - Bengaluru, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:3+ years",
+      "distributed_systems:scalable",
+      "ai_backend:genai",
+      "databases:mongodb, sql, database",
+      "payments_fintech:payments",
+      "watchlist:Visa"
+    ],
+    "score": 92,
+    "source": "workday",
+    "source_company": "Visa",
+    "title": "Sr. SW Engineer (3 - 6 years of experience as a Full-stack Developer - .Net / Python, React / Angular, GenAI)",
+    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer--3---6-years-of-experience-as-a-Full-stack-Developer---Net---Python--React---Angular--GenAI-_REF088040W"
   }
 ]
