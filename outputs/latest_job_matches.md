@@ -1,9 +1,9 @@
 # Latest Job Matches
 
-Generated: 2026-09-07 17:50:11 
+Generated: 2026-09-08 08:17:32 
 Mode: new jobs only
 Discovered direct ATS sources: 21
-Matches: 0
+Matches: 1
 
 ## Source Warnings
 
@@ -11,6 +11,14 @@ Matches: 0
 - 1 skipped request(s): boards-api.greenhouse.io: HTTPError: HTTP Error 404: Not Found
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
 
-No matching jobs crossed the configured score threshold in this run.
+## 1. Senior Software Engineer - Java Full Stack
 
-Check whether your direct ATS discovery found sources, or add RSS feeds/API keys in config.
+- Company: Wells Fargo
+- Score: 96
+- Location: Hyderabad, India
+- Source: workday
+- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer---Java-Full-Stack_R-568056
+- Reasons: experience-fit:4+ years, title:java, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, databases:sql, database, watchlist:Wells Fargo
+- Penalties: title:full stack
+- Experience signal: 4+ years
+- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
