@@ -1,7 +1,57 @@
 [
   {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer. In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of specialty software engineering experience, or equivalent demonstrated through one or a"
+      }
+    ],
+    "id": "7c6ef4e59b61edda1133e1be",
+    "location": "Bengaluru, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:4+ years",
+      "title:java",
+      "java_spring_backend:java, spring, maven",
+      "distributed_systems:microservices",
+      "streaming_and_async:kafka",
+      "databases:sql"
+    ],
+    "score": 146,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer - Prime Broker, Java",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Prime-Broker--Java_R-528068"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "deeff4e9a02c67a5fc8772ab",
+    "location": "Pune, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "title:software engineer ii",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:microservices",
+      "streaming_and_async:event driven",
+      "ai_backend:genai",
+      "payments_fintech:payment, payments, transaction"
+    ],
+    "score": 138,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Software Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-290245-1"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a... In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for projects and programs...",
     "experience_requirements": [
       {
         "max": null,
@@ -11,63 +61,103 @@
       {
         "max": null,
         "min": 4,
-        "text": "xperience, training, military experience, education desired qualifications: approximately 4+ years of professional experience in software engineering or application development with a prov"
+        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of hands-on software engineering experience in designing, developing, and supporting ente"
       }
     ],
-    "id": "d070fc562682dd90d86ddd8d",
+    "id": "dbed21bbb65f63f98a0a32be",
     "location": "Hyderabad, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
       "title:java",
-      "title:ai",
-      "java_spring_backend:java",
-      "distributed_systems:distributed systems",
-      "streaming_and_async:kafka"
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka, streaming",
+      "databases:mongodb, sql, database"
     ],
-    "score": 134,
+    "score": 136,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer- Java, Kafka, Python and AI",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer--Java--Kafka--Python-and-AI_R-573779"
+    "title": "Senior Software Engineer (Java,Spring boot)",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-565298"
   },
   {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer . In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "description_preview": "Job Description About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and...",
     "experience_requirements": [
       {
         "max": null,
         "min": 4,
         "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 4,
-        "text": "tools like github co-pilot, devin, cursor for engineering productivity. job expectation: 4+ years of java development experience 4+ years of sql experience 4+ years active participation i"
-      },
-      {
-        "max": null,
-        "min": 4,
-        "text": "or for engineering productivity. job expectation: 4+ years of java development experience 4+ years of sql experience 4+ years active participation in agile methodology. 2+ years of experie"
       }
     ],
-    "id": "f784a96a09636903a9c2bf2b",
-    "location": "Hyderabad, India",
+    "id": "a42c214a6f15ffa02e21beef",
+    "location": "Bengaluru, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
-      "java_spring_backend:java",
-      "distributed_systems:microservices",
-      "ai_backend:llm",
-      "databases:sql",
-      "observability_cloud:jenkins"
+      "title:ai",
+      "distributed_systems:distributed systems, scalable, microservices",
+      "streaming_and_async:asynchronous",
+      "ai_backend:genai, ai platform, mcp",
+      "search_recommendations:search, vector"
     ],
-    "score": 122,
+    "score": 136,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-572872"
+    "title": "Senior Software Engineer - Gen AI",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Gen-AI_R-573376"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "Job Description About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and...",
+    "experience_requirements": [],
+    "id": "371d89ae16ea3da5203d883e",
+    "location": "Bengaluru, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "title:ai",
+      "distributed_systems:distributed systems, scalable, microservices",
+      "streaming_and_async:asynchronous",
+      "ai_backend:genai, ai platform, mcp",
+      "search_recommendations:search, vector",
+      "databases:sql, database"
+    ],
+    "score": 128,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer - Gen AI",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Gen-AI_R-573360"
+  },
+  {
+    "company": "NVIDIA",
+    "description_preview": "NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It\u2019s a unique legacy of innovation that\u2019s fueled by great technology\u2014and amazing people. Today, we\u2019re tapping into the unlimited potential of AI to define the next era...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 3,
+        "text": "e need to see: bs/ms in computer science, computer engineering, or equivalent experience. 3+ years of software engineering experience, primarily in c++, with python for tooling and automat"
+      }
+    ],
+    "id": "0e2389b02a919d09ac2e1ff8",
+    "location": "India, Bengaluru",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:3+ years",
+      "java_spring_backend:java",
+      "distributed_systems:scalable, system design",
+      "databases:mongodb, sql",
+      "observability_cloud:docker, kubernetes, observability",
+      "watchlist:NVIDIA"
+    ],
+    "score": 104,
+    "source": "workday",
+    "source_company": "NVIDIA",
+    "title": "System Software Engineer - Performance Verification Infrastructure",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer---Performance-Verification-Infrastructure_JR2025205"
   }
 ]
