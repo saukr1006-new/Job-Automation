@@ -19,7 +19,7 @@
         "text": "ons from development through production deployment. experience profile: total experience: 3-6 years ai / genai experience: 1-3 years level: software engineer / ai engineer focus areas: pyth"
       }
     ],
-    "id": "9fd7df5f300aee6f5a9a16ac",
+    "id": "3e0bfe9100d901da56488e48",
     "location": "Hyderabad, India",
     "penalties": [],
     "posted_at": "Posted Today",
@@ -35,13 +35,13 @@
     "source": "workday",
     "source_company": "Wells Fargo",
     "title": "Software Engineer - AI Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer---AI-Engineer_R-573885"
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer---AI-Engineer_R-573890"
   },
   {
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "c2a0b9c3bca5d881bfaff6c8",
+    "id": "76d7366be598777500d11758",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
@@ -49,42 +49,14 @@
       "title:software engineer ii",
       "java_spring_backend:java, spring boot, spring",
       "distributed_systems:scalable, microservices",
-      "streaming_and_async:kafka",
-      "observability_cloud:observability",
+      "streaming_and_async:event driven",
+      "databases:sql",
       "payments_fintech:payments"
     ],
-    "score": 130,
+    "score": 132,
     "source": "workday",
     "source_company": "Mastercard",
     "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-289618"
-  },
-  {
-    "company": "Stripe",
-    "description_preview": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 3,
-        "text": "apply. the preferred qualifications are a bonus, not a requirement. minimum requirements 3+ years of experience in security engineering, software engineering, application security, or ant"
-      }
-    ],
-    "id": "69e4971385ac8b1218366dfc",
-    "location": "US Remote",
-    "penalties": [],
-    "posted_at": "",
-    "reasons": [
-      "experience-fit:3+ years",
-      "java_spring_backend:java",
-      "distributed_systems:distributed systems",
-      "databases:sql",
-      "payments_fintech:payment, payments",
-      "watchlist:Stripe"
-    ],
-    "score": 104,
-    "source": "greenhouse",
-    "source_company": "Stripe",
-    "title": "Security Engineer",
-    "url": "https://stripe.com/jobs/search?gh_jid=8174965"
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-289841"
   }
 ]
