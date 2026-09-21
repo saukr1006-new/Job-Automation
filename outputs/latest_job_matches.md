@@ -1,34 +1,55 @@
 # Latest Job Matches
 
-Generated: 2026-09-18 16:37:44 
+Generated: 2026-09-21 09:14:39 
 Mode: new jobs only
 Discovered direct ATS sources: 21
-Matches: 2
+Matches: 4
 
 ## Source Warnings
 
-- 7 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
-- 3 skipped request(s): boards-api.greenhouse.io: TimeoutError: The read operation timed out
-- 1 skipped request(s): boards-api.greenhouse.io: HTTPError: HTTP Error 404: Not Found
+- 2 skipped request(s): boards-api.greenhouse.io: HTTPError: HTTP Error 404: Not Found
+- 1 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
 
-## 1. Software Development Engineer II
+## 1. Software Engineering, MTS (Backend)
 
-- Company: Expedia Group
-- Score: 140
-- Location: India - Gurgaon
+- Company: Salesforce
+- Score: 122
+- Location: India - Hyderabad
 - Source: workday
-- Apply: https://expedia.wd108.myworkdayjobs.com/search/job/India---Gurgaon/Software-Development-Engineer-II_R-109532-2
-- Reasons: experience-fit:3+ years, java_spring_backend:java, distributed_systems:microservices, system design, streaming_and_async:kafka, ai_backend:model context protocol, mcp, databases:sql
+- Apply: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering--MTS--Backend---Infra-_JR350272
+- Reasons: experience-fit:3+ years, title:backend, java_spring_backend:java, distributed_systems:distributed systems, microservices, databases:postgres, database, observability_cloud:docker, kubernetes
 - Experience signal: 3+ years
-- Preview: At Expedia Group, we help travelers explore the world, one journey at a time. As a global travel company powered by passionate people, trusted partnerships, and leading technology, we connect travelers, partners, and advertisers through our consumer brands, B2B network, and...
+- Preview: To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...
 
-## 2. Software Engineering Technical Leader - Networking & Security Protocols, AI, Cloud & Virtualization - 10 to 14 years
+## 2. Software Engineering, MTS/ SMTS (Full-Stack) - Java & React - Immediate Joiners
 
-- Company: Cisco
-- Score: 92
-- Location: Bangalore, India
+- Company: Salesforce
+- Score: 118
+- Location: India - Bangalore
 - Source: workday
-- Apply: https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/Software-Engineering-Technical-Leader---Networking---Security-Protocols--AI--Cloud---Virtualization---10-to-14-years_2022119
-- Reasons: title:ai, distributed_systems:scalable, ai_backend:llm, observability_cloud:docker, kubernetes, payments_fintech:banking, watchlist:Cisco
-- Preview: Meet the Team You will be part of a world class Network Security team working on the latest security technologies and responsible for AI Agentic development of test workflows, System testing, Product security testing, Automation and Validation Our team works on leading...
+- Apply: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-MTS_JR338172-1
+- Reasons: experience-fit:3+ years, title:java, java_spring_backend:java, distributed_systems:distributed systems, scalable, databases:database, observability_cloud:docker, kubernetes, jenkins
+- Experience signal: 3-10 years
+- Preview: To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...
+
+## 3. Senior Platform Engineer
+
+- Company: Mastercard
+- Score: 108
+- Location: Pune, India
+- Source: workday
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Platform-Engineer_R-290928
+- Reasons: title:platform, java_spring_backend:java, distributed_systems:scalable, observability_cloud:jenkins, payments_fintech:payments, watchlist:Mastercard
+- Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
+
+## 4. Senior Software Engineer(Java, Springboot)
+
+- Company: Wells Fargo
+- Score: 108
+- Location: Hyderabad, India
+- Source: workday
+- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-565785
+- Reasons: experience-fit:4+ years, title:java, java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, databases:sql, database, watchlist:Wells Fargo
+- Experience signal: 4+ years
+- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer. In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
