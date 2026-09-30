@@ -3,113 +3,44 @@
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "96da5d7726963aa3cca97919",
+    "id": "fca0402e3f9942aeb3d0149b",
     "location": "Pune, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:event driven",
+      "databases:sql",
+      "payments_fintech:payment, payments",
+      "watchlist:Mastercard"
+    ],
+    "score": 114,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Senior Software Engineer",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-291713"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "afe258b678d22195b38fc9e2",
+    "location": "Navi Mumbai, India (Finicity)",
     "penalties": [],
     "posted_at": "Posted 2 Days Ago",
     "reasons": [
       "title:software engineer ii",
-      "java_spring_backend:java, maven",
-      "distributed_systems:distributed systems, system design",
-      "databases:sql",
-      "observability_cloud:jenkins",
-      "payments_fintech:payment, payments"
+      "distributed_systems:scalable",
+      "databases:postgresql, mongodb, database",
+      "observability_cloud:docker, kubernetes, observability",
+      "payments_fintech:payments",
+      "watchlist:Mastercard"
     ],
-    "score": 124,
+    "score": 94,
     "source": "workday",
     "source_company": "Mastercard",
     "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-291333-1"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer. In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 4,
-        "text": "xperience, training, military experience, education desired qualifications: approximately 4+ years of professional experience in software engineering or application development with a prov"
-      }
-    ],
-    "id": "08adb7619f73d088903f6edf",
-    "location": "Hyderabad, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:4+ years",
-      "title:ai",
-      "java_spring_backend:java",
-      "distributed_systems:distributed systems",
-      "streaming_and_async:kafka",
-      "observability_cloud:observability"
-    ],
-    "score": 120,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer- AI",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-569414"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer. In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      }
-    ],
-    "id": "8bc003c7fd91801038bd4da1",
-    "location": "Hyderabad, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:4+ years",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "databases:database",
-      "observability_cloud:docker, kubernetes, jenkins",
-      "watchlist:Wells Fargo"
-    ],
-    "score": 104,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-578492"
-  },
-  {
-    "company": "Expedia Group",
-    "description_preview": "At Expedia Group, we help travelers explore the world, one journey at a time. As a global travel company powered by passionate people, trusted partnerships, and leading technology, we connect travelers, partners, and advertisers through our consumer brands, B2B network, and...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 2,
-        "text": "uter science or a related technical field; or equivalent related professional experience. 2+ years of relevant professional experience. demonstrated ownership of services or features throu"
-      }
-    ],
-    "id": "b6373c4338e34096b4bd23f6",
-    "location": "India - Gurgaon",
-    "penalties": [
-      "junior_experience:2+ years"
-    ],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "title:backend",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices, system design",
-      "streaming_and_async:streaming",
-      "observability_cloud:observability",
-      "watchlist:Expedia Group"
-    ],
-    "score": 102,
-    "source": "workday",
-    "source_company": "Expedia Group",
-    "title": "Software Development Engineer II -(Backend)",
-    "url": "https://expedia.wd108.myworkdayjobs.com/search/job/India---Gurgaon/Software-Development-Engineer-II---Backend-_R-108627-1"
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Navi-Mumbai-India-Finicity/Software-Engineer-II_R-291019"
   }
 ]
