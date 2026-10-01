@@ -1,32 +1,45 @@
 # Latest Job Matches
 
-Generated: 2026-09-30 18:04:34 
+Generated: 2026-10-01 10:24:17 
 Mode: new jobs only
 Discovered direct ATS sources: 21
-Matches: 2
+Matches: 3
 
 ## Source Warnings
 
-- 11 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
-- 2 skipped request(s): boards-api.greenhouse.io: HTTPError: HTTP Error 404: Not Found
+- 8 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 3 skipped request(s): boards-api.greenhouse.io: HTTPError: HTTP Error 404: Not Found
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
 
-## 1. Senior Software Engineer
+## 1. Software Engineer (1 year Exp)
 
-- Company: Mastercard
-- Score: 114
-- Location: Pune, India
+- Company: Visa
+- Score: 124
+- Location: IN - Bengaluru, India
 - Source: workday
-- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-291713
-- Reasons: java_spring_backend:java, spring boot, spring, distributed_systems:scalable, microservices, streaming_and_async:event driven, databases:sql, payments_fintech:payment, payments, watchlist:Mastercard
-- Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
+- Apply: https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Software-Engineer--1-year-Exp-_REF087690W
+- Reasons: java_spring_backend:java, spring boot, spring, distributed_systems:distributed systems, scalable, ai_backend:genai, databases:sql, observability_cloud:jenkins, payments_fintech:payments, fintech
+- Preview: About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...
 
-## 2. Software Engineer II
+## 2. Senior Software Engineer-Java Full Stack
 
-- Company: Mastercard
-- Score: 94
-- Location: Navi Mumbai, India (Finicity)
+- Company: Wells Fargo
+- Score: 124
+- Location: Bengaluru, India
 - Source: workday
-- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Navi-Mumbai-India-Finicity/Software-Engineer-II_R-291019
-- Reasons: title:software engineer ii, distributed_systems:scalable, databases:postgresql, mongodb, database, observability_cloud:docker, kubernetes, observability, payments_fintech:payments, watchlist:Mastercard
-- Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
+- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer-Java-Full-Stack_R-577547
+- Reasons: experience-fit:4+ years, title:java, java_spring_backend:java, spring boot, spring, distributed_systems:microservices, streaming_and_async:kafka, streaming, databases:mongodb, database
+- Penalties: title:full stack
+- Experience signal: 4+ years
+- Preview: About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
+
+## 3. Senior Software Engineer
+
+- Company: Wells Fargo
+- Score: 122
+- Location: Bengaluru, India
+- Source: workday
+- Apply: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-577612
+- Reasons: experience-fit:4+ years, java_spring_backend:java, spring boot, spring, distributed_systems:microservices, streaming_and_async:kafka, streaming, databases:mongodb, database, observability_cloud:jenkins
+- Experience signal: 4+ years
+- Preview: bout this role: Wells Fargo is seeking a Senior Software Engineer. In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...
