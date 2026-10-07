@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "e4d0bc31fb0a1a3ab54b3903",
+    "location": "Pune, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:event driven",
+      "databases:sql",
+      "payments_fintech:payment, payments",
+      "watchlist:Mastercard"
+    ],
+    "score": 114,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Senior Software Engineer",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-291282"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "d7e9df94ea738e67235db83e",
+    "location": "Pune, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "java_spring_backend:java",
+      "streaming_and_async:event driven",
+      "search_recommendations:recommendation",
+      "observability_cloud:kubernetes",
+      "payments_fintech:payments",
+      "watchlist:Mastercard"
+    ],
+    "score": 104,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Director, Software Engineering",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Director--Software-Engineering_R-292284"
+  }
+]
