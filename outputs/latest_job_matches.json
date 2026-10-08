@@ -1,76 +1,30 @@
 [
   {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "47b0b1869e390a423e2838f2",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:distributed systems, scalable, microservices",
-      "streaming_and_async:kafka, asynchronous, streaming",
-      "databases:postgresql, sql",
-      "observability_cloud:prometheus, grafana, docker",
-      "payments_fintech:payment, payments, fintech"
-    ],
-    "score": 124,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Senior Software Engineer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-292799"
-  },
-  {
-    "company": "Databricks",
-    "description_preview": "P-928 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems \u2014 from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data...",
+    "company": "Cisco",
+    "description_preview": "Meet the Team: Distributed Systems Engineering (DSE) is a multi-billion-dollar business that generates its revenue primarily from the Web, Service Provider Edge, Core & Optical markets. The organization in India deals with development of High-End Routers like ASR9000, NCS5500,...",
     "experience_requirements": [
       {
-        "max": null,
-        "min": 3,
-        "text": "he organization. what we look for: bs (or higher) in computer science, or a related field 3+ years of production level experience in one of: python, java, scala, c++, or similar language."
+        "max": 9,
+        "min": 4,
+        "text": "untability, dedication and responsibility typically requires ms/bs in ee/cs combined with 4-9 years proven experience excellent problem solving skills, familiarity with linux and modern sof"
       }
     ],
-    "id": "80f0ee22128870dca883eaae",
-    "location": "Bengaluru, India",
+    "id": "79ae42754985580f1c8b9d0e",
+    "location": "Bangalore, India",
     "penalties": [],
-    "posted_at": "",
-    "reasons": [
-      "experience-fit:3+ years",
-      "title:backend",
-      "java_spring_backend:java",
-      "distributed_systems:distributed systems",
-      "ai_backend:ai platform",
-      "watchlist:Databricks"
-    ],
-    "score": 118,
-    "source": "greenhouse",
-    "source_company": "Databricks",
-    "title": "Software Engineer (Backend - SDE 2)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7955594002"
-  },
-  {
-    "company": "Visa",
-    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
-    "experience_requirements": [],
-    "id": "c0d2afcbb7eec0428e11f59c",
-    "location": "IN - Bengaluru, India",
-    "penalties": [
-      "title:full stack"
-    ],
     "posted_at": "Posted Today",
     "reasons": [
-      "java_spring_backend:java",
-      "distributed_systems:scalable",
-      "ai_backend:genai, mcp",
-      "observability_cloud:observability",
-      "payments_fintech:payments",
-      "watchlist:Visa"
+      "experience-fit:4+ years",
+      "distributed_systems:distributed systems",
+      "ai_backend:genai",
+      "search_recommendations:recommendation",
+      "payments_fintech:banking",
+      "watchlist:Cisco"
     ],
-    "score": 100,
+    "score": 96,
     "source": "workday",
-    "source_company": "Visa",
-    "title": "Sr. Software Engineer \u2013 Full Stack & ServiceNow (React, Node.js, Python, ITSM, 4-6 years)",
-    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Software-Engineer---Full-Stack---ServiceNow--React--Nodejs--Python--ITSM--4-6-years-_REF089018W-1"
+    "source_company": "Cisco",
+    "title": "Software Development Test Engineer",
+    "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/Software-Development-Test-Engineer_2027038-1"
   }
 ]
