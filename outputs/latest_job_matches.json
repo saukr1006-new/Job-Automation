@@ -1,30 +1,32 @@
 [
   {
-    "company": "Cisco",
-    "description_preview": "Meet the Team: Distributed Systems Engineering (DSE) is a multi-billion-dollar business that generates its revenue primarily from the Web, Service Provider Edge, Core & Optical markets. The organization in India deals with development of High-End Routers like ASR9000, NCS5500,...",
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [
       {
-        "max": 9,
+        "max": 6,
         "min": 4,
-        "text": "untability, dedication and responsibility typically requires ms/bs in ee/cs combined with 4-9 years proven experience excellent problem solving skills, familiarity with linux and modern sof"
+        "text": "hrough continuous learning and team knowledge sharing. required skills & qualifications \u2022 4\u20136 years of professional experience in software development. \u2022 proficiency in java (java 8 or high"
       }
     ],
-    "id": "79ae42754985580f1c8b9d0e",
-    "location": "Bangalore, India",
-    "penalties": [],
+    "id": "c47eb9cc829b39b74e52a614",
+    "location": "Pune, India",
+    "penalties": [
+      "non_engineering:sales"
+    ],
     "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:4+ years",
-      "distributed_systems:distributed systems",
-      "ai_backend:genai",
-      "search_recommendations:recommendation",
-      "payments_fintech:banking",
-      "watchlist:Cisco"
+      "title:software engineer ii",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "ai_backend:generative ai",
+      "databases:postgresql, postgres, mongodb"
     ],
-    "score": 96,
+    "score": 105,
     "source": "workday",
-    "source_company": "Cisco",
-    "title": "Software Development Test Engineer",
-    "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/Software-Development-Test-Engineer_2027038-1"
+    "source_company": "Mastercard",
+    "title": "Software Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-291169-1"
   }
 ]
