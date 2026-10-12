@@ -2,23 +2,32 @@
   {
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "c1f89e0240449507e42ba5b1",
+    "experience_requirements": [
+      {
+        "max": 6,
+        "min": 3,
+        "text": "e to agile processes and participate actively in agile ceremonies. all about you \u2022 strong 3-6 years of experience in full stack java application development and support, using modern and in"
+      }
+    ],
+    "id": "cb9ef8d1bbe5b0d041d52362",
     "location": "Pune, India",
-    "penalties": [],
+    "penalties": [
+      "title:full stack",
+      "too_senior:technical lead"
+    ],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:backend",
+      "experience-fit:3+ years",
+      "title:software engineer ii",
       "title:java",
+      "title:ai",
       "java_spring_backend:java, spring boot, spring",
-      "streaming_and_async:event driven",
-      "databases:sql",
-      "payments_fintech:payment, payments"
+      "distributed_systems:scalable, microservices"
     ],
-    "score": 122,
+    "score": 109,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Software Engineer I - Java Backend",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-I---Java-Backend_R-290797"
+    "title": "Software Engineer II - Java full stack and AI (with Python)",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-full-stack-and-AI--with-Python-_R-292315"
   }
 ]
