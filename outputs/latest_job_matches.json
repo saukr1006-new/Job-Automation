@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "f099b217331ef6c8f81dbc2e",
+    "location": "Pune, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "title:java",
+      "java_spring_backend:java, spring",
+      "streaming_and_async:event driven",
+      "databases:sql",
+      "payments_fintech:payment, payments",
+      "watchlist:Mastercard"
+    ],
+    "score": 104,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Senior Software Engineer (Java)",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Java-_R-289595"
+  }
+]
