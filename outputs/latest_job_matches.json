@@ -2,23 +2,53 @@
   {
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "f099b217331ef6c8f81dbc2e",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "s \u2022 bachelor's or master's degree in computer science, engineering, or a related field. \u2022 4+ years of software engineering experience. \u2022 strong experience with java, spring boot, apache sp"
+      }
+    ],
+    "id": "7986a2eb92d8eb8441fab791",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
+      "experience-fit:4+ years",
+      "title:software engineer ii",
       "title:java",
-      "java_spring_backend:java, spring",
-      "streaming_and_async:event driven",
-      "databases:sql",
-      "payments_fintech:payment, payments",
-      "watchlist:Mastercard"
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:distributed systems, scalable, microservices",
+      "streaming_and_async:kafka"
     ],
-    "score": 104,
+    "score": 164,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Senior Software Engineer (Java)",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Java-_R-289595"
+    "title": "Software engineer II (Java, Apache/ Spark, AWS and ETL)",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-engineer-II--Java--Apache--Spark--AWS-and-ETL-_R-293439"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "6ab92512fa08faf30bc65ac1",
+    "location": "Pune, India",
+    "penalties": [
+      "title:full stack"
+    ],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "title:software engineer ii",
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:distributed systems, scalable, microservices",
+      "streaming_and_async:kafka",
+      "observability_cloud:grafana, docker, kubernetes"
+    ],
+    "score": 132,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Software Engineer II (Java Full stack Developer)",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II--Java-Full-stack-Developer-_R-293119"
   }
 ]
