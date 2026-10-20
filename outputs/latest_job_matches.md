@@ -1,6 +1,6 @@
 # Latest Job Matches
 
-Generated: 2026-10-20 08:49:22 
+Generated: 2026-10-20 17:25:50 
 Mode: new jobs only
 Discovered direct ATS sources: 21
 Matches: 0
