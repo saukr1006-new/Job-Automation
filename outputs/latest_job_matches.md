@@ -1,34 +1,26 @@
 # Latest Job Matches
 
-Generated: 2026-10-21 08:49:02 
+Generated: 2026-10-21 17:31:48 
 Mode: new jobs only
 Discovered direct ATS sources: 21
-Matches: 2
+Matches: 1
 
 ## Source Warnings
 
-- 5 skipped request(s): accenture.wd103.myworkdayjobs.com: HTTPError: HTTP Error 429: Too Many Requests
+- 4 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
 - 3 skipped request(s): boards-api.greenhouse.io: HTTPError: HTTP Error 404: Not Found
-- 2 skipped request(s): accenture.wd103.myworkdayjobs.com: TimeoutError: The read operation timed out
+- 2 skipped request(s): accenture.wd103.myworkdayjobs.com: HTTPError: HTTP Error 429: Too Many Requests
+- 1 skipped request(s): api.lever.co: TimeoutError: The read operation timed out
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
 
-## 1. Software Engineer (6months to 2 years experience, Java/Python)
+## 1. Data Engineer II
 
-- Company: Visa
-- Score: 160
-- Location: IN - Bengaluru, India
+- Company: Mastercard
+- Score: 104
+- Location: Pune, India
 - Source: workday
-- Apply: https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Software-Engineer--6months-to-2-years-experience--Java-Python-_REF089294W
-- Reasons: title:java, java_spring_backend:java, distributed_systems:distributed systems, scalable, microservices, streaming_and_async:kafka, streaming, ai_backend:llm, genai, generative ai, search_recommendations:search, vector
-- Preview: About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...
-
-## 2. Backend Engineer II - Data Platform
-
-- Company: Spotify
-- Score: 89
-- Location: Stockholm
-- Source: lever
-- Apply: https://jobs.lever.co/spotify/186b763a-2a61-4563-8813-ff6b40c9c8a7
-- Reasons: title:backend, title:platform, java_spring_backend:java, streaming_and_async:streaming, databases:sql, observability_cloud:observability
-- Penalties: non_target_location
-- Preview: Every dataset at Spotify, from the data behind creator royalties to the signals powering recommendations, is registered, published and traced through systems our team builds. We're the source of truth for what data exists at Spotify, where it lives, who owns it, and how it...
+- Apply: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Data-Engineer-II_R-293802
+- Reasons: java_spring_backend:java, distributed_systems:distributed systems, scalable, microservices, streaming_and_async:kafka, streaming, ai_backend:generative ai, databases:sql, data pipeline, observability_cloud:docker, jenkins, observability
+- Penalties: junior_experience:1+ years, title:data engineer
+- Experience signal: 1-2 years
+- Preview: Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...
