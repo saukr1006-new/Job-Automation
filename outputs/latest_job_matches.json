@@ -1,54 +1,32 @@
 [
   {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "company": "Snowflake",
+    "description_preview": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don\u2019t just use tools; you possess an innate curiosity, treating AI as...",
     "experience_requirements": [
       {
-        "max": 5,
-        "min": 3,
-        "text": "degree in computer science, engineering, information technology, or related discipline. * 3\u20135 years of experience in devsecops, platform engineering, or software engineering. * experience b"
+        "max": null,
+        "min": 4,
+        "text": "nics and communication, or an equivalent discipline, or equivalent practical experience - 4+ years of software engineering experience building modern web applications, with a clear majorit"
       }
     ],
-    "id": "896492174bd6569a6ad51af3",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:3+ years",
-      "title:software engineer ii",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices",
-      "streaming_and_async:kafka",
-      "databases:mongodb, sql"
-    ],
-    "score": 150,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-288948"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "e8b2137f828581b077d30d64",
-    "location": "Pune, India",
+    "id": "b6e3e8fdbadd6f7aecab746a",
+    "location": "IN-Bangalore-MSO",
     "penalties": [
-      "title:full stack"
+      "title:fullstack"
     ],
-    "posted_at": "Posted Today",
+    "posted_at": "",
     "reasons": [
-      "title:software engineer ii",
-      "title:java",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices, system design",
-      "streaming_and_async:kafka, asynchronous, streaming",
-      "databases:postgresql, sql, database"
+      "experience-fit:4+ years",
+      "java_spring_backend:java",
+      "distributed_systems:scalable",
+      "ai_backend:llm, ai platform",
+      "databases:sql",
+      "observability_cloud:observability"
     ],
-    "score": 134,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Software Engineer II - Java Full Stack React",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613"
+    "score": 110,
+    "source": "ashby",
+    "source_company": "Snowflake",
+    "title": "Senior Software Engineer (Fullstack, Frontend-Focused)",
+    "url": "https://jobs.ashbyhq.com/snowflake/5aa98590-e2bf-4f0a-a3b9-1795c6e22509"
   }
 ]
