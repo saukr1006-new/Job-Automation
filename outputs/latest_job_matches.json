@@ -4,30 +4,51 @@
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [
       {
-        "max": 2,
-        "min": 1,
-        "text": "adopt new technologies, tools, and engineering practice required skills & qualifications 1-2 years of experience in software engineering, data engineering, or related technical roles knowl"
+        "max": 5,
+        "min": 3,
+        "text": "degree in computer science, engineering, information technology, or related discipline. * 3\u20135 years of experience in devsecops, platform engineering, or software engineering. * experience b"
       }
     ],
-    "id": "0662753cd19ecd22422f3689",
+    "id": "896492174bd6569a6ad51af3",
+    "location": "Pune, India",
+    "penalties": [],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:3+ years",
+      "title:software engineer ii",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:kafka",
+      "databases:mongodb, sql"
+    ],
+    "score": 150,
+    "source": "workday",
+    "source_company": "Mastercard",
+    "title": "Software Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-288948"
+  },
+  {
+    "company": "Mastercard",
+    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "experience_requirements": [],
+    "id": "e8b2137f828581b077d30d64",
     "location": "Pune, India",
     "penalties": [
-      "junior_experience:1+ years",
-      "title:data engineer"
+      "title:full stack"
     ],
     "posted_at": "Posted Today",
     "reasons": [
-      "java_spring_backend:java",
-      "distributed_systems:distributed systems, scalable, microservices",
-      "streaming_and_async:kafka, streaming",
-      "ai_backend:generative ai",
-      "databases:sql, data pipeline",
-      "observability_cloud:docker, jenkins, observability"
+      "title:software engineer ii",
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable, microservices, system design",
+      "streaming_and_async:kafka, asynchronous, streaming",
+      "databases:postgresql, sql, database"
     ],
-    "score": 104,
+    "score": 134,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Data Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Data-Engineer-II_R-293802"
+    "title": "Software Engineer II - Java Full Stack React",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613"
   }
 ]
