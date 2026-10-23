@@ -3,7 +3,7 @@
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "a3d8f24cba67ddcdd0c6788c",
+    "id": "886ca960c13838352f5938e7",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
@@ -11,102 +11,36 @@
       "title:software engineer ii",
       "java_spring_backend:java, spring boot, spring",
       "distributed_systems:scalable, microservices",
-      "ai_backend:genai",
-      "databases:database",
-      "payments_fintech:payment, payments, transaction"
+      "streaming_and_async:kafka",
+      "databases:postgres, sql",
+      "observability_cloud:jenkins"
     ],
-    "score": 132,
+    "score": 142,
     "source": "workday",
     "source_company": "Mastercard",
     "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-294296-1"
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-293529"
   },
   {
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "08cc90ddef66752dd050161f",
+    "id": "4b03f6b12c8aaf43e6dc9033",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:software engineer ii",
-      "title:platform",
       "title:ai",
-      "java_spring_backend:java",
-      "ai_backend:ai platform",
+      "distributed_systems:scalable, microservices",
+      "streaming_and_async:streaming",
+      "ai_backend:llm, generative ai, model context protocol",
+      "search_recommendations:search, vector",
       "databases:sql"
     ],
-    "score": 132,
+    "score": 138,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Software Engineer II | Data & AI Platform",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Data---AI-Platform_R-294109-1"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer (Prometheus and Full Stack Developer) who will be part of building Observability capabilities with technology led innovation at an enterprise scale to transform Telemetry, Monitoring and Observability for on-...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "e analysis and remediation automation to reduce operational toil required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      },
-      {
-        "max": null,
-        "min": 4,
-        "text": "lowing: work experience, training, military experience, education desired qualifications: 4+ years of strong software engineering experience with modern programming languages. experience w"
-      },
-      {
-        "max": null,
-        "min": 3,
-        "text": "nosql and sql databases, kafka pub/sub model, etl, microservices development, kubernetes. 3+ years of experience in developing ai-powered products end-to-end design, develop, and deploy ai"
-      }
-    ],
-    "id": "237a533a9ef5e018fb2af6c3",
-    "location": "Bengaluru, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:4+ years",
-      "title:ai",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices",
-      "streaming_and_async:kafka, pub/sub",
-      "databases:sql, database"
-    ],
-    "score": 132,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer (AI-powered products, AI/ML models)",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-566980"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 4,
-        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      }
-    ],
-    "id": "9ff739756caa22b18ada7a30",
-    "location": "Hyderabad, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "experience-fit:4+ years",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices",
-      "streaming_and_async:kafka, streaming",
-      "databases:mongodb, database",
-      "observability_cloud:jenkins"
-    ],
-    "score": 122,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Senior Software Engineer",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-580930"
+    "title": "Senior AI Engineer",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-AI-Engineer_R-294114"
   }
 ]
