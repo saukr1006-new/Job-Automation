@@ -1,46 +1,30 @@
 [
   {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "bb99443a3abd7cbf920d8d13",
-    "location": "Pune, India",
+    "company": "Salesforce",
+    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 3,
+        "text": "g, information systems, or a related technical field, or equivalent practical experience. 3+ years of software engineering, integration engineering, platform engineering, devops, or relate"
+      }
+    ],
+    "id": "60ccbfbb4fad4396853003f3",
+    "location": "India - Hyderabad",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:ai",
-      "distributed_systems:scalable, microservices",
-      "streaming_and_async:streaming",
+      "experience-fit:3+ years",
+      "java_spring_backend:java",
+      "distributed_systems:scalable",
       "ai_backend:llm, generative ai, model context protocol",
-      "search_recommendations:search, vector",
-      "databases:sql"
+      "observability_cloud:docker, kubernetes, observability",
+      "watchlist:Salesforce"
     ],
-    "score": 138,
+    "score": 110,
     "source": "workday",
-    "source_company": "Mastercard",
-    "title": "AI Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/AI-Engineer-II_R-294112"
-  },
-  {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "b02c618776a54c9c6c641667",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "title:ai",
-      "distributed_systems:scalable, microservices",
-      "streaming_and_async:streaming",
-      "ai_backend:llm, generative ai, model context protocol",
-      "search_recommendations:search, vector",
-      "databases:sql"
-    ],
-    "score": 138,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Senior AI Engineer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-AI-Engineer_R-294103-1"
+    "source_company": "Salesforce",
+    "title": "Software Engineering MTS",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR363690-1"
   }
 ]
