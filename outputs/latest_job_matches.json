@@ -3,29 +3,29 @@
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "886ca960c13838352f5938e7",
+    "id": "bb99443a3abd7cbf920d8d13",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:software engineer ii",
-      "java_spring_backend:java, spring boot, spring",
+      "title:ai",
       "distributed_systems:scalable, microservices",
-      "streaming_and_async:kafka",
-      "databases:postgres, sql",
-      "observability_cloud:jenkins"
+      "streaming_and_async:streaming",
+      "ai_backend:llm, generative ai, model context protocol",
+      "search_recommendations:search, vector",
+      "databases:sql"
     ],
-    "score": 142,
+    "score": 138,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-293529"
+    "title": "AI Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/AI-Engineer-II_R-294112"
   },
   {
     "company": "Mastercard",
     "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
     "experience_requirements": [],
-    "id": "4b03f6b12c8aaf43e6dc9033",
+    "id": "b02c618776a54c9c6c641667",
     "location": "Pune, India",
     "penalties": [],
     "posted_at": "Posted Today",
@@ -41,6 +41,6 @@
     "source": "workday",
     "source_company": "Mastercard",
     "title": "Senior AI Engineer",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-AI-Engineer_R-294114"
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-AI-Engineer_R-294103-1"
   }
 ]
