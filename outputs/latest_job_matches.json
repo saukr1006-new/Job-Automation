@@ -1,56 +1,57 @@
 [
   {
-    "company": "Spotify",
-    "description_preview": "Every dataset at Spotify, from the data behind creator royalties to the signals powering recommendations, is registered, published and traced through systems our team builds. We're the source of truth for what data exists at Spotify, where it lives, who owns it, and how it...",
+    "company": "Agoda",
+    "description_preview": "About Agoda At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world.&nbsp;&nbsp; &nbsp; Today, we are part of...",
     "experience_requirements": [],
-    "id": "cf4156dbce3805254c419cf9",
-    "location": "Stockholm",
+    "id": "f503ebd0e1d07a1b8488aac4",
+    "location": "Bangkok",
     "penalties": [
       "non_target_location"
     ],
     "posted_at": "",
     "reasons": [
-      "title:backend",
-      "title:platform",
       "java_spring_backend:java",
-      "streaming_and_async:streaming",
+      "distributed_systems:scalable",
+      "streaming_and_async:kafka",
       "databases:sql",
-      "observability_cloud:observability"
+      "payments_fintech:payments",
+      "watchlist:Agoda"
     ],
-    "score": 89,
-    "source": "lever",
-    "source_company": "Spotify",
-    "title": "Backend Engineer - Data Platform",
-    "url": "https://jobs.lever.co/spotify/186b763a-2a61-4563-8813-ff6b40c9c8a7"
+    "score": 81,
+    "source": "greenhouse",
+    "source_company": "Agoda",
+    "title": "Software Developer, Back End (Bangkok-based, 6-month Contract)",
+    "url": "https://job-boards.greenhouse.io/agoda/jobs/6883659"
   },
   {
-    "company": "Stripe",
-    "description_preview": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our...",
+    "company": "Databricks",
+    "description_preview": "P-1317 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems \u2014 from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data...",
     "experience_requirements": [
       {
         "max": null,
         "min": 2,
-        "text": "apply. the preferred qualifications are a bonus, not a requirement. minimum requirements 2+ years of experience in backend software development ability to write high-quality code (in prog"
+        "text": "platform usage. what we look for: bs (or higher) in computer science, or a related field 2+ years of production level experience in one of: java, scala, c++, or similar language. experien"
       }
     ],
-    "id": "5742eb5a39d9177fb7339d22",
-    "location": "Toronto, Vancouver, Canada-Remote",
+    "id": "28189b40e2ac12ac136fd83b",
+    "location": "Amsterdam, Netherlands",
     "penalties": [
-      "junior_experience:2+ years"
+      "junior_experience:2+ years",
+      "non_target_location"
     ],
     "posted_at": "",
     "reasons": [
+      "title:backend",
       "java_spring_backend:java",
-      "distributed_systems:distributed systems",
-      "databases:database",
-      "observability_cloud:observability",
-      "payments_fintech:payments",
-      "watchlist:Stripe"
+      "distributed_systems:distributed systems, scalable",
+      "ai_backend:ai platform",
+      "databases:sql",
+      "observability_cloud:kubernetes"
     ],
-    "score": 88,
+    "score": 81,
     "source": "greenhouse",
-    "source_company": "Stripe",
-    "title": "Software Engineer, Metronome Infrastructure",
-    "url": "https://stripe.com/jobs/search?gh_jid=8231439"
+    "source_company": "Databricks",
+    "title": "Software Engineer - Backend",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002"
   }
 ]
