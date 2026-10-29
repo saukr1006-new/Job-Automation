@@ -6,28 +6,81 @@
       {
         "max": 6,
         "min": 3,
-        "text": "e to agile processes and participate actively in agile ceremonies. all about you \u2022 strong 3-6 years of experience in full stack java application development and support, using modern and in"
+        "text": "in information technology / computer science or master\u2019s degree in related discipline. . 3 to 6 years of experience in the software engineering field. . experience in java/j2ee technologies w"
       }
     ],
-    "id": "2d2a5f5aaf21830751ce3809",
+    "id": "795bd423f174332f36ea1b9f",
     "location": "Pune, India",
-    "penalties": [
-      "title:full stack",
-      "too_senior:technical lead"
-    ],
-    "posted_at": "Posted 5 Days Ago",
+    "penalties": [],
+    "posted_at": "Posted Today",
     "reasons": [
       "experience-fit:3+ years",
       "title:software engineer ii",
-      "title:java",
-      "title:ai",
       "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:scalable, microservices"
+      "distributed_systems:scalable",
+      "databases:postgres, sql",
+      "observability_cloud:jenkins"
     ],
-    "score": 109,
+    "score": 132,
     "source": "workday",
     "source_company": "Mastercard",
-    "title": "Software Engineer II - Java Full stack with AI",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-stack-with-AI_R-294118"
+    "title": "Software Engineer II",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-293708"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and document for...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      }
+    ],
+    "id": "f2a543f39a08266be70aa20b",
+    "location": "Hyderabad, India",
+    "penalties": [],
+    "posted_at": "Posted 6 Days Ago",
+    "reasons": [
+      "experience-fit:4+ years",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:microservices",
+      "streaming_and_async:kafka, streaming",
+      "databases:mongodb, database",
+      "observability_cloud:jenkins"
+    ],
+    "score": 122,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Senior Software Engineer",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-580929"
+  },
+  {
+    "company": "Accenture",
+    "description_preview": "Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 3,
+        "text": "continuous integration environments. additional information: - the candidate should have minimum 3 years of experience in spring boot. - this position is based at our gurugram office. - a 15 yea"
+      }
+    ],
+    "id": "137e4f087fe2df0fcb21074a",
+    "location": "Gurugram",
+    "penalties": [],
+    "posted_at": "Posted 30+ Days Ago",
+    "reasons": [
+      "experience-fit:3+ years",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable",
+      "databases:database",
+      "watchlist:Accenture",
+      "location-match"
+    ],
+    "score": 94,
+    "source": "workday",
+    "source_company": "Accenture",
+    "title": "Custom Software Engineer",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Gurugram/Custom-Software-Engineer_ATCI-5452798-S2001054-1"
   }
 ]
