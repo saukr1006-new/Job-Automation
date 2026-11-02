@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "company": "Accenture",
+    "description_preview": "Job Title - Sr. Backend Developer-Java - Sr. Analyst - ACS Song Management Level: Level \u2013 10, Sr.Analyst Location: Kochi Must have skills: Java/Springboot Good to have skills: Agile Project Management Experience: 3-5 years of experience is required Educational Qualification:...",
+    "experience_requirements": [
+      {
+        "max": 5,
+        "min": 3,
+        "text": "st have skills: java/springboot good to have skills: agile project management experience: 3-5 years of experience is required educational qualification: graduation (accurate educational det"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "text": "ld capture) job summary we are seeking a skilled and motivated java/spring developer with 3\u20135 years of hands-on experience in designing, developing, and maintaining high-performance java ap"
+      }
+    ],
+    "id": "3994b004b5820ed3e9ce9092",
+    "location": "Kochi",
+    "penalties": [
+      "non_target_location"
+    ],
+    "posted_at": "Posted 30+ Days Ago",
+    "reasons": [
+      "experience-fit:3+ years",
+      "title:backend",
+      "title:java",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:scalable",
+      "databases:sql"
+    ],
+    "score": 93,
+    "source": "workday",
+    "source_company": "Accenture",
+    "title": "Sr.Backend Developer - Java 2",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kochi/SrBackend-Developer---Java-2_R00357534"
+  }
+]

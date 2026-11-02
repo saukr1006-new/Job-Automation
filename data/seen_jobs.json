@@ -131,7 +131,7 @@
     "0e2389b02a919d09ac2e1ff8": {
       "company": "NVIDIA",
       "first_seen_at": "2026-09-09T08:20:43.778693+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 104,
       "title": "System Software Engineer - Performance Verification Infrastructure",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer---Performance-Verification-Infrastructure_JR2025205"
@@ -403,7 +403,7 @@
     "2a82fae7ac1d5b108bb99fd2": {
       "company": "Accenture",
       "first_seen_at": "2026-09-17T17:12:08.316192+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 94,
       "title": "Custom Software Engineer",
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chennai/Custom-Software-Engineer_ATCI-5690308-S2060122"
@@ -443,7 +443,7 @@
     "2d36d30a21b500709a27fb8e": {
       "company": "Databricks",
       "first_seen_at": "2026-08-05T11:38:12.925335+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 97,
       "title": "Software Engineer - Backend",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002"
@@ -575,6 +575,14 @@
       "score": 118,
       "title": "Software Engineer SMTS",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineer-SMTS_JR338173"
+    },
+    "3994b004b5820ed3e9ce9092": {
+      "company": "Accenture",
+      "first_seen_at": "2026-11-02T11:36:02.593305+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
+      "score": 93,
+      "title": "Sr.Backend Developer - Java 2",
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kochi/SrBackend-Developer---Java-2_R00357534"
     },
     "3a75a8089a27f479eb602f23": {
       "company": "Mastercard",
@@ -851,7 +859,7 @@
     "545d42c4339b1034723e5a53": {
       "company": "Wells Fargo",
       "first_seen_at": "2026-10-29T18:36:37.122889+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 96,
       "title": "Senior Infrastructure Engineer - Middleware Operations - Kafka",
       "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Infrastructure-Engineer---Middleware-Operations---Kafka_R-583777"
@@ -867,7 +875,7 @@
     "5738264751efc7dad7b18778": {
       "company": "Tower Research Capital",
       "first_seen_at": "2026-08-07T08:01:58.905049+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 94,
       "title": "Platform as a Service Engineer",
       "url": "https://www.tower-research.com/open-positions/?gh_jid=8036383"
@@ -1107,7 +1115,7 @@
     "6952f6aae2f0d8c3df15796a": {
       "company": "Accenture",
       "first_seen_at": "2026-07-20T12:06:51.002073+00:00",
-      "last_seen_at": "2026-10-12T21:22:09.799337+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 94,
       "title": "Custom Software Engineer",
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5517356-S2015539-1"
@@ -1123,7 +1131,7 @@
     "69e4971385ac8b1218366dfc": {
       "company": "Stripe",
       "first_seen_at": "2026-09-10T08:21:30.536473+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 104,
       "title": "Security Engineer",
       "url": "https://stripe.com/jobs/search?gh_jid=8174965"
@@ -1211,7 +1219,7 @@
     "76c80ce5e421c075753135e6": {
       "company": "Visa",
       "first_seen_at": "2026-10-13T10:57:32.168724+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 102,
       "title": "Senior SW Engineer - Python/Java, API, Angular/React, Cloud, DevOps",
       "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Senior-SW-Engineer---Python-Java--API--Angular-React--Cloud--DevOps_REF088754W"
@@ -1235,7 +1243,7 @@
     "795bd423f174332f36ea1b9f": {
       "company": "Mastercard",
       "first_seen_at": "2026-10-29T10:20:59.326959+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 132,
       "title": "Software Engineer II",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-293708"
@@ -1251,7 +1259,7 @@
     "79ae42754985580f1c8b9d0e": {
       "company": "Cisco",
       "first_seen_at": "2026-10-08T18:57:57.064554+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 96,
       "title": "Software Development Test Engineer",
       "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/Software-Development-Test-Engineer_2027038-1"
@@ -1363,7 +1371,7 @@
     "805195c8956331dd44d110df": {
       "company": "Visa",
       "first_seen_at": "2026-09-17T17:12:08.316192+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 111,
       "title": "Sr. SW Engineer - (3-5 yrs of experience, Endpoint Engineering \u2013 Software & Hardware QA Automation using Agentic AI Development, SRE/Reliability)",
       "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer---Agentic-Developer--Java-Python--3-5-yrs-of-experience-_REF083019W"
@@ -1595,7 +1603,7 @@
     "937e367aa594cfe65ecea947": {
       "company": "Databricks",
       "first_seen_at": "2026-07-07T19:19:59.096564+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 107,
       "title": "Senior Software Engineer - Backend",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002"
@@ -1739,7 +1747,7 @@
     "a3d8f24cba67ddcdd0c6788c": {
       "company": "Mastercard",
       "first_seen_at": "2026-10-23T08:47:31.993323+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 132,
       "title": "Software Engineer II",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-294296-1"
@@ -1859,7 +1867,7 @@
     "af8f555864226c09844372b1": {
       "company": "Wells Fargo",
       "first_seen_at": "2026-09-02T08:05:48.160506+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 122,
       "title": "Senior Software Engineer",
       "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-565796-1"
@@ -1875,7 +1883,7 @@
     "b02c618776a54c9c6c641667": {
       "company": "Mastercard",
       "first_seen_at": "2026-10-26T09:17:33.268311+00:00",
-      "last_seen_at": "2026-10-29T18:36:37.122889+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 138,
       "title": "Senior AI Engineer",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-AI-Engineer_R-294103-1"
@@ -1963,7 +1971,7 @@
     "b987940d8b7bbbf4f10d9a6e": {
       "company": "Databricks",
       "first_seen_at": "2026-10-28T09:58:06.882888+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 95,
       "title": "Software Engineer - New Grad, Distributed Data Systems (2027 Start)",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002"
@@ -1987,7 +1995,7 @@
     "bb99443a3abd7cbf920d8d13": {
       "company": "Mastercard",
       "first_seen_at": "2026-10-26T09:17:33.268311+00:00",
-      "last_seen_at": "2026-10-29T18:36:37.122889+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 138,
       "title": "AI Engineer II",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/AI-Engineer-II_R-294112"
@@ -2043,7 +2051,7 @@
     "bea92bac860c509b8ace897a": {
       "company": "Wells Fargo",
       "first_seen_at": "2026-08-31T10:01:35.560045+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 108,
       "title": "Senior Specialty Software Engineer - Java, E-Trading",
       "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Specialty-Software-Engineer---Java--E-Trading_R-564518-1"
@@ -2203,7 +2211,7 @@
     "cc8c9bb852851ceec1c4c058": {
       "company": "Visa",
       "first_seen_at": "2026-09-01T08:52:04.686665+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 98,
       "title": "Sr. SW Engineer (3-5 years, GenAI, Java/Python full stack)",
       "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer--3-5-years--GenAI--Java-Python-full-stack-_REF087773W"
@@ -2307,7 +2315,7 @@
     "dae53b65d5af1a6c0fa2ddf0": {
       "company": "Tower Research Capital",
       "first_seen_at": "2026-09-17T08:51:50.518353+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 123,
       "title": "Senior Data Analyst",
       "url": "https://www.tower-research.com/open-positions/?gh_jid=8167228"
@@ -2483,7 +2491,7 @@
     "e5a78fe0c313c2ad67e81566": {
       "company": "Snowflake",
       "first_seen_at": "2026-08-10T05:07:16.410087+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 99,
       "title": "Software Engineer, Applied AI",
       "url": "https://jobs.ashbyhq.com/snowflake/6e31e0cb-7821-4dcf-9d69-0afce918bcc4"
@@ -2539,7 +2547,7 @@
     "ea958bdeb6a7ed664cf2361e": {
       "company": "Mastercard",
       "first_seen_at": "2026-10-30T10:22:47.954554+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 110,
       "title": "Senior Software Engineer",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-294542"
@@ -2571,7 +2579,7 @@
     "ee2dea3f9cfdcc6188aa6852": {
       "company": "Accenture",
       "first_seen_at": "2026-09-22T17:09:05.200553+00:00",
-      "last_seen_at": "2026-10-29T10:20:59.326959+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 93,
       "title": "Sr.Backend Developer - Java",
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kochi/SrBackend-Developer---Java_R00357532"
@@ -2667,7 +2675,7 @@
     "f87c7dcddef94b462f393adf": {
       "company": "Snowflake",
       "first_seen_at": "2026-08-10T05:07:16.410087+00:00",
-      "last_seen_at": "2026-10-30T18:08:37.003773+00:00",
+      "last_seen_at": "2026-11-02T11:36:02.593305+00:00",
       "score": 99,
       "title": "Forward Deployed Engineer, Applied AI",
       "url": "https://jobs.ashbyhq.com/snowflake/467250b0-43bc-47aa-91d5-6312687e4097"
