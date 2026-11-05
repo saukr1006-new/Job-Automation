@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "company": "Intel",
+    "description_preview": "Job Details: Job Description: Intel's Design Quality and Reliability organization is seeking an AI Platform Engineer to architect and build an enterprise-grade AI platform for mission-critical engineering work. This platform will enable Intel engineers to analyze complex...",
+    "experience_requirements": [],
+    "id": "d22181a9f476de8f111b17f2",
+    "location": "India, Bangalore",
+    "penalties": [
+      "non_engineering:recruiter"
+    ],
+    "posted_at": "Posted Yesterday",
+    "reasons": [
+      "title:platform",
+      "title:ai",
+      "distributed_systems:scalable",
+      "streaming_and_async:asynchronous",
+      "ai_backend:llm, ai platform",
+      "search_recommendations:search, vector"
+    ],
+    "score": 85,
+    "source": "workday",
+    "source_company": "Intel",
+    "title": "AI Platform and Agentic Engineer",
+    "url": "https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/AI-Platform-and-Agentic-Engineer_JR0287292"
+  }
+]
