@@ -1,33 +1,76 @@
 [
   {
     "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer. We believe in the power of working together because great ideas can come from anyone. Through collaboration, any employee can have an impact and make a difference for the entire company. Explore opportunities with us...",
+    "description_preview": "About this role: Wells Fargo is seeking a Senior Software Engineer - Gen AI In this role, you will: Lead moderately complex initiatives and deliverables within technical domain environments Contribute to large scale planning of strategies Design, code, test, debug, and...",
     "experience_requirements": [
       {
         "max": null,
-        "min": 2,
-        "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+        "min": 4,
+        "text": "point, provide guidance and direction to less experienced staff required qualifications: 4+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
       }
     ],
-    "id": "385e424de764029b52c9e5d4",
+    "id": "efe2bfb311112879b6e300b2",
     "location": "Bengaluru, India",
-    "penalties": [
-      "junior_experience:2+ years",
-      "title:fullstack"
-    ],
+    "penalties": [],
     "posted_at": "Posted Today",
     "reasons": [
-      "title:java",
-      "java_spring_backend:java, spring",
-      "distributed_systems:microservices",
-      "streaming_and_async:kafka",
-      "payments_fintech:gateway",
-      "watchlist:Wells Fargo"
+      "experience-fit:4+ years",
+      "title:ai",
+      "java_spring_backend:java",
+      "ai_backend:llm, generative ai",
+      "search_recommendations:vector",
+      "observability_cloud:prometheus, grafana, jenkins"
     ],
-    "score": 86,
+    "score": 112,
     "source": "workday",
     "source_company": "Wells Fargo",
-    "title": "Software Engineer - Java Fullstack",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Software-Engineer---Java-Fullstack_R-584424"
+    "title": "Senior Software Engineer - Gen AI",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer---Gen-AI_R-525803"
+  },
+  {
+    "company": "Salesforce",
+    "description_preview": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive...",
+    "experience_requirements": [],
+    "id": "c07d82e5aa257f0dfd5ab5a0",
+    "location": "India - Hyderabad",
+    "penalties": [
+      "too_senior:principal engineer"
+    ],
+    "posted_at": "Posted Yesterday",
+    "reasons": [
+      "java_spring_backend:java",
+      "distributed_systems:scalable",
+      "streaming_and_async:kafka",
+      "search_recommendations:vector",
+      "observability_cloud:prometheus, grafana, kubernetes",
+      "watchlist:Salesforce"
+    ],
+    "score": 83,
+    "source": "workday",
+    "source_company": "Salesforce",
+    "title": "Software Engineering PMTS (Apache, Kafka, Terraform)",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-PMTS_JR359744"
+  },
+  {
+    "company": "Cisco",
+    "description_preview": "The application window is expected to close on: 01/30/2027&#xa;&#xa;Job posting may be removed earlier if the position is filled or if a sufficient number of applications are received.&#xa; Meet the Team / Who You'll Work With The Cisco IOS XR Routing Test Team ensures the...",
+    "experience_requirements": [],
+    "id": "2cfc6e52df0722a4f03ef252",
+    "location": "Bangalore, India",
+    "penalties": [],
+    "posted_at": "Posted 7 Days Ago",
+    "reasons": [
+      "distributed_systems:scalable",
+      "ai_backend:generative ai, mcp",
+      "observability_cloud:docker, kubernetes",
+      "payments_fintech:banking",
+      "watchlist:Cisco",
+      "location-match"
+    ],
+    "score": 82,
+    "source": "workday",
+    "source_company": "Cisco",
+    "title": "Software Engineer",
+    "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027017"
   }
 ]
