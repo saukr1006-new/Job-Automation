@@ -1,52 +1,33 @@
 [
   {
-    "company": "Mastercard",
-    "description_preview": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
-    "experience_requirements": [],
-    "id": "08100763215b67e19d193f74",
-    "location": "Pune, India",
-    "penalties": [],
-    "posted_at": "Posted 7 Days Ago",
-    "reasons": [
-      "title:software engineer ii",
-      "java_spring_backend:java, spring boot, spring",
-      "distributed_systems:microservices",
-      "databases:sql",
-      "observability_cloud:observability",
-      "payments_fintech:payment, payments, transaction"
-    ],
-    "score": 124,
-    "source": "workday",
-    "source_company": "Mastercard",
-    "title": "Software Engineer II",
-    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Product-Manager---Technical-II_R-293237"
-  },
-  {
-    "company": "Visa",
-    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer. We believe in the power of working together because great ideas can come from anyone. Through collaboration, any employee can have an impact and make a difference for the entire company. Explore opportunities with us...",
     "experience_requirements": [
       {
-        "max": 5,
-        "min": 3,
-        "text": "sr. sw engineer (3-5 yrs of experience in python and genai automation development & basic windows and macos knowle"
+        "max": null,
+        "min": 2,
+        "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
       }
     ],
-    "id": "4a0d6fcc3f48916585785db3",
-    "location": "IN - Bengaluru, India",
-    "penalties": [],
+    "id": "385e424de764029b52c9e5d4",
+    "location": "Bengaluru, India",
+    "penalties": [
+      "junior_experience:2+ years",
+      "title:fullstack"
+    ],
     "posted_at": "Posted Today",
     "reasons": [
-      "experience-fit:3+ years",
-      "distributed_systems:scalable",
-      "ai_backend:genai, generative ai, model context protocol",
-      "search_recommendations:search, vector",
-      "payments_fintech:payments",
-      "watchlist:Visa"
+      "title:java",
+      "java_spring_backend:java, spring",
+      "distributed_systems:microservices",
+      "streaming_and_async:kafka",
+      "payments_fintech:gateway",
+      "watchlist:Wells Fargo"
     ],
-    "score": 96,
+    "score": 86,
     "source": "workday",
-    "source_company": "Visa",
-    "title": "Sr. SW Engineer (3-5 yrs of experience in Python and GenAI Automation Development & basic Windows and MacOS knowledge)",
-    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer---Agentic-Developer--Java-Python--3-5-yrs-of-experience-_REF083019W"
+    "source_company": "Wells Fargo",
+    "title": "Software Engineer - Java Fullstack",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Software-Engineer---Java-Fullstack_R-584424"
   }
 ]
