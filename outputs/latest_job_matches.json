@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "company": "Cisco",
+    "description_preview": "Meet the Team / Who You'll Work With The Cisco IOS XR Routing Test Team ensures the reliability, scalability, performance, and resiliency of Cisco\u2019s carrier-grade routing platforms. We work closely with software developers, architects, product managers, and customer-facing...",
+    "experience_requirements": [],
+    "id": "4ea2fa36ad02bb2d47533772",
+    "location": "Bangalore, India",
+    "penalties": [],
+    "posted_at": "Posted 7 Days Ago",
+    "reasons": [
+      "distributed_systems:scalable",
+      "ai_backend:generative ai, mcp",
+      "observability_cloud:docker, kubernetes",
+      "payments_fintech:banking",
+      "watchlist:Cisco",
+      "location-match"
+    ],
+    "score": 82,
+    "source": "workday",
+    "source_company": "Cisco",
+    "title": "Software Engineer- Software Test Engineer \u2013 IOS XR | Python Automation | L0/L1 Optical Testing 8 - 10 years",
+    "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/Software-Engineer--Software-Test-Engineer---IOS-XR---Python-Automation---L0-L1-Optical-Testing-8---10-years_2027016-1"
+  }
+]
