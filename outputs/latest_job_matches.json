@@ -1,24 +1,68 @@
 [
   {
-    "company": "Cisco",
-    "description_preview": "Meet the Team / Who You'll Work With The Cisco IOS XR Routing Test Team ensures the reliability, scalability, performance, and resiliency of Cisco\u2019s carrier-grade routing platforms. We work closely with software developers, architects, product managers, and customer-facing...",
-    "experience_requirements": [],
-    "id": "4ea2fa36ad02bb2d47533772",
-    "location": "Bangalore, India",
-    "penalties": [],
-    "posted_at": "Posted 7 Days Ago",
-    "reasons": [
-      "distributed_systems:scalable",
-      "ai_backend:generative ai, mcp",
-      "observability_cloud:docker, kubernetes",
-      "payments_fintech:banking",
-      "watchlist:Cisco",
-      "location-match"
+    "company": "Visa",
+    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
+    "experience_requirements": [
+      {
+        "max": 5,
+        "min": 3,
+        "text": "sr software engineer (3-5 yrs of exp - full stack development, java, react, gen ai) about us visa is a world leader in"
+      },
+      {
+        "max": null,
+        "min": 2,
+        "text": "opment frameworks and back-end processes. expertise in java, javascript, spring boot, sql at least 2 years of experience building applications on one of the modern javascript frameworks such as an"
+      }
     ],
-    "score": 82,
+    "id": "bf69c7f003f3a9400e4bb483",
+    "location": "IN - Bengaluru, India",
+    "penalties": [
+      "title:full stack"
+    ],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "experience-fit:3+ years",
+      "title:java",
+      "title:ai",
+      "java_spring_backend:java, spring boot, spring",
+      "distributed_systems:distributed systems, scalable",
+      "databases:sql"
+    ],
+    "score": 126,
     "source": "workday",
-    "source_company": "Cisco",
-    "title": "Software Engineer- Software Test Engineer \u2013 IOS XR | Python Automation | L0/L1 Optical Testing 8 - 10 years",
-    "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/Software-Engineer--Software-Test-Engineer---IOS-XR---Python-Automation---L0-L1-Optical-Testing-8---10-years_2027016-1"
+    "source_company": "Visa",
+    "title": "Sr Software Engineer (3-5 yrs of exp - Full stack development, Java, React, Gen AI)",
+    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Software-Engineer_REF078405W"
+  },
+  {
+    "company": "Wells Fargo",
+    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer. We believe in the power of working together because great ideas can come from anyone. Through collaboration, any employee can have an impact and make a difference for the entire company. Explore opportunities with us...",
+    "experience_requirements": [
+      {
+        "max": null,
+        "min": 2,
+        "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
+      }
+    ],
+    "id": "d148153b4a67aaa51c8c737a",
+    "location": "Hyderabad, India",
+    "penalties": [
+      "junior_experience:2+ years",
+      "title:fullstack"
+    ],
+    "posted_at": "Posted Today",
+    "reasons": [
+      "title:java",
+      "java_spring_backend:java, spring",
+      "distributed_systems:microservices",
+      "streaming_and_async:kafka",
+      "payments_fintech:gateway",
+      "watchlist:Wells Fargo"
+    ],
+    "score": 86,
+    "source": "workday",
+    "source_company": "Wells Fargo",
+    "title": "Software Engineer - Java Fullstack",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer---Java-Fullstack_R-584425"
   }
 ]
