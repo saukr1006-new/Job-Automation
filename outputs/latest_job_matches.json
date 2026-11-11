@@ -1,68 +1,26 @@
 [
   {
-    "company": "Visa",
-    "description_preview": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to...",
-    "experience_requirements": [
-      {
-        "max": 5,
-        "min": 3,
-        "text": "sr software engineer (3-5 yrs of exp - full stack development, java, react, gen ai) about us visa is a world leader in"
-      },
-      {
-        "max": null,
-        "min": 2,
-        "text": "opment frameworks and back-end processes. expertise in java, javascript, spring boot, sql at least 2 years of experience building applications on one of the modern javascript frameworks such as an"
-      }
-    ],
-    "id": "bf69c7f003f3a9400e4bb483",
-    "location": "IN - Bengaluru, India",
+    "company": "Snowflake",
+    "description_preview": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don\u2019t just use tools; you possess an innate curiosity, treating AI as...",
+    "experience_requirements": [],
+    "id": "f665e943ee129ec36cbab348",
+    "location": "PL-Warsaw-Lixa C",
     "penalties": [
-      "title:full stack"
+      "too_junior:intern, internship"
     ],
-    "posted_at": "Posted Today",
+    "posted_at": "",
     "reasons": [
-      "experience-fit:3+ years",
-      "title:java",
-      "title:ai",
-      "java_spring_backend:java, spring boot, spring",
+      "title:platform",
+      "java_spring_backend:java",
       "distributed_systems:distributed systems, scalable",
-      "databases:sql"
+      "streaming_and_async:kafka, streaming",
+      "databases:sql",
+      "observability_cloud:kubernetes, observability"
     ],
-    "score": 126,
-    "source": "workday",
-    "source_company": "Visa",
-    "title": "Sr Software Engineer (3-5 yrs of exp - Full stack development, Java, React, Gen AI)",
-    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Software-Engineer_REF078405W"
-  },
-  {
-    "company": "Wells Fargo",
-    "description_preview": "About this role: Wells Fargo is seeking a Software Engineer. We believe in the power of working together because great ideas can come from anyone. Through collaboration, any employee can have an impact and make a difference for the entire company. Explore opportunities with us...",
-    "experience_requirements": [
-      {
-        "max": null,
-        "min": 2,
-        "text": "on to technology colleagues, internal partners, and stakeholders required qualifications: 2+ years of software engineering experience, or equivalent demonstrated through one or a combinati"
-      }
-    ],
-    "id": "d148153b4a67aaa51c8c737a",
-    "location": "Hyderabad, India",
-    "penalties": [
-      "junior_experience:2+ years",
-      "title:fullstack"
-    ],
-    "posted_at": "Posted Today",
-    "reasons": [
-      "title:java",
-      "java_spring_backend:java, spring",
-      "distributed_systems:microservices",
-      "streaming_and_async:kafka",
-      "payments_fintech:gateway",
-      "watchlist:Wells Fargo"
-    ],
-    "score": 86,
-    "source": "workday",
-    "source_company": "Wells Fargo",
-    "title": "Software Engineer - Java Fullstack",
-    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer---Java-Fullstack_R-584425"
+    "score": 90,
+    "source": "ashby",
+    "source_company": "Snowflake",
+    "title": "Software Engineering Intern \u2013 Data Ingestion & Platform Infrastructure (Warsaw, Summer 2027)",
+    "url": "https://jobs.ashbyhq.com/snowflake/aada80b0-a940-4441-89c0-08d929db38a7"
   }
 ]
