@@ -1,6 +1,6 @@
 # Latest Job Matches
 
-Generated: 2026-11-24 00:11:26 
+Generated: 2026-11-24 14:09:10 
 Mode: new jobs only
 Discovered direct ATS sources: 21
 Matches: 0
@@ -8,8 +8,8 @@ Matches: 0
 ## Source Warnings
 
 - 3 skipped request(s): boards-api.greenhouse.io: HTTPError: HTTP Error 404: Not Found
-- 2 skipped request(s): api.lever.co: TimeoutError: The read operation timed out
 - 1 skipped request(s): accenture.recruitee.com: HTTPError: HTTP Error 404: Not Found
+- 1 skipped request(s): api.lever.co: TimeoutError: The read operation timed out
 - 1 skipped request(s): ey.recruitee.com: HTTPError: HTTP Error 404: Not Found
 - 1 skipped request(s): salesforce.recruitee.com: HTTPError: HTTP Error 404: Not Found
 
